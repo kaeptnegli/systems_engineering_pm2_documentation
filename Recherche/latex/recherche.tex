@@ -1,0 +1,155 @@
+\documentclass[12pt,a4paper]{article}
+
+% --------------------
+% Pakete
+% --------------------
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage{biblatex}
+
+\geometry{left=3cm,right=3cm,top=2.5cm,bottom=2.5cm}
+\onehalfspacing
+
+\addbibresource{literatur.bib} % Literaturdatei
+
+% --------------------
+% Dokument
+% --------------------
+\begin{document}
+
+% --------------------
+% Titelseite
+% --------------------
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\Large \textbf{Recherche - LineXpress}}\\[1.5cm]
+    
+    \textbf{Team:} 3\\
+    \textbf{Mitglieder:} Sven Pfister, Mathias Menchini, Timo Kradolfer, Patrick Itten, Joel Rechsteiner, Nils Kreienbühl\\
+    \textbf{Studiengang:} Systemtechnik\\
+    \textbf{Modul:} PM2\\
+    \textbf{Dozent/in:} Michale Wüthrich\\[1cm]
+    
+    \textbf{Datum:} \today
+    
+    \vfill
+\end{titlepage}
+
+% --------------------
+% Inhaltsverzeichnis
+% --------------------
+\tableofcontents
+\newpage
+
+% --------------------
+% Einleitung
+% --------------------
+\section{Einleitung}
+
+\subsubsection{Ausgangslage}
+Ausgangslage gemäss Aufgabenstellung - Später noch weiter ausführen, damit schön aussieht.
+
+\subsubsection{Unterteilung}
+Jedes mechatronische System kann in drei Hauptsegmente unterteilt werden: Mechanik, Elektronik und Informatik.
+
+% Beispiel für eine Abbildung
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/Mechatronic.png}
+    \caption{Mechatronic - Quelle Wikipedia}
+    \label{fig:beispiel}
+\end{figure}
+
+In dieser Recherche werden für jedes dieser Segmente mögliche Optionen, Bauteile und Lösungsansätze untersucht. Dementsprechend ist dieses Dokument in drei Kapitel gegliedert.
+
+Die Recherche dient anschließend als Grundlage zur Entwicklung weiterer Konzepte, beispielsweise in Form eines morphologischen Kastens.
+
+Da wir mit Rapid Prototyping arbeiten, bleibt die Recherche dynamisch. Dieses Dokument wird fortlaufend weiterentwickelt, und neue Ideen sowie gewonnene Erkenntnisse fließen kontinuierlich ein.
+% --------------------
+% Hauptteil
+% --------------------
+\section{Mechanik}
+
+Darstellung wichtiger Begriffe und Konzepte.
+
+\subsection{Fahrwerk}
+
+\subsubsection{Raupen}
+
+\subsubsection{Zweiachsig mit zwei DC-Motoren}
+
+\subsubsection{Zweiachsig mit Servo-Lenkung und DC-Motor}
+
+\subsection{Fahrgestelle}
+
+\subsection{Greifmechanismen}
+
+\subsection{Lagermechanismen}
+
+\subsubsection{Lagertrommel}
+
+\subsubsection{FILO-Stack}
+
+\section{Elektronik}
+
+\subsubsection{NUCLEO-F446RE}
+
+\subsubsection{ZHAW PES Board}
+
+\subsubsection{Eletronische Bauteile}
+
+\paragraph{Aktorik}
+
+\subparagraph{DC-Motor}
+
+\subparagraph{Servo-Motor}
+
+\subparagraph{LED}
+
+\paragraph{Sensorik}
+
+\subparagraph{IR-Sensor}
+
+\subparagraph{Ultrscvhall-Sensor}
+
+\subsubsection{Drucksensor}
+
+\subsubsection{Line-Follower-Array}
+
+
+\section{Informatik}
+
+
+
+% Beispiel für eine Abbildung
+%\begin{figure}[h]
+%    \centering
+%    \includegraphics[width=0.6\textwidth]{beispielbild.png}
+%    \caption{Beispielabbildung}
+%    \label{fig:beispiel}
+%\end{figure}
+
+% --------------------
+% Fazit
+% --------------------
+\section{Vergleichbare Projekte}
+
+Zusammenfassung der wichtigsten Ergebnisse und Ausblick.
+
+% --------------------
+% Literaturverzeichnis
+% --------------------
+\newpage
+\printbibliography
+
+\end{document}
