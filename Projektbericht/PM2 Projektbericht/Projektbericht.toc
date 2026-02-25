@@ -1,0 +1,56 @@
+\contentsline {section}{\numberline {1}Produktentwicklung}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Einführung und Übersicht}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Projektplanung}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Zeitplan}{3}{subsubsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.3}Recherchebericht}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Anforderungsliste}{3}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Muss-Anforderungen}{3}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Soll-Anforderungen}{3}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}Kann-Anforderungen}{3}{subsubsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.5}Funktionsstruktur}{3}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Morphologischer Kasten}{4}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Lösungsprinzipien}{4}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Nutzwertanalyse}{4}{subsection.1.8}%
+\contentsline {subsubsection}{\numberline {1.8.1}Bewertungskriterien}{4}{subsubsection.1.8.1}%
+\contentsline {subsubsection}{\numberline {1.8.2}Gewichtung}{4}{subsubsection.1.8.2}%
+\contentsline {subsubsection}{\numberline {1.8.3}Auswertung}{4}{subsubsection.1.8.3}%
+\contentsline {subsection}{\numberline {1.9}Finales Konzept}{4}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Budget}{4}{subsection.1.10}%
+\contentsline {subsubsection}{\numberline {1.10.1}Kostenübersicht}{4}{subsubsection.1.10.1}%
+\contentsline {section}{\numberline {2}Mechanik}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Einführung und Übersicht}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Entwicklung der mechanischen Lösung}{4}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Konzeptphase}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Konstruktive Umsetzung}{4}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Vom Prototyp zur finalen Lösung}{4}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}Berechnungen}{4}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Motorenmoment}{4}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Leistungsberechnung}{4}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Weitere relevante Berechnungen}{5}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Finale Konstruktion}{5}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Skizzen der finalen Lösung}{5}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Screenshots der CAD-Konstruktion}{5}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.5}Zusammenbau}{5}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Elektronik}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Einführung und Übersicht}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Selbst entwickelte Elektronik}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Elektronikschema}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Pinbelegung}{5}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Verwendete Bauteile}{6}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Aktoren}{6}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Sensoren}{6}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Mikrocontroller}{6}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}Spannungsversorgung}{6}{subsubsection.3.5.4}%
+\contentsline {section}{\numberline {4}Software}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Einführung und Übersicht}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Programmierumgebung}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Softwarestruktur}{7}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Modulübersicht}{7}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Datenfluss}{7}{subsubsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.4}Flow-Chart}{7}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Implementierungsdetails}{7}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Fazit}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Erreichte Ziele}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Verbesserungspotential}{7}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Ausblick}{7}{subsection.5.3}%
+\contentsline {section}{Anhang}{7}{section*.6}%

@@ -1,0 +1,435 @@
+\documentclass[10pt,a4paper]{article}
+%Packete
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{braket}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{tikz}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[colorlinks=true, linkcolor=black]{hyperref}
+\usetikzlibrary{matrix,positioning,fit,arrows.meta}
+\captionsetup{
+	font=footnotesize
+}
+\renewcommand{\arraystretch}{1.7}
+\usepackage[a4paper, margin=1.5cm]{geometry}
+\title{\textbf{Projektbericht}}
+\date{\today}
+\author{Nils Kreienbühl, Joel Rechsteiner, Patrick Itten, Sven Pfister, Mathias Menchini, Timo Kradolfer \\ ZHAW School of Engineering - Systemtechnik}
+\begin{document}
+	\maketitle
+	\tableofcontents
+	\clearpage
+	
+\section{Produktentwicklung}
+
+\subsection{Einführung und Übersicht}
+Die Firma «LineXpress – we deliver along the line» hat den Auftrag erteilt, ein autonomes Robotersystem zu entwickeln, das Pakete bei definierten Häusern abholt und bei entsprechenden Zielhäusern wieder ausliefert. Ziel ist es, einen funktionsfähigen Prototyp im verkleinerten Massstab zu realisieren, um das technische Konzept zu testen und zu validieren.\\
+Der Roboter soll in der Lage sein, ein Paket bei einer Abholstation aufzunehmen, einer vorgegebenen Linie zu folgen und das Paket an der vorgesehenen Zielstation zuverlässig wieder abzulegen. Dabei stellt insbesondere die Linienverfolgung, die präzise Positionierung an den Häusern sowie der sichere Transport der Pakete zentrale technische Anforderungen dar.\\
+Da in diesem Marktumfeld ein hoher Wettbewerbsdruck herrscht, spielt neben der technischen Funktionalität auch die Effizienz eine entscheidende Rolle. Der Roboter soll die Transportaufgabe möglichst schnell und zuverlässig ausführen. Neben einer durchdachten mechanischen Konstruktion und einer robusten elektronischen Umsetzung ist daher auch eine leistungsfähige Software sowie eine geeignete Fahr- und Lieferstrategie erforderlich.\\
+Im Rahmen des Projekts wird ein Funktionsmuster entwickelt, konstruiert und getestet, welches die grundlegenden Funktionen des geplanten Systems demonstriert und als Grundlage für eine mögliche Weiterentwicklung dient.\\
+\begin{minipage}[t]{1\textwidth}
+	\vspace{0pt}
+	\centering
+	\includegraphics[scale=.5]{{bilder/}LineXpress}
+	\captionof{figure}{Logo der Firma «LineXpress – we deliver along the line»}
+\end{minipage}\hfill
+
+\subsection{Projektplanung}
+\subsubsection{Zeitplan}
+Verweis auf detaillierten Zeitplan im Anhang (z.B. Gantt-Diagramm).
+
+\subsection{Recherchebericht}
+Kurze Zusammenfassung der Recherche:
+\begin{itemize}
+	\item Stand der Technik
+	\item Vergleich bestehender Lösungen
+	\item Relevante Technologien
+\end{itemize}
+
+\subsection{Anforderungsliste}
+\subsubsection{Muss-Anforderungen}
+\subsubsection{Soll-Anforderungen}
+\subsubsection{Kann-Anforderungen}
+
+\subsection{Funktionsstruktur}
+Beschreibung der Gesamtfunktion und Zerlegung in Teilfunktionen.  
+Verweis auf grafische Darstellung im Anhang.
+
+\subsection{Morphologischer Kasten}
+Darstellung der Lösungsvarianten zu den einzelnen Teilfunktionen.  
+Verweis auf Tabelle im Anhang.
+
+\subsection{Lösungsprinzipien}
+Darstellung der wichtigsten Lösungsprinzipien mit:
+\begin{itemize}
+	\item Beschreibung
+	\item grobmaßstäbliche Skizzen
+	\item Bewertung der Vor- und Nachteile
+\end{itemize}
+
+\subsection{Nutzwertanalyse}
+\subsubsection{Bewertungskriterien}
+\subsubsection{Gewichtung}
+\subsubsection{Auswertung}
+Tabellarische Darstellung der Bewertung und Berechnung des Gesamtnutzwerts.
+
+\subsection{Finales Konzept}
+Begründung der finalen Auswahl.  
+Falls Abweichung von der theoretisch besten Lösung: Erklärung der Anpassung.
+
+\subsection{Budget}
+\subsubsection{Kostenübersicht}
+Zusammenstellung der Auslagen:
+\begin{itemize}
+	\item Zukaufteile
+	\item 3D-Druckteile
+	\item Laserteile
+	\item Elektronik
+	\item Sonstiges Material
+\end{itemize}
+Teile aus Fundus (0.5x) separat ausweisen.  
+Detaillierte Aufstellung im Anhang.
+
+%------------------------------------------------
+\section{Mechanik}
+
+\subsection{Einführung und Übersicht}
+Beschreibung des mechanischen Konzepts und der gewählten Bauweise.
+
+\subsection{Entwicklung der mechanischen Lösung}
+\subsubsection{Konzeptphase}
+\subsubsection{Konstruktive Umsetzung}
+\subsubsection{Vom Prototyp zur finalen Lösung}
+
+\subsection{Berechnungen}
+\subsubsection{Motorenmoment}
+Berechnung des benötigten Drehmoments:
+
+\begin{equation}
+	M = F \cdot r
+\end{equation}
+
+\subsubsection{Leistungsberechnung}
+\begin{equation}
+	P = M \cdot \omega
+\end{equation}
+
+\subsubsection{Weitere relevante Berechnungen}
+z.B. Übersetzungsverhältnis, Lagerkräfte, Stabilitätsnachweise.
+
+\subsection{Finale Konstruktion}
+\subsubsection{Skizzen der finalen Lösung}
+\subsubsection{Screenshots der CAD-Konstruktion}
+
+\subsection{Zusammenbau}
+Beschreibung des Montageprozesses, Besonderheiten, aufgetretene Probleme.
+
+%------------------------------------------------
+\section{Elektronik}
+
+\subsection{Einführung und Übersicht}
+Dieses Kapitel beschreibt den elektronischen Aufbau des entwickelten Robotersystems. Die Elektronik bildet die Schnittstelle zwischen Mechanik und Software und übernimmt sowohl die Verarbeitung der Sensordaten als auch die Ansteuerung der Aktoren. Ziel ist eine zuverlässige, modular aufgebaute und leicht erweiterbare Systemarchitektur.\\
+Das Gesamtsystem besteht aus zwei Hauptkomponenten: einem Mikrocontroller-Board (Nucleo-Board F446RE) sowie einem speziell entwickelten Motherboard.\\
+Das Nucleo-Board basiert auf einem ARM-Mikrocontroller und stellt die zentrale Recheneinheit des Systems dar. Es übernimmt die Verarbeitung der Sensordaten, die Regelalgorithmen zur Linienverfolgung sowie die Steuerung der Motoren. Die Programmierung erfolgt in C++ über die Mbed-Plattform. Das Board enthält bereits grundlegende Peripherie wie Taktversorgung, Debug-Schnittstelle und Spannungsregler.\\
+
+\subsection{Selbst entwickelte Elektronik}
+(nur falls zutreffend)
+\begin{itemize}
+	\item Schaltungsdesign
+	\item Platinenlayout
+	\item Fertigungsprozess
+\end{itemize}
+
+\subsection{Elektronikschema}
+Vereinfachtes Blockdiagramm:
+\begin{itemize}
+	\item Mikrocontroller
+	\item Sensoren
+	\item Aktoren
+	\item Spannungsversorgung
+\end{itemize}
+
+\subsection{Pinbelegung}
+Tabelle mit Ein- und Ausgängen:
+\begin{itemize}
+	\item Digital Inputs
+	\item Digital Outputs
+	\item Analog Inputs
+	\item PWM-Ausgänge
+\end{itemize}
+
+\subsection{Verwendete Bauteile}
+\subsubsection{Aktoren}
+	\begin{table}[H]
+		\centering
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabularx}{\textwidth}{|c|l|X|X|X|}
+			\hline
+			\textbf{Anzahl} & \textbf{Bauteilname} & \textbf{Funktion} & \textbf{Verwendung} & \textbf{Internetlink} 
+			\\
+			\hline
+			%Bauteil
+			2& %Anzahl 
+			DC-Motor & %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.pololu.com/category/167/20d-metal-gearmotors}{Link} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			
+		\end{tabularx}
+	\end{table}
+\subsubsection{Sensoren}
+	\begin{table}[H]
+		\centering
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabularx}{\textwidth}{|c|l|X|X|X|}
+			\hline
+			\textbf{Anzahl} & \textbf{Bauteilname} & \textbf{Funktion} & \textbf{Verwendung} & \textbf{Internetlink} 
+			\\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			
+		\end{tabularx}
+	\end{table}
+\subsubsection{Mikrocontroller}
+	\begin{table}[H]
+		\centering
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabularx}{\textwidth}{|c|l|X|X|X|}
+			\hline
+			\textbf{Anzahl} & \textbf{Bauteilname} & \textbf{Funktion} & \textbf{Verwendung} & \textbf{Internetlink} 
+			\\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			
+		\end{tabularx}
+	\end{table}
+\subsubsection{Spannungsversorgung}
+	\begin{table}[H]
+		\centering
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabularx}{\textwidth}{|c|l|X|X|X|}
+			\hline
+			\textbf{Anzahl} & \textbf{Bauteilname} & \textbf{Funktion} & \textbf{Verwendung} & \textbf{Internetlink} 
+			\\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			2& %Bauteilname
+			3& %Funktion
+			4& %Verwendung
+			\href{https://www.conrad.ch}{Beispielshop} \\
+			\hline
+			
+		\end{tabularx}
+	\end{table}
+Als Energiequelle dient ein Akkupaket bestehend aus zwei in Serie geschalteten NiMH-Akkus mit jeweils fünf Zellen. Daraus resultiert eine Nennspannung von 12 V bei einer Kapazität von 2300 mAh. Das Akkupaket stellt die Versorgung für die Elektronik sowie die Antriebskomponenten des Systems sicher.
+\\
+Technische Daten jeweils kurz dokumentieren.
+
+%------------------------------------------------
+\section{Software}
+
+\subsection{Einführung und Übersicht}
+Beschreibung der Softwarearchitektur und Zielsetzung.
+
+\subsection{Programmierumgebung}
+\begin{itemize}
+	\item Verwendete Sprache
+	\item Entwicklungsumgebung
+	\item Bibliotheken
+\end{itemize}
+
+\subsection{Softwarestruktur}
+\subsubsection{Modulübersicht}
+\subsubsection{Datenfluss}
+
+\subsection{Flow-Chart}
+Darstellung des Programmablaufs als Flussdiagramm.  
+Beschreibung der Hauptzustände:
+\begin{itemize}
+	\item Initialisierung
+	\item Sensorabfrage
+	\item Entscheidungslogik
+	\item Aktorsteuerung
+	\item Fehlerbehandlung
+\end{itemize}
+
+\subsection{Implementierungsdetails}
+Erklärung wichtiger Funktionen und Algorithmen.
+
+%------------------------------------------------
+\section{Fazit}
+
+\subsection{Erreichte Ziele}
+\subsection{Verbesserungspotential}
+\subsection{Ausblick}
+
+%------------------------------------------------
+\section*{Anhang}
+\addcontentsline{toc}{section}{Anhang}
+
+\begin{itemize}
+	\item Zeitplan
+	\item Funktionsstruktur
+	\item Morphologischer Kasten
+	\item Budgetdetails
+	\item CAD-Zeichnungen
+\end{itemize}
+
+
+\end{document}
