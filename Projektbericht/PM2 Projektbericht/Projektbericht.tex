@@ -1,16 +1,35 @@
 \documentclass[10pt,a4paper]{article}
 %Packete
+
+
+%Sprache
+\usepackage[ngerman]{babel}
+
+
+
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{braket}
+
+%--- Bilder
 \usepackage{graphicx}
-\usepackage{xcolor}
-\usepackage{float}
+\graphicspath{{Bilder/}} %Bilderpfad
 \usepackage{caption}
+% Farben
+\usepackage{xcolor}
+
+\usepackage{float}
+
+% 
 \usepackage{tikz}
 \usepackage{tabularx}
 \usepackage{array}
+
+% Einfügen von PDFS
+\usepackage{pdfpages}
+\newcommand{\pdfpath}{PDFS/}
+
 \usepackage[colorlinks=true, linkcolor=black]{hyperref}
 \usetikzlibrary{matrix,positioning,fit,arrows.meta}
 \captionsetup{
@@ -26,146 +45,204 @@
 	\tableofcontents
 	\clearpage
 	
-\section{Produktentwicklung}
-
-\subsection{Einführung und Übersicht}
-Die Firma «LineXpress – we deliver along the line» hat den Auftrag erteilt, ein autonomes Robotersystem zu entwickeln, das Pakete bei definierten Häusern abholt und bei entsprechenden Zielhäusern wieder ausliefert. Ziel ist es, einen funktionsfähigen Prototyp im verkleinerten Massstab zu realisieren, um das technische Konzept zu testen und zu validieren.\\
-Der Roboter soll in der Lage sein, ein Paket bei einer Abholstation aufzunehmen, einer vorgegebenen Linie zu folgen und das Paket an der vorgesehenen Zielstation zuverlässig wieder abzulegen. Dabei stellt insbesondere die Linienverfolgung, die präzise Positionierung an den Häusern sowie der sichere Transport der Pakete zentrale technische Anforderungen dar.\\
-Da in diesem Marktumfeld ein hoher Wettbewerbsdruck herrscht, spielt neben der technischen Funktionalität auch die Effizienz eine entscheidende Rolle. Der Roboter soll die Transportaufgabe möglichst schnell und zuverlässig ausführen. Neben einer durchdachten mechanischen Konstruktion und einer robusten elektronischen Umsetzung ist daher auch eine leistungsfähige Software sowie eine geeignete Fahr- und Lieferstrategie erforderlich.\\
-Im Rahmen des Projekts wird ein Funktionsmuster entwickelt, konstruiert und getestet, welches die grundlegenden Funktionen des geplanten Systems demonstriert und als Grundlage für eine mögliche Weiterentwicklung dient.\\
-\begin{minipage}[t]{1\textwidth}
-	\vspace{0pt}
-	\centering
-	\includegraphics[scale=.5]{{bilder/}LineXpress}
-	\captionof{figure}{Logo der Firma «LineXpress – we deliver along the line»}
-\end{minipage}\hfill
-
-\subsection{Projektplanung}
-\subsubsection{Zeitplan}
-Verweis auf detaillierten Zeitplan im Anhang (z.B. Gantt-Diagramm).
-
-\subsection{Recherchebericht}
-Kurze Zusammenfassung der Recherche:
-\begin{itemize}
-	\item Stand der Technik
-	\item Vergleich bestehender Lösungen
-	\item Relevante Technologien
-\end{itemize}
-
-\subsection{Anforderungsliste}
-\subsubsection{Muss-Anforderungen}
-\subsubsection{Soll-Anforderungen}
-\subsubsection{Kann-Anforderungen}
-
-\subsection{Funktionsstruktur}
-Beschreibung der Gesamtfunktion und Zerlegung in Teilfunktionen.  
-Verweis auf grafische Darstellung im Anhang.
-
-\subsection{Morphologischer Kasten}
-Darstellung der Lösungsvarianten zu den einzelnen Teilfunktionen.  
-Verweis auf Tabelle im Anhang.
-
-\subsection{Lösungsprinzipien}
-Darstellung der wichtigsten Lösungsprinzipien mit:
-\begin{itemize}
-	\item Beschreibung
-	\item grobmaßstäbliche Skizzen
-	\item Bewertung der Vor- und Nachteile
-\end{itemize}
-
-\subsection{Nutzwertanalyse}
-\subsubsection{Bewertungskriterien}
-\subsubsection{Gewichtung}
-\subsubsection{Auswertung}
-Tabellarische Darstellung der Bewertung und Berechnung des Gesamtnutzwerts.
-
-\subsection{Finales Konzept}
-Begründung der finalen Auswahl.  
-Falls Abweichung von der theoretisch besten Lösung: Erklärung der Anpassung.
-
-\subsection{Budget}
-\subsubsection{Kostenübersicht}
-Zusammenstellung der Auslagen:
-\begin{itemize}
-	\item Zukaufteile
-	\item 3D-Druckteile
-	\item Laserteile
-	\item Elektronik
-	\item Sonstiges Material
-\end{itemize}
-Teile aus Fundus (0.5x) separat ausweisen.  
-Detaillierte Aufstellung im Anhang.
-
-%------------------------------------------------
-\section{Mechanik}
-
-\subsection{Einführung und Übersicht}
-Beschreibung des mechanischen Konzepts und der gewählten Bauweise.
-
-\subsection{Entwicklung der mechanischen Lösung}
-\subsubsection{Konzeptphase}
-\subsubsection{Konstruktive Umsetzung}
-\subsubsection{Vom Prototyp zur finalen Lösung}
-
-\subsection{Berechnungen}
-\subsubsection{Motorenmoment}
-Berechnung des benötigten Drehmoments:
-
-\begin{equation}
-	M = F \cdot r
-\end{equation}
-
-\subsubsection{Leistungsberechnung}
-\begin{equation}
-	P = M \cdot \omega
-\end{equation}
-
-\subsubsection{Weitere relevante Berechnungen}
-z.B. Übersetzungsverhältnis, Lagerkräfte, Stabilitätsnachweise.
-
-\subsection{Finale Konstruktion}
-\subsubsection{Skizzen der finalen Lösung}
-\subsubsection{Screenshots der CAD-Konstruktion}
-
-\subsection{Zusammenbau}
-Beschreibung des Montageprozesses, Besonderheiten, aufgetretene Probleme.
-
-%------------------------------------------------
-\section{Elektronik}
-
-\subsection{Einführung und Übersicht}
-Dieses Kapitel beschreibt den elektronischen Aufbau des entwickelten Robotersystems. Die Elektronik bildet die Schnittstelle zwischen Mechanik und Software und übernimmt sowohl die Verarbeitung der Sensordaten als auch die Ansteuerung der Aktoren. Ziel ist eine zuverlässige, modular aufgebaute und leicht erweiterbare Systemarchitektur.\\
-Das Gesamtsystem besteht aus zwei Hauptkomponenten: einem Mikrocontroller-Board (Nucleo-Board F446RE) sowie einem speziell entwickelten Motherboard.\\
-Das Nucleo-Board basiert auf einem ARM-Mikrocontroller und stellt die zentrale Recheneinheit des Systems dar. Es übernimmt die Verarbeitung der Sensordaten, die Regelalgorithmen zur Linienverfolgung sowie die Steuerung der Motoren. Die Programmierung erfolgt in C++ über die Mbed-Plattform. Das Board enthält bereits grundlegende Peripherie wie Taktversorgung, Debug-Schnittstelle und Spannungsregler.\\
-
-\subsection{Selbst entwickelte Elektronik}
-(nur falls zutreffend)
-\begin{itemize}
-	\item Schaltungsdesign
-	\item Platinenlayout
-	\item Fertigungsprozess
-\end{itemize}
-
-\subsection{Elektronikschema}
-Vereinfachtes Blockdiagramm:
-\begin{itemize}
-	\item Mikrocontroller
-	\item Sensoren
-	\item Aktoren
-	\item Spannungsversorgung
-\end{itemize}
-
-\subsection{Pinbelegung}
-Tabelle mit Ein- und Ausgängen:
-\begin{itemize}
-	\item Digital Inputs
-	\item Digital Outputs
-	\item Analog Inputs
-	\item PWM-Ausgänge
-\end{itemize}
-
-\subsection{Verwendete Bauteile}
-\subsubsection{Aktoren}
+	\section{Produktentwicklung}
+	
+	\subsection{Einführung und Übersicht}
+	(Richtlinen: NUmmer)
+	
+	Die Firma «LineXpress – we deliver along the line» hat den Auftrag erteilt, ein autonomes Robotersystem zu entwickeln, das Pakete bei definierten Häusern abholt und bei entsprechenden Zielhäusern wieder ausliefert. Ziel ist es, einen funktionsfähigen Prototyp im verkleinerten Massstab zu realisieren, um das technische Konzept zu testen und zu validieren.\\
+	Der Roboter soll in der Lage sein, ein Paket bei einer Abholstation aufzunehmen, einer vorgegebenen Linie zu folgen und das Paket an der vorgesehenen Zielstation zuverlässig wieder abzulegen. Dabei stellt insbesondere die Linienverfolgung, die präzise Positionierung an den Häusern sowie der sichere Transport der Pakete zentrale technische Anforderungen dar.\\
+	Da in diesem Marktumfeld ein hoher Wettbewerbsdruck herrscht, spielt neben der technischen Funktionalität auch die Effizienz eine entscheidende Rolle. Der Roboter soll die Transportaufgabe möglichst schnell und zuverlässig ausführen. Neben einer durchdachten mechanischen Konstruktion und einer robusten elektronischen Umsetzung ist daher auch eine leistungsfähige Software sowie eine geeignete Fahr- und Lieferstrategie erforderlich.\\
+	Im Rahmen des Projekts wird ein Funktionsmuster entwickelt, konstruiert und getestet, welches die grundlegenden Funktionen des geplanten Systems demonstriert und als Grundlage für eine mögliche Weiterentwicklung dient.\\
+	\begin{minipage}[t]{1\textwidth}
+		\vspace{0pt}
+		\centering
+		\includegraphics[scale=.5]{LineXpress}
+		\captionof{figure}{Logo der Firma «LineXpress – we deliver along the line»}
+	\end{minipage}\hfill
+	
+	\subsection{Projektplanung}
+	\subsubsection{Zeitplan}
+	
+	Vorallem wenn etwas von der Zeitplannung abweicht. 
+	Verweis auf detaillierten Zeitplan im Anhang (z.B. Gantt-Diagramm).
+	
+	\subsection{Recherchebericht}
+	Kurze Zusammenfassung der Recherche:
+	\begin{itemize}
+		\item Stand der Technik
+		\item Vergleich bestehender Lösungen
+		\item Relevante Technologien
+	\end{itemize}
+	
+	\subsection{Anforderungsliste}
+		Siehe Anhang \hyperref[anhang:anforderung]{Anforderungsliste}.
+	\subsubsection{Muss-Anforderungen}
+	\subsubsection{Soll-Anforderungen}
+	\subsubsection{Kann-Anforderungen}
+	
+	\subsection{Funktionsstruktur}
+	
+		\begin{minipage}[t]{\textwidth}
+			
+		Die Funktionsstruktur zeigt die Gesamtfunktion des Systems und deren Zerlegung in Teilfunktionen. Die Hauptaufgabe besteht darin, Pakete autonom aufzunehmen, zu transportieren, kurz zwischenzulagern und am richtigen Ort wieder abzusetzen. Dabei verarbeitet das System die Eingaben Energie, Information/Signal und Pakete und erzeugt als Ausgaben Bewegung sowie zugestellte Pakete.\\
+		
+		Die zugeführte Energie wird zuerst gespeichert und danach zur Versorgung von Motoren, Sensoren und Elektronik genutzt. Dadurch werden alle weiteren Funktionen des Systems überhaupt erst möglich.\\
+		
+		Parallel dazu verarbeitet das System verschiedene Informationen aus den Sensoren. Zuerst werden die Sensordaten ausgewertet, danach Linien oder Farben erkannt und daraus die aktuelle Position bzw. das Ziel bestimmt. Auf dieser Grundlage wird die Fahrbewegung gesteuert und anschliessend über Rad und Lenkung in eine reale Bewegung umgesetzt.\\
+		
+		Für das Aufnehmen und Ablegen der Pakete sind zusätzlich Funktionen zur Erkennung der Paketposition und der Ablageposition notwendig. Diese Informationen werden benötigt, damit der Greifer gezielt bewegt werden kann.\\
+		
+		Im unteren Bereich ist der eigentliche Paketfluss dargestellt. Die Pakete werden zuerst aufgesammelt, danach im System zwischengelagert und am Ende wieder abgesetzt. So entsteht als Endergebnis die gewünschte Zustellung der Pakete.\\
+		
+		\end{minipage}
+		
+		\includegraphics[
+		page=1,
+		width=\textwidth,
+		trim=
+		1cm %Links
+		6cm %Unten
+		0cm %Rechts
+		5cm,%Oben
+		clip
+		]{PDFS/Funktionsstruktur.pdf}
+		
+	\subsection{Morphologischer Kasten}
+	Darstellung der Lösungsvarianten zu den einzelnen Teilfunktionen.  
+	Verweis auf Tabelle im Anhang.
+	
+	\subsection{Lösungsprinzipien}
+	Darstellung der wichtigsten Lösungsprinzipien mit:
+	\begin{itemize}
+		\item Beschreibung
+		\item grobmaßstäbliche Skizzen
+		\item Bewertung der Vor- und Nachteile
+	\end{itemize}
+	
+	\subsection{Nutzwertanalyse}
+	
+	 wichtige Skizzen. 
+	\subsubsection{Bewertungskriterien}
+	\subsubsection{Gewichtung}
+	\subsubsection{Auswertung}
+	Tabellarische Darstellung der Bewertung und Berechnung des Gesamtnutzwerts.
+	
+	\subsection{Erster Prototyp}
+		\begin{minipage}[t]{0.5\textwidth}
+			Der erste Prototyp dient vor allem dazu, die grundlegende Idee des Systems praktisch umzusetzen und auszuprobieren.
+			
+			Dabei liegt der Fokus klar auf der Fahrmechanik. Ziel ist es, zuerst zu prüfen, ob sich das Fahrzeug grundsätzlich bewegen lässt und ob der mechanische Aufbau mit Rädern, Antrieb und Chassis funktioniert.
+			
+			Das Chassis besteht Hauptsächlich aus Karton und Klebeband. Die Räder sind aus 3D Material und sind mit O-Ringe ausgestattet.  
+			
+			Andere Funktionen wie das gezielte Greifen oder Ablegen von Paketen stehen in dieser Phase noch nicht im Mittelpunkt. 
+			
+			Der Prototyp dient also hauptsächlich dazu, die fahrbare Basis zu testen und erste Erfahrungen mit dem mechanischen und elektronischen Aufbau zu sammeln.
+		\end{minipage}\hfill
+		\begin{minipage}[t]{0.5\textwidth}
+			\vspace{0pt}
+			\centering
+			\includegraphics[scale=.15]{ErsterPrototyp}
+			\captionof{figure}{Erster Prototyp (Schlechte Auflösung besseres Bild noch hochladen)}
+		\end{minipage}\hfill
+	
+	\subsection{Zweiter Prototyp}
+		\begin{minipage}[t]{0.5\textwidth}
+			Der zweite Prototyp baut auf den Erkenntnissen aus der ersten Version auf. Während beim ersten Aufbau vor allem die Fahrmechanik im Vordergrund steht, liegt der Fokus nun stärker auf dem Greifarm, der Optimierung der Fahrgeschwindigkeit und dem Farbsensor. Ziel ist es, das System funktional zu erweitern und gleichzeitig die bisherigen Fahrfunktionen zuverlässiger und präziser zu machen.
+		\end{minipage}\hfill
+		
+	\subsection{Finales Konzept}
+		\begin{minipage}[t]{0.5\textwidth}
+			Begründung der finalen Auswahl.  
+			Falls Abweichung von der theoretisch besten Lösung: Erklärung der Anpassung.
+		\end{minipage}\hfill
+	\subsection{Budget}
+	\subsubsection{Kostenübersicht}
+	Zusammenstellung der Auslagen:
+	\begin{itemize}
+		\item Zukaufteile
+		\item 3D-Druckteile
+		\item Laserteile
+		\item Elektronik
+		\item Sonstiges Material
+	\end{itemize}
+	Teile aus Fundus (0.5x) separat ausweisen.  
+	Detaillierte Aufstellung im Anhang.
+	
+	%------------------------------------------------
+	\section{Mechanik}
+	
+	\subsection{Einführung und Übersicht}
+	Beschreibung des mechanischen Konzepts und der gewählten Bauweise.
+	
+	\subsection{Entwicklung der mechanischen Lösung}
+	\subsubsection{Konzeptphase}
+	\subsubsection{Konstruktive Umsetzung}
+	\subsubsection{Vom Prototyp zur finalen Lösung}
+	
+	\subsection{Berechnungen}
+	\subsubsection{Motorenmoment}
+	Berechnung des benötigten Drehmoments:
+	
+	\begin{equation}
+		M = F \cdot r
+	\end{equation}
+	
+	\subsubsection{Leistungsberechnung}
+	\begin{equation}
+		P = M \cdot \omega
+	\end{equation}
+	
+	\subsubsection{Weitere relevante Berechnungen}
+	z.B. Übersetzungsverhältnis, Lagerkräfte, Stabilitätsnachweise.
+	
+	
+		
+	
+	\subsection{Finale Konstruktion}
+	\subsubsection{Skizzen der finalen Lösung}
+	\subsubsection{Screenshots der CAD-Konstruktion}
+	
+	\subsection{Zusammenbau}
+	Beschreibung des Montageprozesses, Besonderheiten, aufgetretene Probleme.
+	
+	%------------------------------------------------
+	\section{Elektronik}
+	
+	\subsection{Einführung und Übersicht}
+	Dieses Kapitel beschreibt den elektronischen Aufbau des entwickelten Robotersystems. Die Elektronik bildet die Schnittstelle zwischen Mechanik und Software und übernimmt sowohl die Verarbeitung der Sensordaten als auch die Ansteuerung der Aktoren. Ziel ist eine zuverlässige, modular aufgebaute und leicht erweiterbare Systemarchitektur.\\
+	Das Gesamtsystem besteht aus zwei Hauptkomponenten: einem Mikrocontroller-Board (Nucleo-Board F446RE) sowie einem speziell entwickelten Motherboard.\\
+	Das Nucleo-Board basiert auf einem ARM-Mikrocontroller und stellt die zentrale Recheneinheit des Systems dar. Es übernimmt die Verarbeitung der Sensordaten, die Regelalgorithmen zur Linienverfolgung sowie die Steuerung der Motoren. Die Programmierung erfolgt in C++ über die Mbed-Plattform. Das Board enthält bereits grundlegende Peripherie wie Taktversorgung, Debug-Schnittstelle und Spannungsregler.\\
+	
+	\subsection{Selbst entwickelte Elektronik}
+	(nur falls zutreffend)
+	\begin{itemize}
+		\item Schaltungsdesign
+		\item Platinenlayout
+		\item Fertigungsprozess
+	\end{itemize}
+	
+	\subsection{Elektronikschema}
+	Vereinfachtes Blockdiagramm:
+	\begin{itemize}
+		\item Mikrocontroller
+		\item Sensoren
+		\item Aktoren
+		\item Spannungsversorgung
+	\end{itemize}
+	
+	\subsection{Pinbelegung}
+	Tabelle mit Ein- und Ausgängen:
+	\begin{itemize}
+		\item Digital Inputs
+		\item Digital Outputs
+		\item Analog Inputs
+		\item PWM-Ausgänge
+	\end{itemize}
+	
+	\subsection{Verwendete Bauteile}
+	\subsubsection{Aktoren}
 	\begin{table}[H]
 		\centering
 		\renewcommand{\arraystretch}{1.2}
@@ -218,7 +295,7 @@ Tabelle mit Ein- und Ausgängen:
 			
 		\end{tabularx}
 	\end{table}
-\subsubsection{Sensoren}
+	\subsubsection{Sensoren}
 	\begin{table}[H]
 		\centering
 		\renewcommand{\arraystretch}{1.2}
@@ -271,7 +348,7 @@ Tabelle mit Ein- und Ausgängen:
 			
 		\end{tabularx}
 	\end{table}
-\subsubsection{Mikrocontroller}
+	\subsubsection{Mikrocontroller}
 	\begin{table}[H]
 		\centering
 		\renewcommand{\arraystretch}{1.2}
@@ -324,7 +401,7 @@ Tabelle mit Ein- und Ausgängen:
 			
 		\end{tabularx}
 	\end{table}
-\subsubsection{Spannungsversorgung}
+	\subsubsection{Spannungsversorgung}
 	\begin{table}[H]
 		\centering
 		\renewcommand{\arraystretch}{1.2}
@@ -377,59 +454,143 @@ Tabelle mit Ein- und Ausgängen:
 			
 		\end{tabularx}
 	\end{table}
-Als Energiequelle dient ein Akkupaket bestehend aus zwei in Serie geschalteten NiMH-Akkus mit jeweils fünf Zellen. Daraus resultiert eine Nennspannung von 12 V bei einer Kapazität von 2300 mAh. Das Akkupaket stellt die Versorgung für die Elektronik sowie die Antriebskomponenten des Systems sicher.
-\\
-Technische Daten jeweils kurz dokumentieren.
-
-%------------------------------------------------
-\section{Software}
-
-\subsection{Einführung und Übersicht}
-Beschreibung der Softwarearchitektur und Zielsetzung.
-
-\subsection{Programmierumgebung}
-\begin{itemize}
-	\item Verwendete Sprache
-	\item Entwicklungsumgebung
-	\item Bibliotheken
-\end{itemize}
-
-\subsection{Softwarestruktur}
-\subsubsection{Modulübersicht}
-\subsubsection{Datenfluss}
-
-\subsection{Flow-Chart}
-Darstellung des Programmablaufs als Flussdiagramm.  
-Beschreibung der Hauptzustände:
-\begin{itemize}
-	\item Initialisierung
-	\item Sensorabfrage
-	\item Entscheidungslogik
-	\item Aktorsteuerung
-	\item Fehlerbehandlung
-\end{itemize}
-
-\subsection{Implementierungsdetails}
-Erklärung wichtiger Funktionen und Algorithmen.
-
-%------------------------------------------------
-\section{Fazit}
-
-\subsection{Erreichte Ziele}
-\subsection{Verbesserungspotential}
-\subsection{Ausblick}
-
-%------------------------------------------------
-\section*{Anhang}
-\addcontentsline{toc}{section}{Anhang}
-
-\begin{itemize}
-	\item Zeitplan
-	\item Funktionsstruktur
-	\item Morphologischer Kasten
-	\item Budgetdetails
-	\item CAD-Zeichnungen
-\end{itemize}
-
-
+	Als Energiequelle dient ein Akkupaket bestehend aus zwei in Serie geschalteten NiMH-Akkus mit jeweils fünf Zellen. Daraus resultiert eine Nennspannung von 12 V bei einer Kapazität von 2300 mAh. Das Akkupaket stellt die Versorgung für die Elektronik sowie die Antriebskomponenten des Systems sicher.
+	\\
+	Technische Daten jeweils kurz dokumentieren.
+	
+	%------------------------------------------------
+	\section{Software}
+	
+	\subsection{Einführung und Übersicht}
+	Beschreibung der Softwarearchitektur und Zielsetzung.
+	
+	\subsection{Programmierumgebung}
+	\begin{itemize}
+		\item Verwendete Sprache
+		\item Entwicklungsumgebung
+		\item Bibliotheken
+	\end{itemize}
+	
+	\subsection{Softwarestruktur}
+		Ablaufdiagramm! 
+	\subsubsection{Modulübersicht}
+	\subsubsection{Datenfluss}
+	
+	\subsection{Flow-Chart}
+	Darstellung des Programmablaufs als Flussdiagramm.  
+	Beschreibung der Hauptzustände:
+	\begin{itemize}
+		\item Initialisierung
+		\item Sensorabfrage
+		\item Entscheidungslogik
+		\item Aktorsteuerung
+		\item Fehlerbehandlung
+	\end{itemize}
+	
+	\subsection{Implementierungsdetails}
+	Erklärung wichtiger Funktionen und Algorithmen.
+	
+	%------------------------------------------------
+	\section{Fazit}
+	
+	\subsection{Erreichte Ziele}
+	\subsection{Verbesserungspotential}
+		Dinge die noch kritisch sind und verbesserungs würdig sind. 
+	\subsection{Ausblick}
+	
+	%------------------------------------------------
+	\section{Deklaration des Einsatzes von generativer KI}
+	\begin{minipage}[t]{\textwidth}
+		Im Rahmen dieser Arbeit wurden generative KI-Werkzeuge in verschiedenen Prozessphasen unterstützend eingesetzt. Dabei wurden folgende Tools verwendet:
+		
+		\begin{itemize}
+			\item \textbf{ChatGPT}: zur Verbesserung von Formulierungen, zur sprachlichen Überarbeitung sowie zum Verständnis einzelner Inhalte und Zusammenhänge.
+			\item \textbf{claude.ai}: wurde zur Unterstützung beim Programmieren verwendet.
+			\item \textbf{[Weiteres Tool]}: für \textbf{[Zweck einfügen]}.
+		\end{itemize}
+		
+		Die inhaltliche Verantwortung für diese Arbeit liegt vollständig bei den Autor:innen. Alle durch KI erzeugten oder unterstützten Inhalte wurden kritisch geprüft, hinsichtlich Relevanz und Wahrheitsgehalt überprüft und bei Bedarf überarbeitet. Verwendete Quellen wurden eigenständig kontrolliert und, wo erforderlich, korrekt referenziert.
+		
+		Falls in der Arbeit Artefakte wie Texte, Bilder, Code oder andere Inhalte aus bestehenden Quellen verwendet oder mit KI bearbeitet wurden, wurden die entsprechenden Originalquellen angegeben.
+	\end{minipage}
+	
+	%------------------------------------------------
+	\section*{Anhang}
+	\addcontentsline{toc}{section}{Anhang}
+	
+	\begin{itemize}
+		\item Aufgabenstellung (vom Studium)
+		\item Zeitplan
+		\item Funktionsstruktur
+		\item Morphologischer Kasten
+		\item Budgetdetails
+		\item CAD-Zeichnungen
+		\item Autographische, Korrektor was für KI benutzt werden. Deklarationspflicht von generativer KI bei Arbeiten an der School of
+		Engineering
+		
+	\end{itemize}
+	%----Aufgabenstellung Challenge_PM2_FS26_V1
+	% Hyperlink: \hyperref[anhang:Aufgabenstellung]{Aufgabenstellung}
+		\includepdf[
+		pages=-,
+		pagecommand={},
+		addtotoc={1,subsection,1,{(!!!ALT)Aufgabenstellung PDF},anhang:Aufgabenstellung}
+		]{PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf}
+		
+	%----Zeitplan
+	% Hyperlink: \hyperref[anhang:Zeitplan]{Zeitplan} 
+	%	\clearpage
+	%	\includepdf[
+	%	pages=-,
+	%	pagecommand={},
+	%	addtotoc={1,subsection,1,{Zeitplan PDF},anhang:Zeitplan}
+	%	]{PDFS/Anforderungsliste.pdf}
+		
+	%----Anforderungsliste
+	% Hyperlink: \hyperref[anhang:anforderung]{Anforderungsliste}
+		\clearpage
+		\includepdf[
+		pages=-,
+		pagecommand={},
+		addtotoc={1,subsection,1,{Anforderungsliste PDF},anhang:anforderung}
+		]{PDFS/Anforderungsliste.pdf}
+	
+	%----Funktionsstrucktur
+	% Hyperlink: \hyperref[anhang:Funktionsstrucktur]{Funktionsstrucktur} 
+		\clearpage
+		\includepdf[
+		pages=-,
+		pagecommand={\large Funktionsstrucktur},
+		addtotoc={1,subsection,1,{Funktionsstrucktur PDF},anhang:Funktionsstrucktur}
+		]{PDFS/Funktionsstruktur.pdf}
+	
+	%----Morphologischer Kasten
+	% Hyperlink: \hyperref[anhang:Morphologischer Kasten]{Morphologischer Kastenan} 
+	%	\clearpage
+	%	\includepdf[
+	%	pages=-,
+	%	pagecommand={},
+	%	addtotoc={1,subsection,1,{Morphologischer Kasten PDF},anhang:Morphologischer Kasten}
+	%	]{PDFS/Morphologischer Kasten.pdf}
+	
+	%----Lösungsprinzipien
+	% Hyperlink: \hyperref[anhang:Lösungsprinzipien]{Lösungsprinzipien} 
+	%	\clearpage
+	%	\includepdf[
+	%	pages=-,
+	%	pagecommand={},
+	%	addtotoc={1,subsection,1,{Lösungsprinzipien PDF},anhang:Lösungsprinzipien}
+	%	]{PDFS/Lösungsprinzipien.pdf}
+	
+	%----Nutzwertanalyse
+	% Hyperlink: \hyperref[anhang:Nutzwertanalyse]{Nutzwertanalyse} 
+	%	\clearpage
+	%	\includepdf[
+	%	pages=-,
+	%	pagecommand={},
+	%	addtotoc={1,subsection,1,{Nutzwertanalyse PDF},anhang:Nutzwertanalyse}
+	%	]{PDFS/Nutzwertanalyse.pdf}
+	
+	\section{Quellen}
+	
 \end{document}
