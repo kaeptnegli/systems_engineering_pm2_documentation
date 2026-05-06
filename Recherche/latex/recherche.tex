@@ -14,143 +14,303 @@
 \usepackage{hyperref}
 \usepackage{csquotes}
 \usepackage{biblatex}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{booktabs}
+\PassOptionsToPackage{hidelinks}{hyperref}
+\hypersetup{
+	colorlinks = false,
+	pdfborder  = {0 0 0}
+}
 
-\geometry{left=3cm,right=3cm,top=2.5cm,bottom=2.5cm}
+
+\geometry{left=1cm,right=1cm,top=2.5cm,bottom=2.5cm}
 \onehalfspacing
 
-\addbibresource{literatur.bib} % Literaturdatei
+\addbibresource{literatur.bib}
 
 % --------------------
 % Dokument
 % --------------------
 \begin{document}
-
-% --------------------
-% Titelseite
-% --------------------
-\begin{titlepage}
-    \centering
-    \vspace*{2cm}
-    
-    {\Large \textbf{Recherche - LineXpress}}\\[1.5cm]
-    
-    \textbf{Team:} 3\\
-    \textbf{Mitglieder:} Sven Pfister, Mathias Menchini, Timo Kradolfer, Patrick Itten, Joel Rechsteiner, Nils Kreienbühl\\
-    \textbf{Studiengang:} Systemtechnik\\
-    \textbf{Modul:} PM2\\
-    \textbf{Dozent/in:} Michale Wüthrich\\[1cm]
-    
-    \textbf{Datum:} \today
-    
-    \vfill
-\end{titlepage}
-
-% --------------------
-% Inhaltsverzeichnis
-% --------------------
-\tableofcontents
-\newpage
-
-% --------------------
-% Einleitung
-% --------------------
-\section{Einleitung}
-
-\subsubsection{Ausgangslage}
-Ausgangslage gemäss Aufgabenstellung - Später noch weiter ausführen, damit schön aussieht.
-
-\subsubsection{Unterteilung}
-Jedes mechatronische System kann in drei Hauptsegmente unterteilt werden: Mechanik, Elektronik und Informatik.
-
-% Beispiel für eine Abbildung
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.6\textwidth]{img/Mechatronic.png}
-    \caption{Mechatronic - Quelle Wikipedia}
-    \label{fig:beispiel}
-\end{figure}
-
-In dieser Recherche werden für jedes dieser Segmente mögliche Optionen, Bauteile und Lösungsansätze untersucht. Dementsprechend ist dieses Dokument in drei Kapitel gegliedert.
-
-Die Recherche dient anschließend als Grundlage zur Entwicklung weiterer Konzepte, beispielsweise in Form eines morphologischen Kastens.
-
-Da wir mit Rapid Prototyping arbeiten, bleibt die Recherche dynamisch. Dieses Dokument wird fortlaufend weiterentwickelt, und neue Ideen sowie gewonnene Erkenntnisse fließen kontinuierlich ein.
-% --------------------
-% Hauptteil
-% --------------------
-\section{Mechanik}
-
-Darstellung wichtiger Begriffe und Konzepte.
-
-\subsection{Fahrwerk}
-
-\subsubsection{Raupen}
-
-\subsubsection{Zweiachsig mit zwei DC-Motoren}
-
-\subsubsection{Zweiachsig mit Servo-Lenkung und DC-Motor}
-
-\subsection{Fahrgestelle}
-
-\subsection{Greifmechanismen}
-
-\subsection{Lagermechanismen}
-
-\subsubsection{Lagertrommel}
-
-\subsubsection{FILO-Stack}
-
-\section{Elektronik}
-
-\subsubsection{NUCLEO-F446RE}
-
-\subsubsection{ZHAW PES Board}
-
-\subsubsection{Eletronische Bauteile}
-
-\paragraph{Aktorik}
-
-\subparagraph{DC-Motor}
-
-\subparagraph{Servo-Motor}
-dreht dank strom
-
-\subparagraph{LED}
-
-\paragraph{Sensorik}
-
-\subparagraph{IR-Sensor}
-
-\subparagraph{Ultrscvhall-Sensor}
-
-\subsubsection{Drucksensor}
-
-\subsubsection{Line-Follower-Array}
-
-
-\section{Informatik}
-
-
-
-% Beispiel für eine Abbildung
-%\begin{figure}[h]
-%    \centering
-%    \includegraphics[width=0.6\textwidth]{beispielbild.png}
-%    \caption{Beispielabbildung}
-%    \label{fig:beispiel}
-%\end{figure}
-
-% --------------------
-% Fazit
-% --------------------
-\section{Vergleichbare Projekte}
-
-Zusammenfassung der wichtigsten Ergebnisse und Ausblick.
-
-% --------------------
-% Literaturverzeichnis
-% --------------------
-\newpage
-\printbibliography
-
+	
+	% --------------------
+	% Titelseite
+	% --------------------
+	\begin{titlepage}
+		\centering
+		\vspace*{2cm}
+		
+		{\Large \textbf{Recherche -- LineXpress}}\\[1.5cm]
+		
+		\textbf{Team:} 3\\[0.3cm]
+		\textbf{Mitglieder:} Sven Pfister, Mathias Menchini, Timo Kradolfer,\\
+		Patrick Itten, Joel Rechsteiner, Nils Kreienbühl\\[0.3cm]
+		\textbf{Studiengang:} Systemtechnik\\
+		\textbf{Modul:} PM2\\
+		\textbf{Dozent/in:} Michael Wüthrich\\[1cm]
+		
+		\vfill
+	\end{titlepage}
+	
+	% --------------------
+	% Inhaltsverzeichnis
+	% --------------------
+	\tableofcontents
+	\newpage
+	
+	% --------------------
+	% Einleitung
+	% --------------------
+	\section{Einleitung}
+	
+	\subsection{Ausgangslage}
+	
+	Im Rahmen des Moduls PM2 entwickelt Team 3 einen autonomen Lieferroboter namens \textit{LineXpress}. Dieser soll auf einem definierten Spielfeld entlang einer schwarzen Fahrlinie navigieren, farblich kodierte Pakete aufnehmen und diese den entsprechend markierten Ablieferhäusern zuordnen. Dabei müssen sowohl mechanische, elektronische als auch softwareseitige Anforderungen erfüllt werden.
+	
+	Die wesentlichen Randbedingungen der Aufgabenstellung sind nachfolgend zusammengefasst:
+	
+	\begin{itemize}
+		\item \textbf{Roboter-Masse:} 200\,mm $\times$ 200\,mm $\times$ 200\,mm (maximale Abmessungen)
+		\item \textbf{Tunnel:} Durchmesser 250\,mm $\times$ 250\,mm; Durchfahren ohne Berühren vermeiden, da sonst 5\,s Zeitstrafe
+		\item \textbf{Pakete:} 30\,mm $\times$ 30\,mm $\times$ 30\,mm; kleiner Magnet auf der Oberseite, grosser Magnet auf der Unterseite
+		\item \textbf{Gültige Ablieferung:} Das Paket muss vollständig vom Haus gehalten werden
+		\item \textbf{Fahrlinie:} 20\,mm breit, schwarz auf hellem Untergrund
+		\item \textbf{Querlinien Abhol-Häuser:} 100\,mm breit, schwarz
+		\item \textbf{Querlinien Abliefer-Häuser:} 50\,mm breit, schwarz
+		\item \textbf{Hausfeld:} 50\,mm $\times$ 40\,mm, farblich analog zum zugehörigen Paket
+	\end{itemize}
+	
+	Die Pakete befinden sich auf dem Spielfeld an definierten Positionen und sind farblich (rot, blau, grün, gelb) den jeweiligen Ablieferhäusern zugeordnet. Die genauen Verschiebungen der Pakete relativ zur Fahrlinie sind in der folgenden Tabelle aufgeführt:
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|l|c|c|c|}
+			\hline
+			\textbf{Farbe} & \textbf{Horizontale Versch. [mm]} & \textbf{Vertikale Versch. [mm]} & \textbf{Höhe über Spielfeld [mm]} \\
+			\hline
+			\textcolor{red}{Rot}   & 25  & 105 & 4  \\
+			\hline
+			\textcolor{blue}{Blau} & 145 & 105 & 14 \\
+			\hline
+			\textcolor{green}{Grün} & 145 & 105 & 4  \\
+			\hline
+			\colorbox{yellow}{\textcolor{black}{Gelb}} & 25 & 105 & 14 \\
+			\hline
+		\end{tabular}
+		\caption{Paketpositionen auf dem Spielfeld}
+		\label{tab:paketpositionen}
+	\end{table}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{img/paket_bemassung.png}
+		\caption{Bemassung Paket -- Quelle: Aufgabenstellung}
+		\label{fig:paket_bemassung}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{img/spielfeld.png}
+		\caption{Spielfeld -- Quelle: Aufgabenstellung}
+		\label{fig:spielfeld}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{img/position_farbfeld.png}
+		\caption{Position Farbfeld -- Quelle: Aufgabenstellung}
+		\label{fig:position_farbfeld}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{img/position_paket.png}
+		\caption{Position Paket -- Quelle: Aufgabenstellung}
+		\label{fig:position_paket}
+	\end{figure}
+	
+	\subsection{Unterteilung}
+	
+	Jedes mechatronische System kann in drei Hauptsegmente unterteilt werden: Mechanik, Elektronik und Informatik. Diese drei Bereiche sind eng miteinander verknüpft und beeinflussen sich gegenseitig, wie in Abbildung~\ref{fig:mechatronic} dargestellt.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{img/Mechatronic.png}
+		\caption{Mechatronic -- Quelle: Wikipedia}
+		\label{fig:mechatronic}
+	\end{figure}
+	
+	In dieser Recherche werden für jedes dieser Segmente mögliche Optionen, Bauteile und Lösungsansätze untersucht. Dementsprechend ist dieses Dokument in drei Kapitel gegliedert.
+	
+	Die Recherche dient anschliessend als Grundlage zur Entwicklung weiterer Konzepte, beispielsweise in Form eines morphologischen Kastens.
+	
+	Da wir mit Rapid Prototyping arbeiten, bleibt die Recherche dynamisch. Dieses Dokument wird fortlaufend weiterentwickelt, und neue Ideen sowie gewonnene Erkenntnisse fliessen kontinuierlich ein.
+	
+	% --------------------
+	% Mechanik
+	% --------------------
+	\section{Mechanik}
+	
+	\subsection{Geometrie Line-Follow}
+	
+	Für einen zuverlässigen Linienfolgealgorithmus ist die geometrische Anordnung des Liniensensors relativ zur Radachse (Wheelbase) entscheidend \cite{linefollower_geometry}. Der Sensor muss zwingend \textit{vor} der Radachse montiert sein, damit der Regler frühzeitig auf Kurven reagieren kann und nicht erst dann, wenn der Roboter bereits von der Linie abgewichen ist.
+	
+	Je grösser der Abstand zwischen Sensor und Radachse, desto mehr Zeit hat der Regler, gegenzusteuern. Allerdings führt ein zu grosser Abstand bei engen Kurven zu Überschwingern, da die Regelabweichung zu früh und zu stark korrigiert wird. Ein praxiserprobter Kompromiss liegt bei einem Vorhalteabstand von ca. 5--10\,cm vor der Vorderachse.
+	
+	Zudem ist auf eine symmetrische Montage des Sensorarrays zu achten, damit keine systematische Drift in eine Fahrtrichtung entsteht.
+	
+	\subsection{Antriebskonzept}
+	
+	Als Antriebskonzept würde sich ein Differentialantrieb (Differential Drive) sehr gut eignen. \cite{differential_drive}. Dabei werden zwei unabhängig angesteuerte Antriebsräder auf einer gemeinsamen Achse verwendet. Durch unterschiedliche Drehzahlen der Räder kann der Roboter kurven und sich auf der Stelle drehen. Dieses Konzept ist mechanisch einfach, gut regelbar und erprobt für Linienfolger-Anwendungen.
+	
+	Ein drittes Stützrad (Casterwheel) oder ein Gleitklotz verhindert das Kippen und gewährleistet eine stabile Dreipunktauflage auf dem Spielfeld.
+	
+	\subsection{Greif- und Armmechanismus}
+	
+	Für die Aufnahme und Abgabe der Pakete wird ein Greif- bzw. Armmechanismus benötigt. Da die Pakete auf ihrer Unterseite einen grossen Magneten tragen, bieten sich zwei grundlegende Ansätze an \cite{gripper_mechanism}:
+	
+	\begin{itemize}
+		\item \textbf{Passiver Magnetgreifer:} Ein fest montierter Gegenmagnet oder eine Eisenplatte am Roboter zieht das Paket beim Unterfahren automatisch an. Kein Aktuator nötig – einfach und zuverlässig, jedoch wenig kontrollierbar bei der Ablage.
+		\item \textbf{Aktiver Servo-Greifer:} Ein RC-Servo bewegt einen Arm oder eine Klappe, die das Paket aufnimmt und kontrolliert ablegt. Dieser Ansatz ist komplexer, ermöglicht aber eine präzise und reproduzierbare Ablage direkt im Hausfeld \cite{servo_gripper}.
+	\end{itemize}
+	
+	\subsubsection{Armgeometrie}
+	
+	Der Arm muss so dimensioniert sein, dass er innerhalb der maximalen Roboterausdehnung von 200\,mm $\times$ 200\,mm bleibt. Im eingeklappten Zustand darf der Arm die Tunneldurchfahrt (250\,mm $\times$ 250\,mm) nicht gefährden. Ein einfacher Ein-Gelenk-Arm, angetrieben durch einen einzelnen Servo, ist mechanisch unkompliziert und für diese Aufgabe ausreichend.
+	
+	Der Servo wird so positioniert, dass er das Paket von oben greift oder von der Seite her einklappt. Die Endposition des Arms beim Abliefern muss so gewählt sein, dass das Paket vollständig auf dem Hausfeld abgestellt wird, was die Ablieferbedingung der Aufgabenstellung erfüllt.
+	
+	% --------------------
+	% Elektronik
+	% --------------------
+	\section{Elektronik}
+	
+	\subsection{NUCLEO-F446RE}
+	
+	Das STM32 Nucleo-F446RE ist das zentrale Steuerboard des Roboters. Es basiert auf dem ARM Cortex-M4 Mikroprozessor und läuft mit bis zu 180\,MHz. Das Board bietet zahlreiche GPIO-Pins, UART-, SPI- und I\textsuperscript{2}C-Schnittstellen sowie integrierte PWM-Kanäle, die für die Motoransteuerung genutzt werden. Die Programmierung erfolgt in C++ unter Verwendung der mbed-Bibliothek.
+	
+	\subsection{ZHAW PES Board}
+	
+	Das PES Board (Platform for Embedded Systems) der ZHAW ergänzt das Nucleo-Board und stellt zusätzliche Leistungselektronik bereit. Es beinhaltet u.\,a. Motortreiber (H-Brücken) für DC-Motoren und Servo-Ausgänge, was die externe Beschaltung erheblich vereinfacht.
+	
+	\subsubsection{DC-Motor}
+	
+	Als Antriebsmotoren werden DC-Getriebemotoren der Pololu 20D-Serie eingesetzt. Diese Motoren überzeugen durch ihr kompaktes Format (20\,mm Durchmesser), verschiedene Getriebeuntersetzungen (z.\,B. 10:1 bis 150:1) und eine gute Verfügbarkeit von passendem Zubehör. In Kombination mit einem integrierten Encoder ermöglichen sie eine präzise Drehzahl- und Positionsregelung.
+	
+	\begin{itemize}
+		\item \textbf{Motor:} Pololu 20D Metal Gearmotors \cite{pololu_motor}
+		\item \textbf{Encoder:} Pololu Magnetic Encoder für 20D-Motoren \cite{pololu_encoder}
+	\end{itemize}
+	
+	Die Encoder liefern Impulse pro Umdrehung (CPR), aus denen die aktuelle Drehzahl sowie die zurückgelegte Strecke berechnet werden können. Dies ist Grundlage für die Odometrie und die Motorregelung.
+	
+	\subsubsection{Servo-Motor}
+	
+	RC-Servomotoren werden für die Greifmechanik oder den Paketablegemechanismus eingesetzt. Sie lassen sich einfach über PWM-Signale (typisch 50\,Hz, Pulsweite 1--2\,ms) ansteuern und sind in verschiedenen Drehmomentstufen erhältlich. Folgende Modelle wurden recherchiert:
+	
+	\begin{itemize}
+		\item Reely Standard-Servo CYS-S0090 \cite{conrad_servo_reely} -- Analogservo mit Metallgetriebe, kompakt und robust
+		\item Futaba Servo S-3001 \cite{modellsport_futaba} -- Bewährtes Standardmodell, gutes Preis-Leistungs-Verhältnis
+	\end{itemize}
+	
+	\subsubsection{LED}
+	
+	LEDs werden zur Statusanzeige des Roboters verwendet (z.\,B. Bereitschaft, Fehler, Farberkennung). Es wird ein Sortiment mit roten, blauen, grünen und gelben LEDs (5\,mm Durchmesser) eingesetzt, das auch warmweisse LEDs enthält. Die Lichtintensitäten variieren je nach Farbe zwischen 120\,mcd und 20\,000\,mcd.
+	
+	\begin{itemize}
+		\item Barthelme LED-Sortiment \cite{conrad_led} -- Verschiedene Farben und Helligkeiten
+	\end{itemize}
+	
+	\subsubsection{Drucksensor}
+	
+	Ein Drucksensor (Taster/Mikroschalter) kann zur Erkennung von Paketen oder als End-Anschlag-Sensor in der Greifmechanik eingesetzt werden. Der Omron D3V-166-2C5 ist ein kompakter Subminiatur-Mikroschalter mit definierten Schaltpunkten und langer Lebensdauer.
+	
+	\begin{itemize}
+		\item Omron D3V-166-2C5 \cite{digikey_omron} -- Mikroschalter, 0,1\,A / 30\,VDC
+	\end{itemize}
+	
+	\subsubsection{IR-Sensor}
+	
+	Der Sharp GP2Y0A41SK0F ist ein analoger Infrarot-Distanzsensor mit einem Messbereich von 4--30\,cm. Er eignet sich zur Hinderniserkennung in kurzer Distanz, z.\,B. um das Vorhandensein eines Pakets zu detektieren oder einen Abstand zur Wand zu messen. Die Ausgangsspannung ist nicht-linear zur Distanz, weshalb eine Kalibrierung oder Lookup-Tabelle empfohlen wird.
+	
+	\begin{itemize}
+		\item Sharp GP2Y0A41SK0F \cite{digikey_sharp_ir} -- IR-Distanzsensor, 4--30\,cm
+	\end{itemize}
+	
+	\subsubsection{Ultraschall-Sensor}
+	
+	Der Grove Ultrasonic Ranger von Seeed Studio ist ein einfach zu integrierender Ultraschallsensor mit einem Messbereich von 2--350\,cm. Er kommuniziert über ein einzelnes digitales Pin (Trigger und Echo kombiniert) und ist daher GPIO-sparend. Der Sensor eignet sich für die Hinderniserkennung auf mittlere Distanz.
+	
+	\begin{itemize}
+		\item Grove Ultrasonic Ranger \cite{seeed_ultrasonic} -- Messbereich 2--350\,cm, 3,3\,V / 5\,V kompatibel
+	\end{itemize}
+	
+	\subsubsection{Farbsensor}
+	
+	Zur Erkennung der Paket- und Hausfarben wird ein Farbsensor benötigt. Der TCS3200 (bzw. TCS230) ist ein weit verbreitetes Modul, das aus einem Array von Fotodioden mit verschiedenen Farbfiltern (Rot, Grün, Blau, kein Filter) besteht und die Lichtintensität als Frequenz ausgibt. Die Farbwerte werden aus dem Verhältnis der drei Kanäle berechnet.
+	
+	\begin{itemize}
+		\item TCS3200 Farbsensor-Modul \cite{berrybase_tcs3200} -- Einfache Ansteuerung, gute Dokumentation
+		\item Beispielprojekt TCS3200 \cite{turanis_tcs3200} -- Referenzimplementierung mit Code-Beispielen
+	\end{itemize}
+	
+	Es ist zu beachten, dass die Farberkennung stark von den Umgebungslichtverhältnissen abhängt. Eine gezielte Beleuchtung (z.\,B. mit weissen LEDs direkt am Sensor) verbessert die Reproduzierbarkeit erheblich.
+	
+	\subsubsection{Line-Follower-Array}
+	
+	Das QTR-8RC Reflectance Sensor Array von SparkFun enthält 8 IR-Reflexionssensoren in einer Reihe und ist speziell für Linienfolger-Anwendungen konzipiert. Es liefert pro Sensor einen digitalen oder analogen Wert, aus dem eine gewichtete Linienpositon berechnet werden kann. Dieses Array vereinfacht die Sensorik erheblich gegenüber einzelnen Sensoren.
+	
+	\begin{itemize}
+		\item SparkFun QTR-8RC Line Sensor Array \cite{sparkfun_linesensor} -- 8 Kanäle, direkter Anschluss an Microcontroller-GPIO
+	\end{itemize}
+	
+	% --------------------
+	% Informatik
+	% --------------------
+	\section{Informatik}
+	
+	\subsection{PD-Regler (Linienfolger)}
+	
+	Für den Linienfolger kann ein PD-Regler (Proportional-Differential) kann eingesetzt werden. Dieser berechnet aus der aktuellen Linienabweichung (Regelgrösse) eine Lenk-Korrektur für die Differentialgeschwindigkeit der beiden Antriebsräder.
+	
+	Der P-Anteil reagiert proportional auf die aktuelle Abweichung, während der D-Anteil auf die Änderungsrate der Abweichung reagiert und Überschwinger dämpft. Ein reiner P-Regler würde auf der Linie oszillieren; der D-Anteil stabilisiert das System erheblich.
+	
+	Die Reglergleichung lautet:
+	
+	\begin{equation}
+		u(t) = K_p \cdot e(t) + K_d \cdot \frac{de(t)}{dt}
+	\end{equation}
+	
+	wobei $e(t)$ die Lageabweichung (z.\,B. gewichtete Sensorposition) und $u(t)$ der Lenkkorrekturwert ist. Die Parameter $K_p$ und $K_d$ werden empirisch durch iteratives Testen auf der Strecke eingestellt.
+	
+	Eine bewährte Vorgehensweise zum Tuning ist bei Robot Research Lab dokumentiert \cite{pid_tuning}.
+	
+	\subsection{Zustandsmaschine}
+	
+	Der Ablauf des Roboters (Paket suchen, aufnehmen, transportieren, abliefern) wird über eine Zustandsmaschine (Finite State Machine, FSM) gesteuert. Jeder Zustand definiert das aktuelle Verhalten des Roboters sowie die Übergangsbedingungen in den nächsten Zustand. Dadurch ist das Verhalten übersichtlich strukturiert und leicht erweiterbar \cite{fsm_wikipedia}.
+	
+	% --------------------
+	% Vergleichbare Projekte
+	% --------------------
+	\section{Vergleichbare Projekte}
+	
+	Im Rahmen der Recherche wurden verschiedene vergleichbare Projekte aus dem Bereich autonomer Linienfolger-Roboter gesichtet. Diese dienen als Orientierung für die eigene Konzeptentwicklung.
+	
+	\begin{itemize}
+		\item \textbf{Pololu 3pi+ Robot:} Ein weit verbreiteter Linienfolger-Roboter auf Arduino-Basis mit integriertem QTR-Sensorarray und PID-Regler. Er bietet eine gute Referenzimplementierung für Sensor-Kalibrierung und Reglertuning.
+		
+		\item \textbf{ZHAW-interne Vorprojekte:} Aus früheren PM2-Modulen existieren Erfahrungsberichte und Teilkonzepte, die als Inspirationsquelle und Fehlervermeidung dienen.
+		
+		\item \textbf{Open-Source Linienfolger Communities:} Auf Plattformen wie GitHub und Instructables sind zahlreiche dokumentierte Projekte mit Schaltplänen, Code und Erfahrungsberichten verfügbar, die Hinweise zu typischen Problemen (z.\,B. Lichtempfindlichkeit des Farbsensors, Encoder-Rauschen) geben.
+	\end{itemize}
+	
+	Die gesichteten Projekte bestätigen die gewählten Lösungsansätze und zeigen gleichzeitig potenzielle Stolpersteine auf, die bei der weiteren Entwicklung berücksichtigt werden.
+	
+	% --------------------
+	% Literaturverzeichnis
+	% --------------------
+	\newpage
+	\printbibliography
+	
 \end{document}
