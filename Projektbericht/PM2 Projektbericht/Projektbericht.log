@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.12)  15 APR 2026 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.12)  30 APR 2026 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,6 +506,10 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 z/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
 
@@ -570,19 +574,281 @@ File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks41
 \c@AM@survey=\count306
 \AM@templatesizebox=\box69
-) (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+) (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
-(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
+
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
 ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count307
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+\c@tabx@nest=\count308
+\c@listtotal=\count309
+\c@listcount=\count310
+\c@liststart=\count311
+\c@liststop=\count312
+\c@citecount=\count313
+\c@citetotal=\count314
+\c@multicitecount=\count315
+\c@multicitetotal=\count316
+\c@instcount=\count317
+\c@maxnames=\count318
+\c@minnames=\count319
+\c@maxitems=\count320
+\c@minitems=\count321
+\c@citecounter=\count322
+\c@maxcitecounter=\count323
+\c@savedcitecounter=\count324
+\c@uniquelist=\count325
+\c@uniquename=\count326
+\c@refsection=\count327
+\c@refsegment=\count328
+\c@maxextratitle=\count329
+\c@maxextratitleyear=\count330
+\c@maxextraname=\count331
+\c@maxextradate=\count332
+\c@maxextraalpha=\count333
+\c@abbrvpenalty=\count334
+\c@highnamepenalty=\count335
+\c@lownamepenalty=\count336
+\c@maxparens=\count337
+\c@parenlevel=\count338
+\blx@tempcnta=\count339
+\blx@tempcntb=\count340
+\blx@tempcntc=\count341
+\c@blx@maxsection=\count342
+\blx@maxsegment@0=\count343
+\blx@notetype=\count344
+\blx@parenlevel@text=\count345
+\blx@parenlevel@foot=\count346
+\blx@sectionciteorder@0=\count347
+\blx@sectionciteorderinternal@0=\count348
+\blx@entrysetcounter=\count349
+\blx@biblioinstance=\count350
+\labelnumberwidth=\skip58
+\labelalphawidth=\skip59
+\biblabelsep=\skip60
+\bibitemsep=\skip61
+\bibnamesep=\skip62
+\bibinitsep=\skip63
+\bibparsep=\skip64
+\bibhang=\skip65
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language80
+\c@mincomprange=\count351
+\c@maxcomprange=\count352
+\c@mincompwidth=\count353
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count354
+\c@savedafterword=\count355
+\c@annotator=\count356
+\c@savedannotator=\count357
+\c@author=\count358
+\c@savedauthor=\count359
+\c@bookauthor=\count360
+\c@savedbookauthor=\count361
+\c@commentator=\count362
+\c@savedcommentator=\count363
+\c@editor=\count364
+\c@savededitor=\count365
+\c@editora=\count366
+\c@savededitora=\count367
+\c@editorb=\count368
+\c@savededitorb=\count369
+\c@editorc=\count370
+\c@savededitorc=\count371
+\c@foreword=\count372
+\c@savedforeword=\count373
+\c@holder=\count374
+\c@savedholder=\count375
+\c@introduction=\count376
+\c@savedintroduction=\count377
+\c@namea=\count378
+\c@savednamea=\count379
+\c@nameb=\count380
+\c@savednameb=\count381
+\c@namec=\count382
+\c@savednamec=\count383
+\c@translator=\count384
+\c@savedtranslator=\count385
+\c@shortauthor=\count386
+\c@savedshortauthor=\count387
+\c@shorteditor=\count388
+\c@savedshorteditor=\count389
+\c@labelname=\count390
+\c@savedlabelname=\count391
+\c@institution=\count392
+\c@savedinstitution=\count393
+\c@lista=\count394
+\c@savedlista=\count395
+\c@listb=\count396
+\c@savedlistb=\count397
+\c@listc=\count398
+\c@savedlistc=\count399
+\c@listd=\count400
+\c@savedlistd=\count401
+\c@liste=\count402
+\c@savedliste=\count403
+\c@listf=\count404
+\c@savedlistf=\count405
+\c@location=\count406
+\c@savedlocation=\count407
+\c@organization=\count408
+\c@savedorganization=\count409
+\c@origlocation=\count410
+\c@savedoriglocation=\count411
+\c@origpublisher=\count412
+\c@savedorigpublisher=\count413
+\c@publisher=\count414
+\c@savedpublisher=\count415
+\c@language=\count416
+\c@savedlanguage=\count417
+\c@origlanguage=\count418
+\c@savedoriglanguage=\count419
+\c@pageref=\count420
+\c@savedpageref=\count421
+\shorthandwidth=\skip66
+\shortjournalwidth=\skip67
+\shortserieswidth=\skip68
+\shorttitlewidth=\skip69
+\shortauthorwidth=\skip70
+\shorteditorwidth=\skip71
+\locallabelnumberwidth=\skip72
+\locallabelalphawidth=\skip73
+\localshorthandwidth=\skip74
+\localshortjournalwidth=\skip75
+\localshortserieswidth=\skip76
+\localshorttitlewidth=\skip77
+\localshortauthorwidth=\skip78
+\localshorteditorwidth=\skip79
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count422
+\c@textcitetotal=\count423
+\c@textcitemaxnames=\count424
+\c@biburlbigbreakpenalty=\count425
+\c@biburlbreakpenalty=\count426
+\c@biburlnumpenalty=\count427
+\c@biburlucpenalty=\count428
+\c@biburllcpenalty=\count429
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count430
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bb
+x
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+bx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count431
+\c@bbx:relatedtotal=\count432
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cb
+x
+File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count433
+\l__pdf_internal_box=\box70
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-01-04 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+))
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
 keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -590,19 +856,7 @@ Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
 ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-))
-(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
@@ -621,24 +875,24 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count307
+)
+\c@section@level=\count434
 )
 \@linkdim=\dimen281
-\Hy@linkcounter=\count308
-\Hy@pagecounter=\count309
- (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+\Hy@linkcounter=\count435
+\Hy@pagecounter=\count436
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+)
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count310
- (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+\Hy@SavedSpaceFactor=\count437
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -651,12 +905,7 @@ Package hyperref Info: Plain pages OFF on input line 4196.
 Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4448.
-\c@Hy@tempcnt=\count311
-
-(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
+\c@Hy@tempcnt=\count438
 LaTeX Info: Redefining \url on input line 4786.
 \XeTeXLinkMargin=\dimen282
 
@@ -668,7 +917,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count312
+\Fld@menulength=\count439
 \Field@Width=\dimen283
 \Fld@charsize=\dimen284
 Package hyperref Info: Hyper figures OFF on input line 6065.
@@ -683,9 +932,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6095.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count313
-\c@Item=\count314
-\c@Hfootnote=\count315
+\Hy@abspage=\count440
+\c@Item=\count441
+\c@Hfootnote=\count442
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -696,8 +945,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count316
-\c@bookmark@seq@number=\count317
+\Fld@listcount=\count443
+\c@bookmark@seq@number=\count444
 
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -710,15 +959,11 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip58
+\Hy@SectionHShift=\skip80
 )
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarymatrix.code.tex
 File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryfit.code.tex
@@ -738,9 +983,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count318
-\Gm@cntv=\count319
-\c@Gm@tempcnt=\count320
+\Gm@cnth=\count445
+\Gm@cntv=\count446
+\c@Gm@tempcnt=\count447
 \Gm@bindingoffset=\dimen289
 \Gm@wd@mp=\dimen290
 \Gm@odd@mp=\dimen291
@@ -753,46 +998,46 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 
-(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count321
-\l__pdf_internal_box=\box70
-) (Projektbericht.aux)
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count448
+\@quotereset=\count449
+(Projektbericht.aux)
 \openout1 = `Projektbericht.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
+\scratchcounter=\count450
 \scratchdimen=\dimen297
 \scratchbox=\box71
-\nofMPsegments=\count323
-\nofMParguments=\count324
+\nofMPsegments=\count451
+\nofMParguments=\count452
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count325
+\MPscratchCnt=\count453
 \MPscratchDim=\dimen298
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
+\MPnumerator=\count454
+\makeMPintoPDFobject=\count455
 \everyMPtoPDFconversion=\toks44
 )
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -823,11 +1068,38 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring ON on input line 43.
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
 
-(Projektbericht.out) (Projektbericht.out)
-\@outlinefile=\write4
-\openout4 = `Projektbericht.out'.
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lb
+x
+File: ngerman.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `Projektbericht.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Projektbericht.bbl' found.
+ (Projektbericht.bbl)
+Package biblatex Info: Reference section=0 on input line 50.
+Package biblatex Info: Reference segment=0 on input line 50.
+Package hyperref Info: Link coloring ON on input line 50.
+ (Projektbericht.out) (Projektbericht.out)
+\@outlinefile=\write5
+\openout5 = `Projektbericht.out'.
 
 
 *geometry* driver: auto-detecting
@@ -864,12 +1136,12 @@ Package hyperref Info: Link coloring ON on input line 43.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
 
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
 
 
 (C:\Users\recjo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -878,285 +1150,412 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (Projektbericht.toc [1
 
 {C:/Users/recjo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
-\tf@toc=\write5
-\openout5 = `Projektbericht.toc'.
+\tf@toc=\write6
+\openout6 = `Projektbericht.toc'.
 
  [2]
-<Bilder/LineXpress.png, id=336, 760.64175pt x 418.56375pt>
+<Bilder/LineXpress.png, id=273, 760.64175pt x 418.56375pt>
 File: Bilder/LineXpress.png Graphic file (type png)
 <use Bilder/LineXpress.png>
-Package pdftex.def Info: Bilder/LineXpress.png  used on input line 60.
-(pdftex.def)             Requested size: 380.31995pt x 209.28136pt.
+Package pdftex.def Info: Bilder/LineXpress.png  used on input line 68.
+(pdftex.def)             Requested size: 384.11221pt x 211.36983pt.
+ [3
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 61.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+ <./Bilder/LineXpress.png>] [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 97--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
  []
 
-[3
 
- <./Bilder/LineXpress.png>]
-<PDFS/Funktionsstruktur.pdf, id=348, page=1, 845.0471pt x 597.51233pt>
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+<PDFS/Funktionsstruktur.pdf, id=302, page=1, 845.0471pt x 597.51233pt>
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf, page 1>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
-109.
+148.
 (pdftex.def)             Requested size: 512.14963pt x 178.45728pt.
+<Bilder/ErsterPrototyp.jpeg, id=305, 1069.9975pt x 1606.0pt>
+File: Bilder/ErsterPrototyp.jpeg Graphic file (type jpg)
+<use Bilder/ErsterPrototyp.jpeg>
+Package pdftex.def Info: Bilder/ErsterPrototyp.jpeg  used on input line 185.
+(pdftex.def)             Requested size: 160.49269pt x 240.8896pt.
+[7 <./PDFS/Funktionsstruktur.pdf>]
+<Bilder/platzhalter.jpg, id=330, 1606.0pt x 1069.9975pt>
+File: Bilder/platzhalter.jpg Graphic file (type jpg)
+<use Bilder/platzhalter.jpg>
+Package pdftex.def Info: Bilder/platzhalter.jpg  used on input line 213.
+(pdftex.def)             Requested size: 192.71169pt x 128.39415pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 100--110
+Overfull \hbox (15.0pt too wide) in paragraph at lines 209--219
 [][] 
  []
 
-[4 <./PDFS/Funktionsstruktur.pdf>]
-<Bilder/ErsterPrototyp.jpeg, id=371, 1069.9975pt x 1606.0pt>
-File: Bilder/ErsterPrototyp.jpeg Graphic file (type jpg)
-<use Bilder/ErsterPrototyp.jpeg>
-Package pdftex.def Info: Bilder/ErsterPrototyp.jpeg  used on input line 146.
-(pdftex.def)             Requested size: 160.49269pt x 240.8896pt.
+[8 <./Bilder/ErsterPrototyp.jpeg> <./Bilder/platzhalter.jpg>]
+File: Bilder/platzhalter.jpg Graphic file (type jpg)
+<use Bilder/platzhalter.jpg>
+Package pdftex.def Info: Bilder/platzhalter.jpg  used on input line 233.
+(pdftex.def)             Requested size: 192.71169pt x 128.39415pt.
 
+Overfull \hbox (15.0pt too wide) in paragraph at lines 229--239
+[][] 
+ []
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 147.
-See the caption package documentation for explanation.
-
-[5 <./Bilder/ErsterPrototyp.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 214--217
+[9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 260--263
 
  []
 
-[6] [7] [8]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=471, 597.432pt x 845.07718p
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
+[]|\T1/cmr/bx/n/7 STM32-
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 435--435
+[]|\T1/cmr/m/n/7 PB_ENABLE_ DC-MO-
+ []
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 435--435
+[]|\T1/cmr/m/n/7 Blauer Tas-ter auf dem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
+[]|\T1/cmr/m/n/7 Grüne LED auf dem
+ []
+
+[11] [12] [13]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 569.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--576
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--579
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--587
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--590
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--593
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--596
+
+ []
+
+[14]
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=392, 597.432pt x 845.07718p
 t>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf  used o
-n input line 538.
+n input line 670.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=473, page=1, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=394, page=1, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 1>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page1
- used on input line 538.
+ used on input line 670.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 1>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page1
- used on input line 538.
+ used on input line 670.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [9]
+ [15]
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 1>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page1
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 1>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page1
- used on input line 538.
+ used on input line 670.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 1>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page1
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [10
-
- <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=505, page=2, 597.432pt x 84
-5.07718pt>
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 2>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page2
- used on input line 538.
+ used on input line 670.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 2>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page2
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 2>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page2
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-
-[11
-
- <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=514, page=3, 597.432pt x 84
-5.07718pt>
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 3>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page3
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 3>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page3
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 3>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page3
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [12
-
- <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=525, page=4, 597.432pt x 84
-5.07718pt>
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 4>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page4
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 4>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page4
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 4>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page4
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [13
-
- <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=531, page=5, 597.432pt x 84
-5.07718pt>
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 5>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page5
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 5>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page5
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 5>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page5
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [14
-
- <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=536, page=6, 597.432pt x 84
-5.07718pt>
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 6>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page6
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 6>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page6
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 6>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page6
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [15
-
- <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=543, page=7, 597.432pt x 84
-5.07718pt>
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 7>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page7
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 7>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page7
- used on input line 538.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 7>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page7
- used on input line 538.
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 1>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page1
+ used on input line 670.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [16
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=548, page=8, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=429, page=2, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 8>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page8
- used on input line 538.
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 2>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page2
+ used on input line 670.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 8>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page8
- used on input line 538.
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 2>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page2
+ used on input line 670.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
-<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 8>
-Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page8
- used on input line 538.
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 2>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page2
+ used on input line 670.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [17
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=553, page=9, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=438, page=3, 597.432pt x 84
+5.07718pt>
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 3>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page3
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 3>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page3
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 3>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page3
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [18
+
+ <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=449, page=4, 597.432pt x 84
+5.07718pt>
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 4>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page4
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 4>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page4
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 4>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page4
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [19
+
+ <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=455, page=5, 597.432pt x 84
+5.07718pt>
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 5>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page5
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 5>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page5
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 5>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page5
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+
+[20
+
+ <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=460, page=6, 597.432pt x 84
+5.07718pt>
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 6>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page6
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 6>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page6
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 6>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page6
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [21
+
+ <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=467, page=7, 597.432pt x 84
+5.07718pt>
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 7>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page7
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 7>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page7
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 7>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page7
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [22
+
+ <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=472, page=8, 597.432pt x 84
+5.07718pt>
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 8>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page8
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 8>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page8
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
+<use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 8>
+Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page8
+ used on input line 670.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [23
+
+ <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=477, page=9, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 9>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page9
- used on input line 538.
+ used on input line 670.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 9>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page9
- used on input line 538.
+ used on input line 670.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 9>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page9
- used on input line 538.
+ used on input line 670.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-
-[18
+ [24
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
 
+pdfTeX warning: pdflatex.exe (file ./PDFS/Zeitplan.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<PDFS/Zeitplan.pdf, id=486, 1808.7575pt x 1205.50375pt>
+File: PDFS/Zeitplan.pdf Graphic file (type pdf)
+<use PDFS/Zeitplan.pdf>
+Package pdftex.def Info: PDFS/Zeitplan.pdf  used on input line 679.
+(pdftex.def)             Requested size: 1808.75311pt x 1205.50082pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./PDFS/Zeitplan.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./PDFS/Zeitplan.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<PDFS/Zeitplan.pdf, id=488, page=1, 1808.7575pt x 1205.50375pt>
+File: PDFS/Zeitplan.pdf Graphic file (type pdf)
+<use PDFS/Zeitplan.pdf, page 1>
+Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 679.
+(pdftex.def)             Requested size: 1808.75311pt x 1205.50082pt.
+File: PDFS/Zeitplan.pdf Graphic file (type pdf)
+<use PDFS/Zeitplan.pdf, page 1>
+Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 679.
+(pdftex.def)             Requested size: 597.7474pt x 398.3877pt.
+File: PDFS/Zeitplan.pdf Graphic file (type pdf)
+<use PDFS/Zeitplan.pdf, page 1>
+Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 679.
+(pdftex.def)             Requested size: 597.7474pt x 398.3877pt.
+File: PDFS/Zeitplan.pdf Graphic file (type pdf)
+<use PDFS/Zeitplan.pdf, page 1>
+Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 679.
+(pdftex.def)             Requested size: 597.7474pt x 398.3877pt.
+File: PDFS/Zeitplan.pdf Graphic file (type pdf)
+<use PDFS/Zeitplan.pdf, page 1>
+Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 679.
+(pdftex.def)             Requested size: 597.7474pt x 398.3877pt.
+[25
+
+
+ <./PDFS/Zeitplan.pdf>]
+
 pdfTeX warning: pdflatex.exe (file ./PDFS/Anforderungsliste.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<PDFS/Anforderungsliste.pdf, id=562, 597.55246pt x 845.07718pt>
+<PDFS/Anforderungsliste.pdf, id=496, 597.55246pt x 845.07718pt>
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf>
-Package pdftex.def Info: PDFS/Anforderungsliste.pdf  used on input line 556.
+Package pdftex.def Info: PDFS/Anforderungsliste.pdf  used on input line 688.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1166,122 +1565,126 @@ pdfTeX warning: pdflatex.exe (file ./PDFS/Anforderungsliste.pdf): PDF inclusion
 
 pdfTeX warning: pdflatex.exe (file ./PDFS/Anforderungsliste.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<PDFS/Anforderungsliste.pdf, id=564, page=1, 597.55246pt x 845.07718pt>
+<PDFS/Anforderungsliste.pdf, id=498, page=1, 597.55246pt x 845.07718pt>
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
-556.
+688.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
-556.
+688.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
-556.
+688.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
-556.
+688.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
-556.
+688.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[19
+[26
 
 
  <./PDFS/Anforderungsliste.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./PDFS/Anforderungsliste.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<PDFS/Anforderungsliste.pdf, id=586, page=2, 597.55246pt x 845.07718pt>
+<PDFS/Anforderungsliste.pdf, id=519, page=2, 597.55246pt x 845.07718pt>
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 2>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page2 used on input line 
-556.
+688.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 2>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page2 used on input line 
-556.
+688.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 2>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page2 used on input line 
-556.
+688.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[20
+[27
 
  <./PDFS/Anforderungsliste.pdf>]
-<PDFS/Funktionsstruktur.pdf, id=599, 845.0471pt x 597.51233pt>
+<PDFS/Funktionsstruktur.pdf, id=532, 845.0471pt x 597.51233pt>
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf>
-Package pdftex.def Info: PDFS/Funktionsstruktur.pdf  used on input line 565.
+Package pdftex.def Info: PDFS/Funktionsstruktur.pdf  used on input line 697.
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf, page 1>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
-565.
+697.
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf, page 1>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
-565.
+697.
 (pdftex.def)             Requested size: 597.53772pt x 422.50443pt.
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf, page 1>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
-565.
+697.
 (pdftex.def)             Requested size: 597.53772pt x 422.50443pt.
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf, page 1>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
-565.
+697.
 (pdftex.def)             Requested size: 597.53772pt x 422.50443pt.
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf, page 1>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
-565.
+697.
 (pdftex.def)             Requested size: 597.53772pt x 422.50443pt.
- [21
+ [28
 
 
-] [22] (Projektbericht.aux)
+] (Projektbericht.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `Projektbericht.out' has not changed.
-(rerunfilecheck)             Checksum: 66EC7E0E08B3B41624DD1320B86C2DB1;9340.
+(rerunfilecheck)             Checksum: D58CAFBBE8CD13A32B2EC7C628F60B09;7377.
+Package logreq Info: Writing requests to 'Projektbericht.run.xml'.
+\openout1 = `Projektbericht.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 24898 strings out of 474486
- 467662 string characters out of 5743754
- 1954542 words of memory out of 5000000
- 46667 multiletter control sequences out of 15000+600000
- 571679 words of font info for 72 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 84i,17n,87p,473b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\recjo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+ 32137 strings out of 474486
+ 615257 string characters out of 5743754
+ 1961542 words of memory out of 5000000
+ 53846 multiletter control sequences out of 15000+600000
+ 573914 words of font info for 75 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 84i,17n,87p,1161b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\recjo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
 1000.pk> <C:\Users\recjo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm0800.pk> <C:\Users\recjo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1200.pk> <C:\Users\recjo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecrm1000.pk> <C:\Users\recjo\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\recjo\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\recjo\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\recjo\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/recjo/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/recjo/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/re
-cjo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Projektbericht.pdf (22 pages, 7474682 bytes).
+0\ecbx0700.pk> <C:\Users\recjo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecrm0700.pk> <C:\Users\recjo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\tcrm1000.pk> <C:\Users\recjo\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\recjo\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\recjo\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\recjo\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\recjo\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\recjo\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\recjo\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/r
+ecjo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Projektbericht.pdf (28 pages, 7645538 bytes).
 PDF statistics:
- 994 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 623 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1041 PDF objects out of 1200 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 539 words of extra memory for PDF output out of 10000 (max. 10000000)
 
