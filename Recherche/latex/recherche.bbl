@@ -1,0 +1,361 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{conrad_led}{online}{}{}
+      \list{organization}{1}{%
+        {Conrad Electronic}%
+      }
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeltitlesource}{title}
+      \field{title}{Barthelme LED-Sortiment -- Rot, Blau, Grün, Gelb, Warmweiss, 5\,mm}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.conrad.ch/de/p/barthelme-led-sortiment-rot-blau-gruen-gelb-warmweiss-rund-5-mm-120-mcd-800-mcd-2000-mcd-20000-mcd-30-35-20-1666905.html
+      \endverb
+      \verb{url}
+      \verb https://www.conrad.ch/de/p/barthelme-led-sortiment-rot-blau-gruen-gelb-warmweiss-rund-5-mm-120-mcd-800-mcd-2000-mcd-20000-mcd-30-35-20-1666905.html
+      \endverb
+    \endentry
+    \entry{differential_drive}{online}{}{}
+      \list{organization}{1}{%
+        {Wikipedia}%
+      }
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{title}{Differential Wheeled Robot}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Differential_wheeled_robot
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Differential_wheeled_robot
+      \endverb
+    \endentry
+    \entry{fsm_wikipedia}{online}{}{}
+      \list{organization}{1}{%
+        {Wikipedia}%
+      }
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{title}{Endlicher Automat}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Endlicher_Automat
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Endlicher_Automat
+      \endverb
+    \endentry
+    \entry{turanis_tcs3200}{online}{}{}
+      \list{organization}{1}{%
+        {Turanis Elektronik}%
+      }
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{title}{Farbsensor TCS3200 -- Beispielprojekt mit Code}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://elektro.turanis.de/html/prj029/index.html
+      \endverb
+      \verb{url}
+      \verb https://elektro.turanis.de/html/prj029/index.html
+      \endverb
+    \endentry
+    \entry{modellsport_futaba}{online}{}{}
+      \list{organization}{1}{%
+        {Modellsport Schweizer}%
+      }
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{title}{Futaba Servo S-3001}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.modellsport.ch/RC-Elektronik/Servo/Futaba/Futaba-Servo-S-3001.html
+      \endverb
+      \verb{url}
+      \verb https://www.modellsport.ch/RC-Elektronik/Servo/Futaba/Futaba-Servo-S-3001.html
+      \endverb
+    \endentry
+    \entry{seeed_ultrasonic}{online}{}{}
+      \list{organization}{1}{%
+        {Seeed Studio}%
+      }
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{title}{Grove Ultrasonic Ranger -- Wiki}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/
+      \endverb
+      \verb{url}
+      \verb https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/
+      \endverb
+    \endentry
+    \entry{servo_gripper}{online}{}{}
+      \list{organization}{1}{%
+        {Instructables}%
+      }
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeltitlesource}{title}
+      \field{title}{How to Build a Simple Servo-Driven Robot Arm}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.instructables.com/Servo-Driven-Robot-Arm/
+      \endverb
+      \verb{url}
+      \verb https://www.instructables.com/Servo-Driven-Robot-Arm/
+      \endverb
+    \endentry
+    \entry{pid_tuning}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=c863e17d7f3f13dc439a8ed98d3027b4}{%
+           family={Lab},
+           familyi={L\bibinitperiod},
+           given={Robot\bibnamedelima Research},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c863e17d7f3f13dc439a8ed98d3027b4}
+      \strng{fullhash}{c863e17d7f3f13dc439a8ed98d3027b4}
+      \strng{fullhashraw}{c863e17d7f3f13dc439a8ed98d3027b4}
+      \strng{bibnamehash}{c863e17d7f3f13dc439a8ed98d3027b4}
+      \strng{authorbibnamehash}{c863e17d7f3f13dc439a8ed98d3027b4}
+      \strng{authornamehash}{c863e17d7f3f13dc439a8ed98d3027b4}
+      \strng{authorfullhash}{c863e17d7f3f13dc439a8ed98d3027b4}
+      \strng{authorfullhashraw}{c863e17d7f3f13dc439a8ed98d3027b4}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PID Line Follower Tuning}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://robotresearchlab.com/2019/02/16/pid-line-follower-tuning/
+      \endverb
+      \verb{url}
+      \verb http://robotresearchlab.com/2019/02/16/pid-line-follower-tuning/
+      \endverb
+    \endentry
+    \entry{linefollower_geometry}{online}{}{}
+      \list{organization}{1}{%
+        {Society of Robots}%
+      }
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{title}{Line Follower Robot -- Sensor Placement and Geometry}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.societyofrobots.com/programming_line_following.shtml
+      \endverb
+      \verb{url}
+      \verb https://www.societyofrobots.com/programming_line_following.shtml
+      \endverb
+    \endentry
+    \entry{digikey_omron}{online}{}{}
+      \list{organization}{1}{%
+        {DigiKey Electronics}%
+      }
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeltitlesource}{title}
+      \field{title}{Omron D3V-166-2C5 -- Subminiatur-Mikroschalter}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.digikey.ch/de/products/detail/omron-electronics-inc-emc-div/D3V-166-2C5/5236792
+      \endverb
+      \verb{url}
+      \verb https://www.digikey.ch/de/products/detail/omron-electronics-inc-emc-div/D3V-166-2C5/5236792
+      \endverb
+    \endentry
+    \entry{pololu_motor}{online}{}{}
+      \list{organization}{1}{%
+        {Pololu Corporation}%
+      }
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{Pololu 20D Metal Gearmotors}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.pololu.com/category/167/20d-metal-gearmotors
+      \endverb
+      \verb{url}
+      \verb https://www.pololu.com/category/167/20d-metal-gearmotors
+      \endverb
+    \endentry
+    \entry{pololu_encoder}{online}{}{}
+      \list{organization}{1}{%
+        {Pololu Corporation}%
+      }
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{Pololu Magnetic Encoder Kit for 20D Metal Gearmotors}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.pololu.com/product/3499
+      \endverb
+      \verb{url}
+      \verb https://www.pololu.com/product/3499
+      \endverb
+    \endentry
+    \entry{conrad_servo_reely}{online}{}{}
+      \list{organization}{1}{%
+        {Conrad Electronic}%
+      }
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeltitlesource}{title}
+      \field{title}{Reely Standard-Servo CYS-S0090 -- Analog-Servo, Metallgetriebe, Stecksystem JR}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.conrad.ch/de/p/reely-standard-servo-cys-s0090-analog-servo-getriebe-material-metall-stecksystem-jr-2203091.html
+      \endverb
+      \verb{url}
+      \verb https://www.conrad.ch/de/p/reely-standard-servo-cys-s0090-analog-servo-getriebe-material-metall-stecksystem-jr-2203091.html
+      \endverb
+    \endentry
+    \entry{gripper_mechanism}{online}{}{}
+      \list{organization}{1}{%
+        {RobotShop Community}%
+      }
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeltitlesource}{title}
+      \field{title}{Robot Gripper Design -- Principles and Mechanisms}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://community.robotshop.com/blog/show/robot-gripper-design
+      \endverb
+      \verb{url}
+      \verb https://community.robotshop.com/blog/show/robot-gripper-design
+      \endverb
+    \endentry
+    \entry{digikey_sharp_ir}{online}{}{}
+      \list{organization}{1}{%
+        {DigiKey Electronics}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{title}{Sharp GP2Y0A41SK0F -- IR-Distanzsensor 4--30\,cm}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.digikey.ch/de/products/detail/sharp-socle-technology/GP2Y0A41SK0F/3884447
+      \endverb
+      \verb{url}
+      \verb https://www.digikey.ch/de/products/detail/sharp-socle-technology/GP2Y0A41SK0F/3884447
+      \endverb
+    \endentry
+    \entry{sparkfun_linesensor}{online}{}{}
+      \list{organization}{1}{%
+        {SparkFun Electronics}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{title}{SparkFun Line Sensor Array -- QTR-8RC}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sparkfun.com/products/13582
+      \endverb
+      \verb{url}
+      \verb https://www.sparkfun.com/products/13582
+      \endverb
+    \endentry
+    \entry{berrybase_tcs3200}{online}{}{}
+      \list{organization}{1}{%
+        {BerryBase}%
+      }
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{title}{TCS230/TCS3200 Farbsensor-Modul}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.berrybase.ch/tcs230-tcs3200-farbsensor-modul
+      \endverb
+      \verb{url}
+      \verb https://www.berrybase.ch/tcs230-tcs3200-farbsensor-modul
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

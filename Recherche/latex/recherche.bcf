@@ -2372,6 +2372,23 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">literatur.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1" intorder="1">linefollower_geometry</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">differential_drive</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">gripper_mechanism</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">servo_gripper</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">pololu_motor</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">pololu_encoder</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">conrad_servo_reely</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">modellsport_futaba</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">conrad_led</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">digikey_omron</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">digikey_sharp_ir</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">seeed_ultrasonic</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">berrybase_tcs3200</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">turanis_tcs3200</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">sparkfun_linesensor</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">pid_tuning</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">fsm_wikipedia</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

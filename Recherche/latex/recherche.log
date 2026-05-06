@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.13)  24 FEB 2026 20:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.3.15)  6 MAY 2026 10:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -605,11 +605,59 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count432
+\float@exts=\toks27
+\float@box=\box55
+\@float@everytoks=\toks28
+\@floatcapt=\box56
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen166
+\lightrulewidth=\dimen167
+\cmidrulewidth=\dimen168
+\belowrulesep=\dimen169
+\belowbottomsep=\dimen170
+\aboverulesep=\dimen171
+\abovetopsep=\dimen172
+\cmidrulesep=\dimen173
+\cmidrulekern=\dimen174
+\defaultaddspace=\dimen175
+\@cmidla=\count433
+\@cmidlb=\count434
+\@aboverulesep=\dimen176
+\@belowrulesep=\dimen177
+\@thisruleclass=\count435
+\@lastruleclass=\count436
+\@thisrulewidth=\dimen178
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 24.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 26
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 35
 .
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
@@ -617,24 +665,24 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./recherche.aux)
 \openout1 = `recherche.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -644,14 +692,14 @@ LaTeX Font Info:    ... okay on input line 26.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
 * v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=426.79135pt
+* \textwidth=540.60239pt
 * \textheight=702.78308pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -672,17 +720,17 @@ LaTeX Font Info:    ... okay on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count432
-\scratchdimen=\dimen166
-\scratchbox=\box55
-\nofMPsegments=\count433
-\nofMParguments=\count434
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count435
-\MPscratchDim=\dimen167
-\MPnumerator=\count436
-\makeMPintoPDFobject=\count437
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count437
+\scratchdimen=\dimen179
+\scratchbox=\box57
+\nofMPsegments=\count438
+\nofMParguments=\count439
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count440
+\MPscratchDim=\dimen180
+\MPnumerator=\count441
+\makeMPintoPDFobject=\count442
+\everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -692,7 +740,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 26.
+Package hyperref Info: Link coloring OFF on input line 35.
 
 (./recherche.out) (./recherche.out)
 \@outlinefile=\write4
@@ -724,8 +772,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'recherche.bbl' found.
 
 (./recherche.bbl)
-Package biblatex Info: Reference section=0 on input line 26.
-Package biblatex Info: Reference segment=0 on input line 26.
+Package biblatex Info: Reference section=0 on input line 35.
+Package biblatex Info: Reference segment=0 on input line 35.
 
 
 [1
@@ -773,65 +821,163 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 \newpage
-              [1]
+l.60 	\newpage
+               [1]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
+4.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+<img/paket_bemassung.png, id=130, 387.4475pt x 634.37pt>
+File: img/paket_bemassung.png Graphic file (type png)
+<use img/paket_bemassung.png>
+Package pdftex.def Info: img/paket_bemassung.png  used on input line 107.
+(pdftex.def)             Requested size: 324.36473pt x 531.09578pt.
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 59.
 
-<img/Mechatronic.png, id=120, 299.6796pt x 236.5638pt>
+[2{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
+vips/lm/lm-mathsy.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.111 	
+       ]
+<img/spielfeld.png, id=140, 931.48pt x 431.6125pt>
+File: img/spielfeld.png Graphic file (type png)
+<use img/spielfeld.png>
+Package pdftex.def Info: img/spielfeld.png  used on input line 114.
+(pdftex.def)             Requested size: 324.36473pt x 150.29608pt.
+
+
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.118 	
+        <./img/paket_bemassung.png>]
+<img/position_farbfeld.png, id=147, 735.74875pt x 580.1675pt>
+File: img/position_farbfeld.png Graphic file (type png)
+<use img/position_farbfeld.png>
+Package pdftex.def Info: img/position_farbfeld.png  used on input line 121.
+(pdftex.def)             Requested size: 324.36473pt x 255.77908pt.
+<img/position_paket.png, id=148, 684.5575pt x 587.19376pt>
+File: img/position_paket.png Graphic file (type png)
+<use img/position_paket.png>
+Package pdftex.def Info: img/position_paket.png  used on input line 128.
+(pdftex.def)             Requested size: 324.36473pt x 278.23898pt.
+
+
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.132 	
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.132 	
+        <./img/spielfeld.png> <./img/position_farbfeld.png>]
+<img/Mechatronic.png, id=158, 299.6796pt x 236.5638pt>
 File: img/Mechatronic.png Graphic file (type png)
 <use img/Mechatronic.png>
-Package pdftex.def Info: img/Mechatronic.png  used on input line 68.
-(pdftex.def)             Requested size: 256.07741pt x 202.15945pt.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 105.
+Package pdftex.def Info: img/Mechatronic.png  used on input line 139.
+(pdftex.def)             Requested size: 324.36473pt x 256.06622pt.
 
 
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.143 	
+        <./img/position_paket.png>]
 
-[2 <./img/Mechatronic.png>]
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.166 	
+        <./img/Mechatronic.png>]
 
-[3]
+[7]
+Overfull \hbox (9.96107pt too wide) in paragraph at lines 227--228
+\T1/lmr/m/n/12 der Greif-me-cha-nik ein-ge-setzt wer-den. Der Om-ron D3V-166-2C
+5 ist ein kom-pak-ter Subminiatur-Mikroschalter
+ []
 
-[4]
 
-LaTeX Warning: Empty bibliography on input line 153.
 
-(./recherche.aux)
+[8]
+
+[9]
+Overfull \hbox (23.02177pt too wide) in paragraph at lines 298--299
+\T1/lmr/m/n/12 Im Rah-men der Re-cher-che wur-den ver-schie-de-ne ver-gleich-ba
+-re Pro-jek-te aus dem Be-reich au-to-no-mer Linienfolger-
+ []
+
+
+
+[10{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/e
+nc/dvips/lm/lm-rm.enc}]
+
+[11]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+14.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (9.53477pt too wide) in paragraph at lines 315--315
+[]\T1/lmr/m/it/12 Omron D3V-166-2C5 -- Subminiatur-Mikroschalter\T1/lmr/m/n/12 
+. Di-gi-Key Elec-tro-nics. \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : []$\T1/lmtt/m/n/
+12 https : / / www . digikey .
+ []
+
+
+Overfull \hbox (16.99901pt too wide) in paragraph at lines 315--315
+[]\T1/lmr/m/it/12 Robot Grip-per De-sign -- Prin-cip-les and Me-cha-nisms\T1/lm
+r/m/n/12 . Ro-botShop Com-mu-ni-ty. \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : []$\T1/
+lmtt/m/n/12 https : / / community .
+ []
+
+
+
+[12]
+
+[13] (./recherche.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `recherche.out' has not changed.
-(rerunfilecheck)             Checksum: E753295DD45FEDE2049027746D366489;2872.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                recherche
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: C70FC5A288548BE74C242FCE8A0A25B6;2937.
 Package logreq Info: Writing requests to 'recherche.run.xml'.
 \openout1 = `recherche.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18854 strings out of 473197
- 327943 string characters out of 5718605
- 1193682 words of memory out of 5000000
- 41856 multiletter control sequences out of 15000+600000
- 588931 words of font info for 54 fonts, out of 8000000 for 9000
+ 19889 strings out of 473197
+ 346930 string characters out of 5718605
+ 1221210 words of memory out of 5000000
+ 42831 multiletter control sequences out of 15000+600000
+ 599673 words of font info for 59 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 75i,6n,81p,698b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,81p,698b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmr12.pfb>
-Output written on recherche.pdf (5 pages, 171643 bytes).
+pe1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
+Output written on recherche.pdf (14 pages, 361721 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 342 PDF objects out of 1000 (max. 8388607)
+ 293 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 
