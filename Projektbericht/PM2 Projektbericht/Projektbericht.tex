@@ -583,7 +583,7 @@
 	gefährden. Wird eine Linie erkannt, setzt der Thread ein Flag, das die Hauptschleife 
 	beim nächsten Zyklus auswertet und den Roboter entsprechend reagieren lässt. \\ \\
 	\noindent
-	Das STM32 Nucleo F446RE verfügt über zwei User-Buttons. Wird der blaud gedrückt startet das Programm mit der Main-Loop und der Roboter fängt an zu fahren. Wird der schwarze gedrückt wird der Roboter zurückgesetzte und ist am warten.
+	Das STM32 Nucleo F446RE verfügt über zwei User-Buttons. Wird der blaue gedrückt startet das Programm mit der Main-Loop und der Roboter fängt an zu fahren. Wird der schwarze gedrückt wird der Roboter zurückgesetzt und ist am warten.
 	
 		\begin{figure}[H]
 			\centering
@@ -593,7 +593,6 @@
 		\end{figure}
 	\subsubsection{Statemachine}
 	\label{sss:statemachine}
-	
 	Die Statemachine ist das Herzstück der Ablaufsteuerung. Sie definiert, in welchem 
 	Zustand sich der Roboter gerade befindet und welche Aktionen er ausführt. Zu jedem 
 	Zeitpunkt ist genau ein Zustand aktiv. Ein Zustandswechsel erfolgt nur, wenn eine 
@@ -617,6 +616,11 @@
 		\caption{Übersicht der Zustände der Statemachine}
 		\label{tab:statemachine}
 	\end{table}
+	\noindent
+	Zu erwähnen ist, dass der Zustand \texttt{HANDLE\_PARCEL} selbst wiederum als 
+	eigene Statemachine implementiert ist, die jeden einzelnen Schritt der Armbewegung 
+	als separaten Zustand definiert. Im Rahmen dieses Berichts wird darauf nicht weiter 
+	eingegangen -- eine detaillierte Beschreibung findet sich in Anhang~\ref{app:handle-parcel}.
 	
 	
 	\subsubsection{Line-Follower Thread}
