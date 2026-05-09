@@ -4,12 +4,16 @@
 %Sprache
 \usepackage[ngerman]{babel}
 
+% Einheiten
+\usepackage{siunitx}
+\sisetup{locale = DE}
 
 
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{braket}
+\usepackage{booktabs}
 
 %--- Bilder
 \usepackage{graphicx}
@@ -44,11 +48,24 @@
 }
 \renewcommand{\arraystretch}{1.7}
 \usepackage[a4paper, margin=1.5cm]{geometry}
-\title{\textbf{Projektbericht}}
-\date{\today}
-\author{Nils Kreienbühl, Joel Rechsteiner, Patrick Itten, Sven Pfister, Mathias Menchini, Timo Kradolfer \\ ZHAW School of Engineering - Systemtechnik}
 \begin{document}
-	\maketitle
+	\begin{titlepage}
+		\centering
+		\vspace*{2cm}
+		
+		{\Large \textbf{Projektbericht -- Moon Carrier}}\\[1.5cm]
+		
+		\textbf{Team:} 3\\[0.3cm]
+		\textbf{Mitglieder:} Sven Pfister, Mathias Menchini, Timo Kradolfer,\\
+		Patrick Itten, Joel Rechsteiner, Nils Kreienbühl\\[0.3cm]
+		\textbf{Studiengang:} Systemtechnik\\
+		\textbf{Modul:} PM2\\
+		\textbf{Dozent/in:} Michael Wüthrich\\[1cm]
+		
+		\vfill
+	\end{titlepage}
+	
+	%\maketitle
 	\tableofcontents
 	\clearpage
 	
@@ -533,33 +550,102 @@
 	\section{Software}
 	
 	\subsection{Einführung und Übersicht}
-	Beschreibung der Softwarearchitektur und Zielsetzung.
 	
-	\subsection{Programmierumgebung}
-	\begin{itemize}
-		\item Verwendete Sprache
-		\item Entwicklungsumgebung
-		\item Bibliotheken
-	\end{itemize}
+	Das Programm steuert einen differenzialgetriebenen Roboter auf dem STM32 Nucleo F446RE unter Mbed OS. Die Ablaufsteuerung ist als Zustandsmaschine implementiert, die zwischen              
+	Linienverfolgung, Farberkennung und Kransteuerung wechselt. Ein separater Hintergrund-Thread überwacht parallel dazu die Kreuzungserkennung. Der blaue Button startet und stoppt den
+	gesamten Betrieb.
 	
-	\subsection{Softwarestruktur}
-		Ablaufdiagramm! 
-	\subsubsection{Modulübersicht}
-	\subsubsection{Datenfluss}
+	\subsection{Entwicklungsumgebung}
+	Der Roboter wird in C++ programmiert, einer weit verbreiteten Sprache für hardwarenahe Systeme. Als Betriebssystem kommt Mbed OS zum Einsatz, das grundlegende Funktionen wie Zeitmessung,  
+	Threads und Hardwarezugriff bereitstellt. Gebaut wird das Projekt mit PlatformIO, einem modernen Build-System, das Kompilierung und das Übertragen der Firmware auf den Mikrocontroller
+	vereinfacht.\\ \\
+	\noindent
+	Für spezifische Hardwarekomponenten – wie Motoren, Sensoren und Servos – werden eigene Bibliotheken verwendet, die im Rahmen des Kurses bereitgestellt wurden. Mathematische Berechnungen,  
+	etwa für die Fahrkinematik, nutzen die Bibliothek Eigen.\\ \\
+	\noindent
+	Der gesamte Quellcode wird mit Git versioniert, wodurch Änderungen nachvollziehbar dokumentiert und frühere Versionen bei Bedarf wiederhergestellt werden können.
 	
-	\subsection{Flow-Chart}
-	Darstellung des Programmablaufs als Flussdiagramm.  
-	Beschreibung der Hauptzustände:
-	\begin{itemize}
-		\item Initialisierung
-		\item Sensorabfrage
-		\item Entscheidungslogik
-		\item Aktorsteuerung
-		\item Fehlerbehandlung
-	\end{itemize}
+	\subsection{Softwarearchitektur}
+	\subsubsection{Ablauf unf Aufbau}
+	Das Programm hat zwei Hauptkompononenten: "(1) Main-Thread" und der "(2) Line-Follow-Thread". Ein "Thread" kann man sich hier wie einen eigenen Prozess vorstellen. Das Programm besitzt also zwei voneinander getrennte Prozesse. Die Kommunikation zwischen den Threads findet über das beschreiben von Globalen variabeln statt. \\ \\
+	\noindent
+	Der Main-Thread ist eine Schleife die eine Durchlaufzeit von 20ms hat, also eine eine Frequenz von 50Hz. Der Main-Thread behandelt die Grundsätzliche Logik des Roboters: Initialisieren, Fahren, Stoppen, Farben erkennen, Packetbehandlung. Die Arbarbeitung dieser Zustände bzw. States wird mittles dem State-Machine-Pattern gelöst. Auf die genaue Eigenschaften der einzelnen States, wird im Kapitel ~\ref{sss:statemachine} (\nameref{sss:statemachine}) eingeganen.\\ \\
+	\noindent
+	Der \texttt{Line-Follow}-Thread läuft parallel zur Hauptschleife und ist 
+	ausschliesslich dafür zuständig, den Liniensensor auszulesen und Markierungslinien 
+	auf dem Boden zu erkennen. Er arbeitet mit einer Abtastrate von \SI{250}{\hertz} 
+	-- also 250 Messungen pro Sekunde -- und ist damit fünfmal schneller als die Hauptschleife des Roboters.\\ \\
+	\noindent
+	Diese höhere Frequenz wurde bewusst gewählt: Bei zu geringer Abtastrate würde der 
+	Roboter bei höheren Fahrgeschwindigkeiten über eine Markierungslinie hinwegfahren, 
+	ohne sie zu erkennen. Durch den schnelleren Thread kann die Fahrgeschwindigkeit 
+	erhöht werden, ohne dabei die zuverlässige Erkennung der Markierungen zu 
+	gefährden. Wird eine Linie erkannt, setzt der Thread ein Flag, das die Hauptschleife 
+	beim nächsten Zyklus auswertet und den Roboter entsprechend reagieren lässt. \\ \\
+	\noindent
+	Das STM32 Nucleo F446RE verfügt über zwei User-Buttons. Wird der blaud gedrückt startet das Programm mit der Main-Loop und der Roboter fängt an zu fahren. Wird der schwarze gedrückt wird der Roboter zurückgesetzte und ist am warten.
 	
-	\subsection{Implementierungsdetails}
-	Erklärung wichtiger Funktionen und Algorithmen.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\textwidth]{flowchart}
+			\caption{Ablaufdiagram mit (1) Main-Thread, (2) Line-Follow-Thread und User-Button }
+			\label{fig: Flowchart}
+		\end{figure}
+	\subsubsection{Statemachine}
+	\label{sss:statemachine}
+	
+	Die Statemachine ist das Herzstück der Ablaufsteuerung. Sie definiert, in welchem 
+	Zustand sich der Roboter gerade befindet und welche Aktionen er ausführt. Zu jedem 
+	Zeitpunkt ist genau ein Zustand aktiv. Ein Zustandswechsel erfolgt nur, wenn eine 
+	bestimmte Bedingung erfüllt ist -- etwa wenn eine Markierungslinie erkannt oder eine 
+	Farbe identifiziert wurde. Die folgende Tabelle gibt einen Überblick über alle 
+	Zustände und ihre Funktion.
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{ll}
+			\toprule
+			\textbf{Zustand} & \textbf{Beschreibung} \\
+			\midrule
+			\texttt{INITIAL}        & Servos fahren in Ausgangsposition, Flags werden zurückgesetzt \\
+			\texttt{FORWARD}        & Roboter folgt der Linie \\
+			\texttt{COLOR\_SCAN}    & Roboter stoppt und identifiziert die Farbe der Markierung \\
+			\texttt{HANDLE\_PARCEL} & Kranarm nimmt ein Paket auf oder legt es ab \\
+			\texttt{SLEEP}          & Alle Aufgaben erledigt, Roboter bleibt stehen \\
+			\bottomrule
+		\end{tabular}
+		\caption{Übersicht der Zustände der Statemachine}
+		\label{tab:statemachine}
+	\end{table}
+	
+	
+	\subsubsection{Line-Follower Thread}
+	
+	Der Line-Follower-Thread liest den Liniensensor kontinuierlich aus und analysiert 
+	dessen Muster. Anhand des Musters wird unterschieden, ob der Roboter eine 
+	Abholmarkierung, eine Ablagemarkierung oder keine relevante Linie überquert. 
+	Sobald eine Markierung erkannt wird, setzt der Thread ein Flag, das die Hauptschleife 
+	beim nächsten Zyklus auswertet. Um eine Race-Condition zu vermeiden wird der Line-Follow-Thread nach dem Aufnehmen und Ablegen von Packeten für \SI{0.5}{\sec} pausiert. Technische Details zur Implementierung sind in 
+	Anhang~\ref{app:detect-cross} dokumentiert.
+	
+	
+	\subsubsection{Line-Follower Regelung}
+	
+	Damit der Roboter der Linie möglichst präzise folgt, kommt ein PD-Regler zum 
+	Einsatz. Dieser berechnet anhand der aktuellen Position der Linie relativ zum Roboter, 
+	wie stark gegengesteuert werden muss. Weicht der Roboter nach links ab, dreht der 
+	Regler nach rechts -- und umgekehrt. Das Ergebnis ist eine flüssige, stabile 
+	Linienverfolgung auch bei höheren Geschwindigkeiten.
+	
+	
+	\subsubsection{Kranarm}
+	
+	Der Kranarm übernimmt das Aufnehmen und Ablegen der Pakete. Die Bewegungssequenz 
+	ist in fünf Schritte unterteilt: Zuerst öffnet sich der Greifer, dann fährt der 
+	Arm aus, anschliessend bewegt sich der Kran zur Zielposition, fährt zurück und 
+	kehrt schliesslich in die Ausgangsposition zurück. Die genaue Zielposition des 
+	Krans hängt dabei von der erkannten Farbe des Pakets ab, da jede Farbe einem 
+	anderen Ablageort entspricht. Die Werte für die jeweilige Zielposition werden empirisch bestimmt und sind hart kodiert.
 	
 	%------------------------------------------------
 \newpage
