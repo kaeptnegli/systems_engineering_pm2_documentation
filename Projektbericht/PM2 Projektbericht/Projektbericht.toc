@@ -1,51 +1,53 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Produktentwicklung}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Einführung und Übersicht}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Projektplanung}{3}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}Zeitplan}{3}{subsubsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.3}Recherchebericht}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Anforderungsliste}{5}{subsection.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1}Anforderungen}{5}{subsubsection.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.2}Wunschanforderungen}{5}{subsubsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.5}Funktionsstruktur}{6}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Morphologischer Kasten}{6}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Nutzwertanalyse}{6}{subsection.1.7}%
-\contentsline {subsubsection}{\numberline {1.7.1}Bewertungskriterien}{6}{subsubsection.1.7.1}%
-\contentsline {subsubsection}{\numberline {1.7.2}Gewichtung}{6}{subsubsection.1.7.2}%
-\contentsline {subsubsection}{\numberline {1.7.3}Auswertung}{6}{subsubsection.1.7.3}%
-\contentsline {subsection}{\numberline {1.8}Erster Prototyp}{7}{subsection.1.8}%
-\contentsline {subsection}{\numberline {1.9}Zweiter Prototyp}{7}{subsection.1.9}%
-\contentsline {subsection}{\numberline {1.10}Finales Konzept}{8}{subsection.1.10}%
-\contentsline {section}{\numberline {2}Mechanik}{9}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Einführung und Übersicht}{9}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Entwicklung der mechanischen Lösung}{9}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Konzeptphase}{9}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Konstruktive Umsetzung}{9}{subsubsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.3}Finale Konstruktion}{9}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Skizzen der finalen Lösung}{9}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Screenshots der CAD-Konstruktion}{9}{subsubsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.4}Zusammenbau}{9}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Elektronik}{10}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Elektronikschema}{10}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Pinbelegung}{11}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Verwendete Bauteile}{11}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Software}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Einführung und Übersicht}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Entwicklungsumgebung}{12}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Softwarearchitektur}{12}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Ablauf unf Aufbau}{12}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Statemachine}{13}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}Line-Follower Thread}{13}{subsubsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.4}Line-Follower Regelung}{13}{subsubsection.4.3.4}%
-\contentsline {subsubsection}{\numberline {4.3.5}Kranarm}{13}{subsubsection.4.3.5}%
-\contentsline {section}{\numberline {5}Diskussion}{14}{section.5}%
-\contentsline {subsubsection}{\numberline {5.0.1}Bewertung der Ergebnisse}{14}{subsubsection.5.0.1}%
-\contentsline {subsubsection}{\numberline {5.0.2}Vergleich mit der Anforderungsliste}{14}{subsubsection.5.0.2}%
-\contentsline {subsubsection}{\numberline {5.0.3}Erkenntnisse aus den Tests}{14}{subsubsection.5.0.3}%
-\contentsline {subsubsection}{\numberline {5.0.4}Ausblick}{14}{subsubsection.5.0.4}%
-\contentsline {section}{\numberline {A}Anhang}{15}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Budget}{15}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}\ignorespaces (!!!ALT)Aufgabenstellung PDF}{16}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}\ignorespaces Zeitplan PDF}{25}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}\ignorespaces Anforderungsliste PDF}{26}{subsection.A.4}%
-\contentsline {subsection}{\numberline {A.5}\ignorespaces Funktionsstrucktur PDF}{28}{subsection.A.5}%
+\contentsline {section}{\numberline {1}Produktentwicklung}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Einführung und Übersicht}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Zeitplan}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Recherchebericht}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Anforderungsliste}{6}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Anforderungen}{6}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Wunschanforderungen}{6}{subsubsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.5}Funktionsstruktur}{7}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Morphologischer Kasten}{7}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Nutzwertanalyse}{9}{subsection.1.7}%
+\contentsline {subsubsection}{\numberline {1.7.1}Bewertungskriterien}{9}{subsubsection.1.7.1}%
+\contentsline {subsubsection}{\numberline {1.7.2}Gewichtung}{9}{subsubsection.1.7.2}%
+\contentsline {subsubsection}{\numberline {1.7.3}Auswertung}{9}{subsubsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.8}Erster Prototyp}{10}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Zweiter Prototyp}{10}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Finales Konzept}{12}{subsection.1.10}%
+\contentsline {section}{\numberline {2}Mechanik}{13}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Einführung}{13}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Hauptkomponenten}{13}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Grundplatte}{13}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Greifarm}{13}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Antrieb}{14}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Linearachse}{14}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}PES-Board und Akku}{14}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.6}Sensoren}{14}{subsubsection.2.2.6}%
+\contentsline {section}{\numberline {3}Elektronik}{15}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Elektronikschema}{15}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Pinbelegung}{16}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Verwendete Bauteile}{16}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Software}{18}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Einführung und Übersicht}{18}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Entwicklungsumgebung}{18}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Softwarearchitektur}{18}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Ablauf und Aufbau}{18}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Statemachine}{19}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Line-Follower Thread}{19}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}Line-Follower Regelung}{19}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.5}Greifarm}{20}{subsubsection.4.3.5}%
+\contentsline {section}{\numberline {5}Diskussion}{21}{section.5}%
+\contentsline {subsubsection}{\numberline {5.0.1}Bewertung der Ergebnisse}{21}{subsubsection.5.0.1}%
+\contentsline {subsubsection}{\numberline {5.0.2}Vergleich mit der Anforderungsliste}{21}{subsubsection.5.0.2}%
+\contentsline {subsubsection}{\numberline {5.0.3}Erkenntnisse aus den Tests}{21}{subsubsection.5.0.3}%
+\contentsline {subsubsection}{\numberline {5.0.4}Ausblick}{21}{subsubsection.5.0.4}%
+\contentsline {section}{\numberline {6}Literaturverzeichnis}{22}{section.6}%
+\contentsline {section}{Abbildungsverzeichnis}{23}{section*.26}%
+\contentsline {section}{Tabellenverzeichnis}{24}{section*.27}%
+\contentsline {section}{\numberline {A}Anhang}{24}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Budget}{24}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}\ignorespaces (!!!ALT)Aufgabenstellung PDF}{25}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}\ignorespaces Zeitplan PDF}{34}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}\ignorespaces Anforderungsliste PDF}{35}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}\ignorespaces Funktionsstrucktur PDF}{37}{subsection.A.5}%

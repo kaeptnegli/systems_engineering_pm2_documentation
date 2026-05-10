@@ -1,0 +1,430 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{mbed-os}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4c6b78ed398e0733e69047e17b88729f}{%
+           family={{Arm Limited}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c6b78ed398e0733e69047e17b88729f}
+      \strng{fullhash}{4c6b78ed398e0733e69047e17b88729f}
+      \strng{fullhashraw}{4c6b78ed398e0733e69047e17b88729f}
+      \strng{bibnamehash}{4c6b78ed398e0733e69047e17b88729f}
+      \strng{authorbibnamehash}{4c6b78ed398e0733e69047e17b88729f}
+      \strng{authornamehash}{4c6b78ed398e0733e69047e17b88729f}
+      \strng{authorfullhash}{4c6b78ed398e0733e69047e17b88729f}
+      \strng{authorfullhashraw}{4c6b78ed398e0733e69047e17b88729f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Abgerufen am 06.05.2025}
+      \field{title}{Mbed OS Documentation}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://os.mbed.com/docs/mbed-os/
+      \endverb
+      \verb{url}
+      \verb https://os.mbed.com/docs/mbed-os/
+      \endverb
+    \endentry
+    \entry{tcs3200}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=cd86d0d375325e5c6ac59786d39bbf92}{%
+           family={{BerryBase}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd86d0d375325e5c6ac59786d39bbf92}
+      \strng{fullhash}{cd86d0d375325e5c6ac59786d39bbf92}
+      \strng{fullhashraw}{cd86d0d375325e5c6ac59786d39bbf92}
+      \strng{bibnamehash}{cd86d0d375325e5c6ac59786d39bbf92}
+      \strng{authorbibnamehash}{cd86d0d375325e5c6ac59786d39bbf92}
+      \strng{authornamehash}{cd86d0d375325e5c6ac59786d39bbf92}
+      \strng{authorfullhash}{cd86d0d375325e5c6ac59786d39bbf92}
+      \strng{authorfullhashraw}{cd86d0d375325e5c6ac59786d39bbf92}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Abgerufen am 06.05.2025}
+      \field{title}{TCS230/TCS3200 Farbsensor-Modul}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.berrybase.ch/tcs230-tcs3200-farbsensor-modul
+      \endverb
+      \verb{url}
+      \verb https://www.berrybase.ch/tcs230-tcs3200-farbsensor-modul
+      \endverb
+    \endentry
+    \entry{akku-nimh}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b23f71a658e8a6eade5ae226330b4d01}{%
+           family={{Conrad Electronic}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{fullhash}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{fullhashraw}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{bibnamehash}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{authorbibnamehash}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{authornamehash}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{authorfullhash}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{authorfullhashraw}{b23f71a658e8a6eade5ae226330b4d01}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Abgerufen am 06.05.2025}
+      \field{title}{Reely Modellbau-Akkupack NiMH 6V 2300mAh}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.conrad.ch/de/p/reely-modellbau-akkupack-nimh-6-v-2300-mah-zellen-zahl-5-mignon-aa-side-by-side-jr-buchse-2613252.html
+      \endverb
+      \verb{url}
+      \verb https://www.conrad.ch/de/p/reely-modellbau-akkupack-nimh-6-v-2300-mah-zellen-zahl-5-mignon-aa-side-by-side-jr-buchse-2613252.html
+      \endverb
+    \endentry
+    \entry{servo-cys-s0090}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b23f71a658e8a6eade5ae226330b4d01}{%
+           family={{Conrad Electronic}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{fullhash}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{fullhashraw}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{bibnamehash}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{authorbibnamehash}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{authornamehash}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{authorfullhash}{b23f71a658e8a6eade5ae226330b4d01}
+      \strng{authorfullhashraw}{b23f71a658e8a6eade5ae226330b4d01}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Abgerufen am 06.05.2025}
+      \field{title}{Reely Standard-Servo CYS-S0090}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.conrad.ch/de/p/reely-standard-servo-cys-s0090-analog-servo-getriebe-material-metall-stecksystem-jr-2203091.html
+      \endverb
+      \verb{url}
+      \verb https://www.conrad.ch/de/p/reely-standard-servo-cys-s0090-analog-servo-getriebe-material-metall-stecksystem-jr-2203091.html
+      \endverb
+    \endentry
+    \entry{eigen}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{hash=32670d1e660cd3381144af1ebb08d86e}{%
+           family={Guennebaud},
+           familyi={G\bibinitperiod},
+           given={Gaël},
+           giveni={G\bibinitperiod}}}%
+        {{hash=21b11180bc565677569d5478e31829b2}{%
+           family={Jacob},
+           familyi={J\bibinitperiod},
+           given={Benoît},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{eafc0993b32136cfe757ebc2478ea140}
+      \strng{fullhash}{eafc0993b32136cfe757ebc2478ea140}
+      \strng{fullhashraw}{eafc0993b32136cfe757ebc2478ea140}
+      \strng{bibnamehash}{eafc0993b32136cfe757ebc2478ea140}
+      \strng{authorbibnamehash}{eafc0993b32136cfe757ebc2478ea140}
+      \strng{authornamehash}{eafc0993b32136cfe757ebc2478ea140}
+      \strng{authorfullhash}{eafc0993b32136cfe757ebc2478ea140}
+      \strng{authorfullhashraw}{eafc0993b32136cfe757ebc2478ea140}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Abgerufen am 06.05.2025}
+      \field{title}{Eigen -- C++ Template Library for Linear Algebra}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://eigen.tuxfamily.org
+      \endverb
+      \verb{url}
+      \verb https://eigen.tuxfamily.org
+      \endverb
+    \endentry
+    \entry{platformio}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9b2ea7fe7c55ef9c9e2a5d1c582fc6ab}{%
+           family={{PlatformIO Labs}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b2ea7fe7c55ef9c9e2a5d1c582fc6ab}
+      \strng{fullhash}{9b2ea7fe7c55ef9c9e2a5d1c582fc6ab}
+      \strng{fullhashraw}{9b2ea7fe7c55ef9c9e2a5d1c582fc6ab}
+      \strng{bibnamehash}{9b2ea7fe7c55ef9c9e2a5d1c582fc6ab}
+      \strng{authorbibnamehash}{9b2ea7fe7c55ef9c9e2a5d1c582fc6ab}
+      \strng{authornamehash}{9b2ea7fe7c55ef9c9e2a5d1c582fc6ab}
+      \strng{authorfullhash}{9b2ea7fe7c55ef9c9e2a5d1c582fc6ab}
+      \strng{authorfullhashraw}{9b2ea7fe7c55ef9c9e2a5d1c582fc6ab}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Abgerufen am 06.05.2025}
+      \field{title}{PlatformIO: A Professional Collaborative Platform for Embedded Development}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://platformio.org
+      \endverb
+      \verb{url}
+      \verb https://platformio.org
+      \endverb
+    \endentry
+    \entry{pololu-20d}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=198e93db041e236d0674eda8310d6e66}{%
+           family={{Pololu Corporation}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{198e93db041e236d0674eda8310d6e66}
+      \strng{fullhash}{198e93db041e236d0674eda8310d6e66}
+      \strng{fullhashraw}{198e93db041e236d0674eda8310d6e66}
+      \strng{bibnamehash}{198e93db041e236d0674eda8310d6e66}
+      \strng{authorbibnamehash}{198e93db041e236d0674eda8310d6e66}
+      \strng{authornamehash}{198e93db041e236d0674eda8310d6e66}
+      \strng{authorfullhash}{198e93db041e236d0674eda8310d6e66}
+      \strng{authorfullhashraw}{198e93db041e236d0674eda8310d6e66}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Abgerufen am 06.05.2025}
+      \field{title}{20D Metal Gearmotors}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.pololu.com/category/167/20d-metal-gearmotors
+      \endverb
+      \verb{url}
+      \verb https://www.pololu.com/category/167/20d-metal-gearmotors
+      \endverb
+    \endentry
+    \entry{git-scm}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=336d2eb17dd063dccbbe6a669a498f8a}{%
+           family={{Software Freedom Conservancy}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{336d2eb17dd063dccbbe6a669a498f8a}
+      \strng{fullhash}{336d2eb17dd063dccbbe6a669a498f8a}
+      \strng{fullhashraw}{336d2eb17dd063dccbbe6a669a498f8a}
+      \strng{bibnamehash}{336d2eb17dd063dccbbe6a669a498f8a}
+      \strng{authorbibnamehash}{336d2eb17dd063dccbbe6a669a498f8a}
+      \strng{authornamehash}{336d2eb17dd063dccbbe6a669a498f8a}
+      \strng{authorfullhash}{336d2eb17dd063dccbbe6a669a498f8a}
+      \strng{authorfullhashraw}{336d2eb17dd063dccbbe6a669a498f8a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Abgerufen am 06.05.2025}
+      \field{title}{Git -- Distributed Version Control System}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://git-scm.com
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com
+      \endverb
+    \endentry
+    \entry{sparkfun-line-follower}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9e35b5f4c8cbe2dda7c8b041ef261f70}{%
+           family={{SparkFun Electronics}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e35b5f4c8cbe2dda7c8b041ef261f70}
+      \strng{fullhash}{9e35b5f4c8cbe2dda7c8b041ef261f70}
+      \strng{fullhashraw}{9e35b5f4c8cbe2dda7c8b041ef261f70}
+      \strng{bibnamehash}{9e35b5f4c8cbe2dda7c8b041ef261f70}
+      \strng{authorbibnamehash}{9e35b5f4c8cbe2dda7c8b041ef261f70}
+      \strng{authornamehash}{9e35b5f4c8cbe2dda7c8b041ef261f70}
+      \strng{authorfullhash}{9e35b5f4c8cbe2dda7c8b041ef261f70}
+      \strng{authorfullhashraw}{9e35b5f4c8cbe2dda7c8b041ef261f70}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Abgerufen am 06.05.2025}
+      \field{title}{SparkFun Line Follower Array}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.sparkfun.com/sparkfun-line-follower-array.html
+      \endverb
+      \verb{url}
+      \verb https://www.sparkfun.com/sparkfun-line-follower-array.html
+      \endverb
+    \endentry
+    \entry{nucleo-f446re}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c38884ab3cf908c2798725960369391b}{%
+           family={{STMicroelectronics}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c38884ab3cf908c2798725960369391b}
+      \strng{fullhash}{c38884ab3cf908c2798725960369391b}
+      \strng{fullhashraw}{c38884ab3cf908c2798725960369391b}
+      \strng{bibnamehash}{c38884ab3cf908c2798725960369391b}
+      \strng{authorbibnamehash}{c38884ab3cf908c2798725960369391b}
+      \strng{authornamehash}{c38884ab3cf908c2798725960369391b}
+      \strng{authorfullhash}{c38884ab3cf908c2798725960369391b}
+      \strng{authorfullhashraw}{c38884ab3cf908c2798725960369391b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Abgerufen am 06.05.2025}
+      \field{title}{NUCLEO-F446RE Product Page}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.st.com/en/evaluation-tools/nucleo-f446re.html
+      \endverb
+      \verb{url}
+      \verb https://www.st.com/en/evaluation-tools/nucleo-f446re.html
+      \endverb
+    \endentry
+    \entry{vdi2221}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b72003ef20a8eeaaf8ea3204757fd44e}{%
+           family={{Verein Deutscher Ingenieure}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Düsseldorf}%
+      }
+      \list{publisher}{1}{%
+        {VDI-Verlag}%
+      }
+      \strng{namehash}{b72003ef20a8eeaaf8ea3204757fd44e}
+      \strng{fullhash}{b72003ef20a8eeaaf8ea3204757fd44e}
+      \strng{fullhashraw}{b72003ef20a8eeaaf8ea3204757fd44e}
+      \strng{bibnamehash}{b72003ef20a8eeaaf8ea3204757fd44e}
+      \strng{authorbibnamehash}{b72003ef20a8eeaaf8ea3204757fd44e}
+      \strng{authornamehash}{b72003ef20a8eeaaf8ea3204757fd44e}
+      \strng{authorfullhash}{b72003ef20a8eeaaf8ea3204757fd44e}
+      \strng{authorfullhashraw}{b72003ef20a8eeaaf8ea3204757fd44e}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{VDI 2221 -- Methodik zum Entwickeln und Konstruieren technischer Systeme und Produkte}
+      \field{year}{2019}
+    \endentry
+    \entry{diff-drive-wiki}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={{Wikipedia}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Abgerufen am 06.05.2025}
+      \field{title}{Differential wheeled robot}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Differential_wheeled_robot
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Differential_wheeled_robot
+      \endverb
+    \endentry
+    \entry{fsm-wiki}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={{Wikipedia}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Abgerufen am 06.05.2025}
+      \field{title}{Endlicher Automat}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Endlicher_Automat
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Endlicher_Automat
+      \endverb
+    \endentry
+    \entry{pes-board}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=affbb098269bfde3d61b33f8b0be1522}{%
+           family={{ZHAW PM2 ADHS}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{affbb098269bfde3d61b33f8b0be1522}
+      \strng{fullhash}{affbb098269bfde3d61b33f8b0be1522}
+      \strng{fullhashraw}{affbb098269bfde3d61b33f8b0be1522}
+      \strng{bibnamehash}{affbb098269bfde3d61b33f8b0be1522}
+      \strng{authorbibnamehash}{affbb098269bfde3d61b33f8b0be1522}
+      \strng{authornamehash}{affbb098269bfde3d61b33f8b0be1522}
+      \strng{authorfullhash}{affbb098269bfde3d61b33f8b0be1522}
+      \strng{authorfullhashraw}{affbb098269bfde3d61b33f8b0be1522}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Abgerufen am 06.05.2025}
+      \field{title}{PES Board -- Platform for Embedded Systems}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/ZHAW-PM-2-ADHS/ADHS
+      \endverb
+      \verb{url}
+      \verb https://github.com/ZHAW-PM-2-ADHS/ADHS
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{pm2-challenge-2026}
+\endrefsection
+\endinput
+
