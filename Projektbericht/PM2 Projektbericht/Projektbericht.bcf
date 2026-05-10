@@ -2372,9 +2372,24 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">Quellen.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">pm2-challenge-2026</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">vdi2221</bcf:citekey>
     <bcf:citekey order="2" intorder="1">pm2-challenge-2026</bcf:citekey>
-    <bcf:citekey order="3" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">pm2-challenge-2026</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">diff-drive-wiki</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">nucleo-f446re</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">pes-board</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">pololu-20d</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">servo-cys-s0090</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">sparkfun-line-follower</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">tcs3200</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">pes-board</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">nucleo-f446re</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">akku-nimh</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">mbed-os</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">platformio</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">eigen</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">git-scm</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">fsm-wiki</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -1,4 +1,4 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[11pt,a4paper]{article}
 %Packete
 
 %Sprache
@@ -17,7 +17,7 @@
 
 %--- Bilder
 \usepackage{graphicx}
-\graphicspath{{Bilder/}} %Bilderpfad
+\graphicspath{{img/}} %Bilderpfad
 \usepackage{caption}
 % Farben
 \usepackage{xcolor}
@@ -49,6 +49,19 @@
 \renewcommand{\arraystretch}{1.7}
 \usepackage[a4paper, margin=1.5cm]{geometry}
 \begin{document}
+
+	% ============================================================
+	% TODO-Liste vor Abgabe:
+	% 1. Datum auf Deckblatt ergänzen
+	% 2. \section{Zusammenfassung} (max. 1/2 Seite) hinzufügen
+	% 3. \section{Einleitung} (Ziel, Methode, Aufbau) hinzufügen
+	% 4. Finales Konzept: Begründungen einfügen (% TODO-Stellen)
+	% 5. Skizzen Variante 1/2/3 einfügen (platzhalter.png ersetzen)
+	% 6. Foto Zweiter Prototyp einfügen
+	% 7. Anhang: Morph. Kasten, Lösungsprinzipien, NWA einkommentieren
+	% 8. Fertigungszeichnungen (2 Stück) erstellen und in Mechanik einfügen
+	% 9. Ausblick-Text ausformulieren
+	% ============================================================
 	\begin{titlepage}
 		\centering
 		\vspace*{2cm}
@@ -72,36 +85,34 @@
 	\section{Produktentwicklung}
 	
 	\subsection{Einführung und Übersicht}
-	Das Entwicklungsprojekt orientiert sich an den VDI-Richtlinien 2221/2222.\\
-	Die Firma «LineXpress – we deliver along the line» (Abbildung~\ref{fig: Logo1}) hat den Auftrag gegeben, ein autonomes Robotersystem zu entwickeln. Dieses soll Pakete bei bestimmten Häusern abholen und bei den passenden Zielhäusern wieder abliefern. Dafür wird ein Prototyp im kleinen Massstab gebaut, mit dem das Konzept getestet werden kann.\\
-	Der Roboter soll ein Paket bei einer Abholstation aufnehmen, einer vorgegebenen Linie folgen und das Paket an der richtigen Zielstation wieder ablegen. Wichtige Punkte sind dabei die Linienverfolgung, die genaue Positionierung bei den Häusern und der sichere Transport der Pakete.\\
-	Neben der Funktion spielt auch die Effizienz eine wichtige Rolle. Der Roboter soll die Aufgabe möglichst schnell und zuverlässig ausführen. Dafür braucht es eine passende mechanische Konstruktion, eine funktionierende Elektronik, eine stabile Software und eine geeignete Fahrstrategie.\\
-	Genauere Informationen sind im Anhang unter \hyperref[anhang:Aufgabenstellung]{Aufgabenstellung Challenge PM2 FS26} zu finden.
+	Im Rahmen des Moduls Produktentwicklung Systemtechnik~2 (PM2) wird gemäss den VDI-Richtlinien 2221/2222 \cite{vdi2221} ein autonomer Lieferroboter entwickelt und aufgebaut. Der Roboter trägt den Namen \textit{MoonCarrier} (Abbildung~\ref{fig:Logo1}).
+
+	Die Aufgabe besteht darin, farbcodierte Pakete auf einem definierten Spielfeld autonom aufzunehmen und den entsprechend markierten Ablieferhäusern zuzuordnen. Der Roboter navigiert dabei entlang einer schwarzen Fahrlinie und muss die Pakete bei den Abholhäusern aufnehmen sowie vollständig im zugehörigen Hausfeld der Ablieferhäuser absetzen.
+
+	An die Lösung werden sowohl funktionale als auch konstruktive Anforderungen gestellt. Die maximale Startgrösse des Roboters beträgt 200\,mm~$\times$~200\,mm~$\times$~200\,mm. Zentrale technische Herausforderungen sind die zuverlässige Linienverfolgung, die Farberkennung zur Paketidentifikation, die präzise Positionierung bei den Häusern sowie eine robuste Greifmechanik für das Aufnehmen und Ablegen der Pakete.
+
+	Die Entwicklung gliedert sich in die drei mechatronischen Bereiche Mechanik, Elektronik und Software, die eng miteinander verzahnt sind. Der vorliegende Bericht dokumentiert den vollständigen Entwicklungsprozess vom Konzept bis zum Prototyp. Genauere Informationen zur Aufgabenstellung sind im Anhang unter \hyperref[anhang:Aufgabenstellung]{Aufgabenstellung Challenge PM2 FS26} zu finden.
 	
 	
 	%-----------------------Bild------------------------
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.75\textwidth]{LineXpress}
-		\caption{Logo der Firma «LineXpress – we deliver along the line» Quelle: übernommen aus \cite{pm2-challenge-2026}.}
-		\label{fig: Logo1}
+		\caption{Projektlogo \textit{MoonCarrier}. Quelle: übernommen aus \cite{pm2-challenge-2026}.}
+		\label{fig:Logo1}
 	\end{figure}
 	%---------------------------------------------------
 \newpage
-	\subsection{Projektplanung}
-	\subsubsection{Zeitplan}
+	\subsection{Zeitplan}
+	Der Zeitplan wurde als Gantt-Diagramm erstellt, mit Aufgabengruppen (Planung, Entwicklung, Dokumentation) und den dazugehörigen Meilensteinen (Coaching, Roboter Version 1 etc.). Der Plan ist auf die 14 Semesterwochen mit sechs Personen ausgelegt.  
 	
-	Vorallem wenn etwas von der Zeitplannung abweicht. 
-	Verweis auf detaillierten Zeitplan im Anhang (z.B. Gantt-Diagramm).
+	Aufgrund weiterer Leistungsnachweise während des Semesters sowie personeller Ausfälle im Team konnten die Vorgaben des Zeitplans nicht vollständig eingehalten werden.
+	
+	Der gesamte Zeitplan ist im Anhang vermerkt. 
 
 \newpage
 	\subsection{Recherchebericht}
-	Kurze Zusammenfassung der Recherche:
-	\begin{itemize}
-		\item Stand der Technik
-		\item Vergleich bestehender Lösungen
-		\item Relevante Technologien
-	\end{itemize}
+	Die Vorprojektphase umfasst eine Recherche zu den drei mechatronischen Teilbereichen des MoonCarrier. In der Mechanik erweist sich ein Differentialantrieb in Kombination mit einem Servo-Greifarm als geeignetes Konzept. Die Elektronik basiert auf dem STM32 NUCLEO-F446RE sowie dem ZHAW PES Board; als Sensorik kommen ein IR-Linienarray, ein Farbsensor sowie Distanzsensoren zum Einsatz. Im Bereich Informatik übernimmt ein PD-Regler die Linienfolgeregelung, während eine Zustandsmaschine die Ablaufsteuerung strukturiert. Der vollständige Recherchebericht findet sich im Anhang.
 	
 \newpage
 	\subsection{Anforderungsliste}
@@ -169,16 +180,81 @@
 		
 		
 	\subsection{Morphologischer Kasten}
-	Darstellung der Lösungsvarianten zu den einzelnen Teilfunktionen.  
-	Verweis auf Tabelle im Anhang.
+	
+	Der morphologische Kasten strukturiert den Lösungsraum des MoonCarrier 
+	systematisch. Für jede Teilfunktion -- darunter Fahrwerk, Lenkprinzip, 
+	Aufnahmemechanismus, Arm, Strategie, Paketspeicherung, Ablageprinzip sowie 
+	Routenwahl -- werden mehrere Lösungsvarianten gegenübergestellt. Aus dem 
+	Gesamtraum werden drei konsistente Lösungspfade abgeleitet, die als Grundlage 
+	für die anschliessende Nutzwertanalyse dienen. Der vollständige morphologische 
+	Kasten befindet sich im Anhang.
+	
+	\subsubsection*{Variante 1}
+	
+	Das Konzept basiert auf einem Zweiradantrieb mit Stützgleiter und 
+	Differenziallenkung. Die Paketaufnahme erfolgt elektromagnetisch über einen 
+	Gelenkarm mit zwei Freiheitsgraden. Aufgenommene Pakete werden farbunabhängig 
+	in einem Magazin zwischengespeichert und durch Abschalten des Elektromagneten 
+	abgelegt. Der Tunnel wird genutzt.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{platzhalter}
+		\caption{Skizze Variante 1}
+		\label{fig:variante1}
+	\end{figure}
+	
+	\subsubsection*{Variante 2}
+	
+	Das Konzept sieht ein Vierradfahrwerk mit Ackermann-Lenkung vor. Die Pakete 
+	werden formschlüssig über ein kartesisches Armsystem aufgenommen und direkt 
+	ohne Zwischenspeicherung zum Zielhaus transportiert. Die Ablage erfolgt 
+	kontrolliert. Der Tunnel wird in Kauf genommen.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{platzhalter}
+		\caption{Skizze Variante 2}
+		\label{fig:variante2}
+	\end{figure}
+	
+	\subsubsection*{Variante 3}
+	
+	Das Konzept verwendet ein Kettenfahrwerk mit Skid-Steering. Die Paketaufnahme 
+	erfolgt kraftschlüssig über einen Gelenkarm mit drei Freiheitsgraden. Die 
+	Pakete werden reihenfolgeabhängig auf einer offenen Ladefläche gespeichert 
+	und mittels Greifer abgelegt. Die Route wird dynamisch gewählt.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{platzhalter}
+		\caption{Skizze Variante 3}
+		\label{fig:variante3}
+	\end{figure}
 	
 	\subsection{Nutzwertanalyse}
 	
-	 wichtige Skizzen. 
+	Die drei aus dem morphologischen Kasten abgeleiteten Lösungskonzepte werden 
+	mittels einer Nutzwertanalyse systematisch bewertet und verglichen.
+	
 	\subsubsection{Bewertungskriterien}
+	
+	Die Bewertung erfolgt anhand von sechs Kriterien: Einfache Konstruktion, 
+	Zielsicherheit bzw.\ Ablagegenauigkeit, Betriebssicherheit, Geschwindigkeit 
+	und Strategie, Modularer Aufbau sowie Wendigkeit des Roboters.
+	
 	\subsubsection{Gewichtung}
+	
+	Die Gewichtung der Kriterien wird mittels eines Paarvergleichs ermittelt. 
+	Betriebssicherheit und Zielsicherheit erhalten dabei die höchste Gewichtung, 
+	da diese den grössten Einfluss auf die zuverlässige Aufgabenerfüllung haben.
+	
 	\subsubsection{Auswertung}
-	Tabellarische Darstellung der Bewertung und Berechnung des Gesamtnutzwerts.
+	
+	Die gewichteten Einzelbewertungen ergeben für jede Lösung einen Gesamtnutzwert. 
+	Lösung~1 erzielt den höchsten Nutzwert und wird als Vorzugslösung für die 
+	weitere Entwicklung ausgewählt. Die vollständige Nutzwertanalyse befindet 
+	sich im Anhang.
 	
 	\subsection{Erster Prototyp}
 		\begin{minipage}[t]{0.5\textwidth}
@@ -199,8 +275,8 @@
 			\vspace{0pt}
 		\begin{figure}[H]
 			\centering
-			\includegraphics[scale=.15]{ErsterPrototyp}
-			\caption{Erster Prototyp (Schlechte Auflösung besseres Bild noch hochladen)}
+			\includegraphics[scale=.15]{prototype_1}
+			\caption{Erster Prototyp}
 			\label{fig:ErsterPrototyp}
 		\end{figure}
 		\end{minipage}\hfill
@@ -237,45 +313,138 @@
 		
 \newpage
 	\subsection{Finales Konzept}
-		\begin{minipage}[t]{0.5\textwidth}
-			Begründung der finalen Auswahl.  
-			Falls Abweichung von der theoretisch besten Lösung: Erklärung der Anpassung.
-		\end{minipage}\hfill
-		
-		%-----------------------Bild------------------------
-		\begin{minipage}[t]{1\textwidth}
-			\vspace{0pt}
-			\begin{figure}[H]
+		Die Nutzwertanalyse hat Variante~1 als Vorzugslösung identifiziert. Das ursprüngliche Konzept sah vor, alle Pakete nacheinander mittels Elektromagnet auf ein Magazin zu laden, anschliessend einmalig durch den Tunnel zu fahren und die Pakete auf der gegenüberliegenden Seite einzeln abzulegen. Der wesentliche Vorteil dieser Strategie bestand darin, den Parcours nur einmal zu durchfahren, was eine erhebliche Zeitersparnis bedeutet hätte.
+
+			Im Verlauf des Projekts traten personelle Ausfälle im Team auf, wodurch die ursprünglich geplante Aufgabenverteilung nicht mehr aufrechterhalten werden konnte. Die Entwicklung des Elektromagneten sowie der dazugehörigen Aufnahme- und Lagerlogik in der Software blieb dadurch unrealisiert.
+
+			Aufgrund des entstehenden Zeitdrucks wurde eine Vereinfachung des Konzepts vorgenommen: Der Greifarm wird direkt auf dem Magazin befestigt und nimmt jeweils nur ein Paket pro Durchlauf auf. Statt einer einmaligen Fahrt wird der Parcours mehrfach durchfahren. Durch diesen Ansatz entfällt der Elektromagnet vollständig, und die komplexe Magazin- und Lagerlogik in der Software wird eliminiert.
+
+			Diese Entscheidung erwies sich jedoch als unzureichende Vereinfachung: Der Greifarm allein stellte bereits eine erhebliche mechanische und softwareseitige Herausforderung dar und war massgeblich daran beteiligt, dass die verfügbare Entwicklungszeit überschritten wurde. Die Abweichungen vom ursprünglichen Konzept sind in Tabelle~\ref{tab:abweichungen} zusammengefasst.
+
+			\begin{table}[H]
 				\centering
-				\includegraphics[scale=.12]{platzhalter}
-				\caption{Finales Konzept}
-				\label{fig:Finales Kanzept}
-			\end{figure}
-		\end{minipage}\hfill
-		%---------------------------------------------------
+				\caption{Abweichungen vom Konzept der Nutzwertanalyse}
+				\label{tab:abweichungen}
+				\begin{tabularx}{\textwidth}{|l|X|X|X|}
+					\hline
+					\textbf{Merkmal} & \textbf{NWA Variante 1} & \textbf{Finales Produkt} & \textbf{Begründung} \\
+					\hline
+					Aufnahme & Elektromagnet & Permanentmagnet & Elektromagnet wurde aufgrund personeller Ausfälle nicht realisiert \\
+					\hline
+					Speicherung & Magazin (mehrere Pakete) & Keine (1 Paket pro Durchlauf) & Entfällt ohne Elektromagnet; vereinfacht die Steuerungslogik \\
+					\hline
+					Fahrstrategie & Einmalige Rundfahrt & Mehrfache Rundfahrten & Konsequenz aus dem Wegfall der Magazinspeicherung \\
+					\hline
+					Arm & Gelenkarm 2\,DOF & Gelenkarm + Linearachse & Präzisere Positionierung beim Aufnehmen der Pakete erforderlich \\
+					\hline
+				\end{tabularx}
+			\end{table}
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=.12]{platzhalter}
+			\caption{Finales Konzept}
+			\label{fig:FinalesKonzept}
+		\end{figure}
 	
 \newpage
 	\section{Mechanik}
 	
-	\subsection{Einführung und Übersicht}
-	Beschreibung des mechanischen Konzepts und der gewählten Bauweise.
+	\subsection{Einführung}
+	Der Aufbau des Roboters ist relativ simpel gehalten, die meisten Komponenten sind verschraubt. So können mechanische Anpassungen schnell durchgeführt und getestet werden. In Abbildung \ref{fig:CAD_komplett} ist das CAD-Modell des zusammengebauten Roboters ersichtlich, die Fahrtrichtung ist nach schräg-links-unten.
 	
-	\subsection{Entwicklung der mechanischen Lösung}
-	\subsubsection{Konzeptphase}
-	\subsubsection{Konstruktive Umsetzung}	
-	\subsection{Finale Konstruktion}
-	\subsubsection{Skizzen der finalen Lösung}
-	\subsubsection{Screenshots der CAD-Konstruktion}
+	\begin{figure}[htbp]
+		\centering
+		\begin{minipage}[t]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{CAD_komplett.png}
+			\captionof{figure}{CAD-Modell des Roboters}
+			\label{fig:CAD_komplett}
+		\end{minipage}
+		\hfill
+	\end{figure}
 	
-	\subsection{Zusammenbau}
-	Beschreibung des Montageprozesses, Besonderheiten, aufgetretene Probleme.
+	\subsection{Hauptkomponenten}
+	\subsubsection{Grundplatte}
+	Die Grundplatte dient als Basis, auf welcher alle anderen Komponenten montiert werden (Abb. \ref{fig:Grundplatte}). Die Dicke der Grundplatte beträgt 4,2\,mm und sie ist 3D-gedruckt. Somit ist es möglich, Gewindeeinsätze einzuschmelzen, an welchen die restlichen Komponenten angeschraubt werden können.
+	
+	\subsubsection{Greifarm}
+	Der Greifarm (Abb. \ref{fig:Greifarm}) dient dazu, die Pakete aufzuheben und an der Lieferadresse wieder abzulegen. Er wird über zwei Servomotoren bewegt und verfügt über einen Neodym-Magneten, um die Pakete anzuheben. Der untere Arm wird direkt von einem Servomotor bewegt. Der obere Arm wird über ein Seil bewegt, welches um eine Trommel gewickelt ist. Beim Bewegen des unteren Armes wird das Seil auf der einen Seite aufgewickelt und auf der anderen Seite abgewickelt. Somit ist die Position des oberen Armes nicht abhängig von der Position des unteren Armes.
+	
+	\begin{figure}[htbp]
+		\centering
+		\begin{minipage}[t]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{Grundplatte.png}
+			\captionof{figure}{Grundplatte}
+			\label{fig:Grundplatte}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{Greifarm.png}
+			\captionof{figure}{Greifarm (ohne Seil)}
+			\label{fig:Greifarm}
+		\end{minipage}
+	\end{figure}
+	
+	\newpage
+	\subsubsection{Antrieb}
+	Der Antrieb wird über zwei DC-Servomotoren am Heck des Fahrzeugs nach dem Differentialantriebsprinzip \cite{diff-drive-wiki} umgesetzt. Um beispielsweise nach rechts zu lenken, muss der linke Motor schneller drehen. Damit die Front des Roboters gestützt ist, wurde eine Lenkrolle montiert, welche sich 360° drehen kann (Abb. \ref{fig:Raeder}).
+	
+	\subsubsection{Linearachse}
+	Der Greifarm ist auf einer Linearachse montiert (Abb. \ref{fig:Linearfuehrung}). Dies ermöglicht es, an der Haltelinie zu stoppen und anschliessend den Arm in die richtige Position zu fahren, um das Paket zu greifen. Die Linearachse ist durch eine simple Kastenführung geführt und wird über eine Zahnstange an der Unterseite des Magazins angetrieben. Die Zahnstange wird durch einen DC-Motor unter der Grundplatte angetrieben und kann über einen Mikroschalter am vorderen Teil des Roboters referenziert werden (Abb. \ref{fig:Raeder}).
+	
+	\begin{figure}[htbp]
+		\centering
+		\begin{minipage}[t]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{Raeder.png}
+			\captionof{figure}{Unterseite mit Rädern und Antrieb für Linearführung}
+			\label{fig:Raeder}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{LinearfuehrungMitSchalter.png}
+			\captionof{figure}{Linearführung (ohne Greifarm)}
+			\label{fig:Linearfuehrung}
+		\end{minipage}
+	\end{figure}
+	
+	\subsubsection{PES-Board und Akku}
+	Das PES-Board ist in Fahrtrichtung rechts vorne über eine Adapterplatte auf der Grundplatte montiert. So befindet es sich relativ nah an allen Sensoren und Aktoren und ausserhalb des Weges der Mechanik. Das PES-Board steht senkrecht auf der Grundplatte, um Platz zu sparen.
+	Der Akku ist gleich hinter dem PES-Board montiert, da die Akkukabel sehr kurz sind (Abb. \ref{fig:PES_Akku}).
+	
+	\subsubsection{Sensoren}
+	Ganz vorne am Roboter ist der Linefollow-Sensor montiert (Abb. \ref{fig:Sensoren}). Auf der linken Seite des Roboters ist der Farbsensor montiert. Er steht leicht über die Seite des Roboters hinaus, sodass er genau auf dem Farbfeld zu stehen kommt.
+	
+	\begin{figure}[htbp]
+		\centering
+		\begin{minipage}[t]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{PES_Akku.png}
+			\captionof{figure}{PES-Board und Akku}
+			\label{fig:PES_Akku}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{Sensoren.png}
+			\captionof{figure}{Linefollow- und Farbsensor}
+			\label{fig:Sensoren}
+		\end{minipage}
+	\end{figure}
+	
+	%------------------------------------------------
+	\newpage
 	
 	%------------------------------------------------
 \newpage
 	\section{Elektronik}
 	
 	Die Elektronik bildet die Schnittstelle zwischen Mechanik und Software und übernimmt sowohl die Verarbeitung der Sensordaten als auch die Ansteuerung der Aktoren.\\
-	Das Gesamtsystem besteht aus zwei Hauptkomponenten: einem Mikrocontroller-Board (Nucleo-Board F446RE) sowie einem speziell entwickelten Motherboard der ZHAW.\\
+	Das Gesamtsystem besteht aus zwei Hauptkomponenten: einem Mikrocontroller-Board (Nucleo-Board F446RE \cite{nucleo-f446re}) sowie einem speziell entwickelten Motherboard der ZHAW \cite{pes-board}.\\
 	Das Nucleo-Board basiert auf einem ARM-Mikrocontroller und stellt die zentrale Recheneinheit des Systems dar. Es übernimmt die Verarbeitung der Sensordaten, die Regelalgorithmen zur Linienverfolgung sowie die Steuerung der Motoren. Die Programmierung erfolgt in C++ über die Mbed-Plattform.\\
 	
 	
@@ -466,13 +635,13 @@
 			3& %Anzahl 
 			DC-Motoren mit Encoder & %Bauteilname
 			Antrieb der Räder sowie Positionierung der Achse des Roboterarms.& %Verwendung
-			\href{https://www.pololu.com/category/167/20d-metal-gearmotors}{pololu} \\
+			\href{https://www.pololu.com/category/167/20d-metal-gearmotors}{pololu} \cite{pololu-20d} \\
 			\hline
 			%Bauteil
 			2& %Anzahl 
 			RC-Servos& %Bauteilname
 			Gezielte Positionierung des Roboterarms zur Aufnahme und Ablage der Pakete& %Verwendung
-			\href{https://www.conrad.ch/de/p/reely-standard-servo-cys-s0090-analog-servo-getriebe-material-metall-stecksystem-jr-2203091.html}{Conrad} \\
+			\href{https://www.conrad.ch/de/p/reely-standard-servo-cys-s0090-analog-servo-getriebe-material-metall-stecksystem-jr-2203091.html}{Conrad} \cite{servo-cys-s0090} \\
 			\hline
 			
 		\end{tabularx}
@@ -490,13 +659,13 @@
 			1& %Anzahl 
 			Line-Follower-Array& %Bauteilname
 			Kontinuierliche Erfassung der Fahrbahnlinie zur Regelung der Fahrtrichtung& %Verwendung
-			\href{https://www.sparkfun.com/sparkfun-line-follower-array.html}{sparkfun} \\
+			\href{https://www.sparkfun.com/sparkfun-line-follower-array.html}{sparkfun} \cite{sparkfun-line-follower} \\
 			\hline
 			%Bauteil
 			1& %Anzahl 
 			Farbsensor& %Bauteilname
 			Erfassung der Farbcodierung auf dem Spielfeld& %Verwendung
-			\href{https://www.berrybase.ch/tcs230-tcs3200-farbsensor-modul}{berrybase} \\
+			\href{https://www.berrybase.ch/tcs230-tcs3200-farbsensor-modul}{berrybase} \cite{tcs3200} \\
 			\hline
 		\end{tabularx}
 	\end{table}
@@ -513,13 +682,13 @@
 			1& %Anzahl 
 			ZHAW-Motherboard PES-Board& %Bauteilname
 			Das PES-Board erweitert das Nucleo F446RE um zusätzliche Schnittstellen, Sensorik und Leistungselektronik& %Verwendung
-			\href{https://github.com/ZHAW-PM-2-ADHS/ADHS}{github} \\
+			\href{https://github.com/ZHAW-PM-2-ADHS/ADHS}{github} \cite{pes-board} \\
 			\hline
 			%Bauteil
 			1& %Anzahl 
 			Nucleo-Board F446RE& %Bauteilname
 			Ausführung der Software zur Verarbeitung der Sensorwerte und Ansteuerung der Motoren und Servos& %Verwendung
-			\href{https://www.st.com/en/evaluation-tools/nucleo-f446re.html}{ST} \\
+			\href{https://www.st.com/en/evaluation-tools/nucleo-f446re.html}{ST} \cite{nucleo-f446re} \\
 			\hline
 			
 		\end{tabularx}
@@ -537,7 +706,7 @@
 			1& %Anzahl 
 			Akkupaket: 12 V, 2300 mAh& %Bauteilname
 			Spannungsversorgung& %Verwendung
-			\href{https://www.conrad.ch/de/p/reely-modellbau-akkupack-nimh-6-v-2300-mah-zellen-zahl-5-mignon-aa-side-by-side-jr-buchse-2613252.html}{conrad} \\
+			\href{https://www.conrad.ch/de/p/reely-modellbau-akkupack-nimh-6-v-2300-mah-zellen-zahl-5-mignon-aa-side-by-side-jr-buchse-2613252.html}{conrad} \cite{akku-nimh} \\
 			\hline
 			
 		\end{tabularx}
@@ -556,18 +725,18 @@
 	gesamten Betrieb.
 	
 	\subsection{Entwicklungsumgebung}
-	Der Roboter wird in C++ programmiert, einer weit verbreiteten Sprache für hardwarenahe Systeme. Als Betriebssystem kommt Mbed OS zum Einsatz, das grundlegende Funktionen wie Zeitmessung,  
-	Threads und Hardwarezugriff bereitstellt. Gebaut wird das Projekt mit PlatformIO, einem modernen Build-System, das Kompilierung und das Übertragen der Firmware auf den Mikrocontroller
+	Der Roboter wird in C++ programmiert, einer weit verbreiteten Sprache für hardwarenahe Systeme. Als Betriebssystem kommt Mbed OS \cite{mbed-os} zum Einsatz, das grundlegende Funktionen wie Zeitmessung,  
+	Threads und Hardwarezugriff bereitstellt. Gebaut wird das Projekt mit PlatformIO \cite{platformio}, einem modernen Build-System, das Kompilierung und das Übertragen der Firmware auf den Mikrocontroller
 	vereinfacht.\\ \\
 	\noindent
 	Für spezifische Hardwarekomponenten – wie Motoren, Sensoren und Servos – werden eigene Bibliotheken verwendet, die im Rahmen des Kurses bereitgestellt wurden. Mathematische Berechnungen,  
-	etwa für die Fahrkinematik, nutzen die Bibliothek Eigen.\\ \\
+	etwa für die Fahrkinematik, nutzen die Bibliothek Eigen \cite{eigen}.\\ \\
 	\noindent
-	Der gesamte Quellcode wird mit Git versioniert, wodurch Änderungen nachvollziehbar dokumentiert und frühere Versionen bei Bedarf wiederhergestellt werden können.
+	Der gesamte Quellcode wird mit Git \cite{git-scm} versioniert, wodurch Änderungen nachvollziehbar dokumentiert und frühere Versionen bei Bedarf wiederhergestellt werden können.
 	
 	\subsection{Softwarearchitektur}
-	\subsubsection{Ablauf unf Aufbau}
-	Das Programm hat zwei Hauptkompononenten: "(1) Main-Thread" und der "(2) Line-Follow-Thread". Ein "Thread" kann man sich hier wie einen eigenen Prozess vorstellen. Das Programm besitzt also zwei voneinander getrennte Prozesse. Die Kommunikation zwischen den Threads findet über das beschreiben von Globalen variabeln statt. \\ \\
+	\subsubsection{Ablauf und Aufbau}
+	Das Programm hat zwei Hauptkomponenten: '(1) Main-Thread' und der '(2) Line-Follow-Thread'. Ein "Thread" kann man sich hier wie einen eigenen Prozess vorstellen. Das Programm besitzt also zwei voneinander getrennte Prozesse. Die Kommunikation zwischen den Threads findet über das beschreiben von globalen Variablen statt. \\ \\
 	\noindent
 	Der Main-Thread ist eine Schleife die eine Durchlaufzeit von 20ms hat, also eine eine Frequenz von 50Hz. Der Main-Thread behandelt die Grundsätzliche Logik des Roboters: Initialisieren, Fahren, Stoppen, Farben erkennen, Packetbehandlung. Die Arbarbeitung dieser Zustände bzw. States wird mittles dem State-Machine-Pattern gelöst. Auf die genaue Eigenschaften der einzelnen States, wird im Kapitel ~\ref{sss:statemachine} (\nameref{sss:statemachine}) eingeganen.\\ \\
 	\noindent
@@ -589,11 +758,11 @@
 			\centering
 			\includegraphics[width=1\textwidth]{flowchart}
 			\caption{Ablaufdiagram mit (1) Main-Thread, (2) Line-Follow-Thread und User-Button }
-			\label{fig: Flowchart}
+			\label{fig:Flowchart}
 		\end{figure}
 	\subsubsection{Statemachine}
 	\label{sss:statemachine}
-	Die Statemachine ist das Herzstück der Ablaufsteuerung. Sie definiert, in welchem 
+	Die Zustandsmaschine (Finite State Machine \cite{fsm-wiki}) strukturiert die Ablaufsteuerung. Sie definiert, in welchem 
 	Zustand sich der Roboter gerade befindet und welche Aktionen er ausführt. Zu jedem 
 	Zeitpunkt ist genau ein Zustand aktiv. Ein Zustandswechsel erfolgt nur, wenn eine 
 	bestimmte Bedingung erfüllt ist -- etwa wenn eine Markierungslinie erkannt oder eine 
@@ -609,7 +778,7 @@
 			\texttt{INITIAL}        & Servos fahren in Ausgangsposition, Flags werden zurückgesetzt \\
 			\texttt{FORWARD}        & Roboter folgt der Linie \\
 			\texttt{COLOR\_SCAN}    & Roboter stoppt und identifiziert die Farbe der Markierung \\
-			\texttt{HANDLE\_PARCEL} & Kranarm nimmt ein Paket auf oder legt es ab \\
+			\texttt{HANDLE\_PARCEL} & Greifarm nimmt ein Paket auf oder legt es ab \\
 			\texttt{SLEEP}          & Alle Aufgaben erledigt, Roboter bleibt stehen \\
 			\bottomrule
 		\end{tabular}
@@ -642,9 +811,9 @@
 	Linienverfolgung auch bei höheren Geschwindigkeiten.
 	
 	
-	\subsubsection{Kranarm}
+	\subsubsection{Greifarm}
 	
-	Der Kranarm übernimmt das Aufnehmen und Ablegen der Pakete. Die Bewegungssequenz 
+	Der Greifarm übernimmt das Aufnehmen und Ablegen der Pakete. Die Bewegungssequenz 
 	ist in fünf Schritte unterteilt: Zuerst öffnet sich der Greifer, dann fährt der 
 	Arm aus, anschliessend bewegt sich der Kran zur Zielposition, fährt zurück und 
 	kehrt schliesslich in die Ausgangsposition zurück. Die genaue Zielposition des 
@@ -690,17 +859,22 @@
 	
 	
 	%------------------------------------------------
-
-
-\newpage
-	\nocite{*} %Das nur wenn man alle Quelle ausgiebt auch welche die man nicht zitiert hat. 
-	\printbibliography[
-	heading=bibnumbered,
-	title={Literaturverzeichnis}
-	]
+    \newpage
+    \printbibliography[
+    heading=bibnumbered,
+    title={Literaturverzeichnis}
+    ]
+    
+    \newpage
+    \listoffigures
+    \addcontentsline{toc}{section}{Abbildungsverzeichnis}
+    
+    \newpage
+    \listoftables
+    \addcontentsline{toc}{section}{Tabellenverzeichnis}
 	%------------------------------------------------
 	
-		\section*{Deklaration des Einsatzes von generativer KI}
+	\section*{Deklaration des Einsatzes von generativer KI}
 	\begin{minipage}[t]{\textwidth}
 		Im Rahmen dieser Arbeit wurden generative KI-Werkzeuge in verschiedenen Prozessphasen unterstützend eingesetzt. Dabei wurden folgende Tools verwendet:
 		
