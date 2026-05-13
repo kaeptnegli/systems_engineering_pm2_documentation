@@ -462,7 +462,7 @@
 	\noindent
 	Zu den Aktoren gehören drei DC-Motoren sowie zwei Servomotoren. Die Motoren M1 und M2 sind für den Antrieb der Räder zuständig und ermöglichen die Fortbewegung des MoonCarriers. Der Motor M3 bewegt das Lager, auf dem sich der Greifarm befindet. Die beiden Servomotoren werden für die Bewegungen des Greifmechanismus eingesetzt.\\
 	
-	\noindent}
+	\noindent
 	Die für den autonomen Betrieb benötigten Informationen erhält das System über drei Sensoren. Der Line-Follower dient zur Erkennung und Verfolgung der schwarzen Linie. Der Farbsensor erkennt die farbigen Markierfelder der Häuser, während der User-Button zum Starten des MoonCarriers verwendet wird.
 	
 	\begin{figure}[H]
@@ -971,6 +971,24 @@
 		pagecommand={\large Funktionsstrucktur},
 		addtotoc={1,subsection,1,{Funktionsstrucktur PDF},anhang:Funktionsstrucktur}
 		]{PDFS/Funktionsstruktur.pdf}
+	
+	%----Recherche 
+	% Hyperlink: \hyperref[anhang:Morphologischer Kasten]{Morphologischer Kastenan} 
+		\clearpage
+		\includepdf[
+		pages=-,
+		pagecommand={},
+		addtotoc={1,subsection,1,{Recherche PDF},anhang:Recherche}
+		]{PDFS/recherche.pdf}
+	
+	%----Main CPP
+	% Hyperlink: \hyperref[anhang:Morphologischer Kasten]{Morphologischer Kastenan} 
+		\clearpage
+		\includepdf[
+		pages=-,
+		pagecommand={},
+		addtotoc={1,subsection,1,{main.cpp},anhang:main.cpp}
+		]{PDFS/main_cpp.pdf}
 	
 	%----Morphologischer Kasten
 	% Hyperlink: \hyperref[anhang:Morphologischer Kasten]{Morphologischer Kastenan} 

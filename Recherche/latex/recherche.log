@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.3.15)  6 MAY 2026 10:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.3.15)  13 MAY 2026 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -821,17 +821,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 	\newpage
+l.52 	\newpage
                [1]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
-4.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
+6.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 <img/paket_bemassung.png, id=130, 387.4475pt x 634.37pt>
 File: img/paket_bemassung.png Graphic file (type png)
 <use img/paket_bemassung.png>
-Package pdftex.def Info: img/paket_bemassung.png  used on input line 107.
+Package pdftex.def Info: img/paket_bemassung.png  used on input line 99.
 (pdftex.def)             Requested size: 324.36473pt x 531.09578pt.
 
 
@@ -841,12 +841,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.111 	
+l.103 	
        ]
 <img/spielfeld.png, id=140, 931.48pt x 431.6125pt>
 File: img/spielfeld.png Graphic file (type png)
 <use img/spielfeld.png>
-Package pdftex.def Info: img/spielfeld.png  used on input line 114.
+Package pdftex.def Info: img/spielfeld.png  used on input line 106.
 (pdftex.def)             Requested size: 324.36473pt x 150.29608pt.
 
 
@@ -855,17 +855,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.118 	
+l.110 	
         <./img/paket_bemassung.png>]
 <img/position_farbfeld.png, id=147, 735.74875pt x 580.1675pt>
 File: img/position_farbfeld.png Graphic file (type png)
 <use img/position_farbfeld.png>
-Package pdftex.def Info: img/position_farbfeld.png  used on input line 121.
+Package pdftex.def Info: img/position_farbfeld.png  used on input line 113.
 (pdftex.def)             Requested size: 324.36473pt x 255.77908pt.
 <img/position_paket.png, id=148, 684.5575pt x 587.19376pt>
 File: img/position_paket.png Graphic file (type png)
 <use img/position_paket.png>
-Package pdftex.def Info: img/position_paket.png  used on input line 128.
+Package pdftex.def Info: img/position_paket.png  used on input line 120.
 (pdftex.def)             Requested size: 324.36473pt x 278.23898pt.
 
 
@@ -874,18 +874,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.132 	
+l.124 	
        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.132 	
+l.124 	
         <./img/spielfeld.png> <./img/position_farbfeld.png>]
 <img/Mechatronic.png, id=158, 299.6796pt x 236.5638pt>
 File: img/Mechatronic.png Graphic file (type png)
 <use img/Mechatronic.png>
-Package pdftex.def Info: img/Mechatronic.png  used on input line 139.
+Package pdftex.def Info: img/Mechatronic.png  used on input line 131.
 (pdftex.def)             Requested size: 324.36473pt x 256.06622pt.
 
 
@@ -894,7 +894,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.143 	
+l.135 	
         <./img/position_paket.png>]
 
 [6
@@ -902,11 +902,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.166 	
+l.158 	
         <./img/Mechatronic.png>]
 
 [7]
-Overfull \hbox (9.96107pt too wide) in paragraph at lines 227--228
+Overfull \hbox (9.96107pt too wide) in paragraph at lines 219--220
 \T1/lmr/m/n/12 der Greif-me-cha-nik ein-ge-setzt wer-den. Der Om-ron D3V-166-2C
 5 ist ein kom-pak-ter Subminiatur-Mikroschalter
  []
@@ -916,7 +916,7 @@ Overfull \hbox (9.96107pt too wide) in paragraph at lines 227--228
 [8]
 
 [9]
-Overfull \hbox (23.02177pt too wide) in paragraph at lines 298--299
+Overfull \hbox (23.02177pt too wide) in paragraph at lines 290--291
 \T1/lmr/m/n/12 Im Rah-men der Re-cher-che wur-den ver-schie-de-ne ver-gleich-ba
 -re Pro-jek-te aus dem Be-reich au-to-no-mer Linienfolger-
  []
@@ -928,18 +928,18 @@ nc/dvips/lm/lm-rm.enc}]
 
 [11]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-14.
+06.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (9.53477pt too wide) in paragraph at lines 315--315
+Overfull \hbox (9.53477pt too wide) in paragraph at lines 307--307
 []\T1/lmr/m/it/12 Omron D3V-166-2C5 -- Subminiatur-Mikroschalter\T1/lmr/m/n/12 
 . Di-gi-Key Elec-tro-nics. \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : []$\T1/lmtt/m/n/
 12 https : / / www . digikey .
  []
 
 
-Overfull \hbox (16.99901pt too wide) in paragraph at lines 315--315
+Overfull \hbox (16.99901pt too wide) in paragraph at lines 307--307
 []\T1/lmr/m/it/12 Robot Grip-per De-sign -- Prin-cip-les and Me-cha-nisms\T1/lm
 r/m/n/12 . Ro-botShop Com-mu-ni-ty. \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : []$\T1/
 lmtt/m/n/12 https : / / community .
@@ -974,7 +974,7 @@ usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on recherche.pdf (14 pages, 361721 bytes).
+Output written on recherche.pdf (14 pages, 361127 bytes).
 PDF statistics:
  342 PDF objects out of 1000 (max. 8388607)
  293 compressed objects within 3 object streams
