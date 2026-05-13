@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.3.15)  10 MAY 2026 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.3.15)  13 MAY 2026 09:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1170,7 +1170,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 ...)Aufgabenstellung PDF}{25}{subsection.A.2}
+l.50 ...)Aufgabenstellung PDF}{25}{subsection.A.4}
                                                   % [1])
 \tf@toc=\write6
 \openout6 = `Projektbericht.toc'.
@@ -1178,130 +1178,175 @@ l.50 ...)Aufgabenstellung PDF}{25}{subsection.A.2}
 
 
 [2]
-<img/LineXpress.png, id=287, 760.64175pt x 418.56375pt>
-File: img/LineXpress.png Graphic file (type png)
-<use img/LineXpress.png>
-Package pdftex.def Info: img/LineXpress.png  used on input line 100.
-(pdftex.def)             Requested size: 384.11221pt x 211.36983pt.
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
 
 
-LaTeX Warning: Citation 'pm2-challenge-2026' on page 3 undefined on input line 
-101.
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+
+ []
 
 
-LaTeX Warning: Citation 'pm2-challenge-2026' on page 3 undefined on input line 
-101.
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+
+ []
 
 
 
 [3
 
- <./img/LineXpress.png>]
+]
 
 [4]
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--132
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--140
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--144
+Underfull \hbox (badness 10000) in paragraph at lines 131--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--148
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
 
  []
 
 
 
 [6]
-Underfull \hbox (badness 1661) in paragraph at lines 157--158
+Underfull \hbox (badness 1661) in paragraph at lines 147--148
 \T1/cmr/m/n/10.95 Teil-funk-tio-nen. Die Haupt-auf-ga-be be-steht dar-in, Pa-ke
 -te au-to-nom auf-zu-neh-men, zu trans-por-tie-ren,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-<PDFS/Funktionsstruktur.pdf, id=317, page=1, 845.0471pt x 597.51233pt>
+<PDFS/Funktionsstruktur.pdf, id=309, page=1, 845.0471pt x 597.51233pt>
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf, page 1>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
-176.
+166.
 (pdftex.def)             Requested size: 512.14963pt x 178.45728pt.
-<img/platzhalter.jpg, id=319, 1606.0pt x 1069.9975pt>
-File: img/platzhalter.jpg Graphic file (type jpg)
-<use img/platzhalter.jpg>
-Package pdftex.def Info: img/platzhalter.jpg  used on input line 202.
-(pdftex.def)             Requested size: 307.2929pt x 204.72206pt.
+<img/Skizze_LÃ¶sung_1.jpeg, id=311, 1082.0425pt x 1606.0pt>
+File: img/Skizze_LÃ¶sung_1.jpeg Graphic file (type jpg)
+<use img/Skizze_LÃ¶sung_1.jpeg>
+Package pdftex.def Info: img/Skizze_LÃ¶sung_1.jpeg  used on input line 192.
+(pdftex.def)             Requested size: 307.2929pt x 456.07289pt.
 
 
 [7 <./PDFS/Funktionsstruktur.pdf>]
+<img/platzhalter.jpg, id=337, 1606.0pt x 1069.9975pt>
 File: img/platzhalter.jpg Graphic file (type jpg)
 <use img/platzhalter.jpg>
-Package pdftex.def Info: img/platzhalter.jpg  used on input line 216.
-(pdftex.def)             Requested size: 307.2929pt x 204.72206pt.
-File: img/platzhalter.jpg Graphic file (type jpg)
-<use img/platzhalter.jpg>
-Package pdftex.def Info: img/platzhalter.jpg  used on input line 230.
+Package pdftex.def Info: img/platzhalter.jpg  used on input line 206.
 (pdftex.def)             Requested size: 307.2929pt x 204.72206pt.
 
 
-[8 <./img/platzhalter.jpg>]
-<img/prototype_1.jpeg, id=353, 1069.9975pt x 1606.0pt>
+[8 <./img/Skizze_LÃ¶sung_1.jpeg>]
+File: img/platzhalter.jpg Graphic file (type jpg)
+<use img/platzhalter.jpg>
+Package pdftex.def Info: img/platzhalter.jpg  used on input line 220.
+(pdftex.def)             Requested size: 307.2929pt x 204.72206pt.
+
+
+[9 <./img/platzhalter.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--260
+
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 261--263
+\T1/cmr/m/n/10.95 Andere Funk-tio-nen wie das ge-ziel-te Grei-fen oder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--263
+
+ []
+
+<img/prototype_1.jpeg, id=352, 1069.9975pt x 1606.0pt>
 File: img/prototype_1.jpeg Graphic file (type jpg)
 <use img/prototype_1.jpeg>
-Package pdftex.def Info: img/prototype_1.jpeg  used on input line 278.
+Package pdftex.def Info: img/prototype_1.jpeg  used on input line 272.
 (pdftex.def)             Requested size: 160.49269pt x 240.8896pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
-[9]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
+
+ []
+
 File: img/platzhalter.jpg Graphic file (type jpg)
 <use img/platzhalter.jpg>
-Package pdftex.def Info: img/platzhalter.jpg  used on input line 306.
+Package pdftex.def Info: img/platzhalter.jpg  used on input line 304.
 (pdftex.def)             Requested size: 192.71169pt x 128.39415pt.
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 302--312
+Overfull \hbox (17.0pt too wide) in paragraph at lines 300--310
 [][] 
  []
 
@@ -1310,269 +1355,316 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 302--312
 [10 <./img/prototype_1.jpeg>]
 
 [11]
-Underfull \hbox (badness 1264) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--324
+
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 344--344
 []|\T1/cmr/m/n/10.95 Elektromagnet wur-de auf-
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 340--340
+Underfull \hbox (badness 1412) in paragraph at lines 344--344
 \T1/cmr/m/n/10.95 grund per-so-nel-ler Aus-fäl-le
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 340--340
+Underfull \hbox (badness 5802) in paragraph at lines 344--344
 []|\T1/cmr/m/n/10.95 Entfällt oh-ne Elek-tro-ma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 344--344
 []|\T1/cmr/m/n/10.95 Präzisere Po-si-tio-nie-rung
  []
 
 File: img/platzhalter.jpg Graphic file (type jpg)
 <use img/platzhalter.jpg>
-Package pdftex.def Info: img/platzhalter.jpg  used on input line 345.
+Package pdftex.def Info: img/platzhalter.jpg  used on input line 349.
 (pdftex.def)             Requested size: 192.71169pt x 128.39415pt.
 
 
 [12]
-<img/CAD_komplett.png, id=379, 895.09406pt x 780.66656pt>
+<img/CAD_komplett.png, id=374, 895.09406pt x 780.66656pt>
 File: img/CAD_komplett.png Graphic file (type png)
 <use img/CAD_komplett.png>
-Package pdftex.def Info: img/CAD_komplett.png  used on input line 360.
+Package pdftex.def Info: img/CAD_komplett.png  used on input line 365.
 (pdftex.def)             Requested size: 230.46576pt x 201.00304pt.
-<img/Grundplatte.png, id=382, 1145.78062pt x 699.36281pt>
+<img/Grundplatte.png, id=378, 1145.78062pt x 699.36281pt>
 File: img/Grundplatte.png Graphic file (type png)
 <use img/Grundplatte.png>
-Package pdftex.def Info: img/Grundplatte.png  used on input line 378.
+Package pdftex.def Info: img/Grundplatte.png  used on input line 383.
 (pdftex.def)             Requested size: 230.46576pt x 140.67044pt.
-<img/Greifarm.png, id=383, 858.95906pt x 517.935pt>
+<img/Greifarm.png, id=379, 858.95906pt x 517.935pt>
 File: img/Greifarm.png Graphic file (type png)
 <use img/Greifarm.png>
-Package pdftex.def Info: img/Greifarm.png  used on input line 385.
+Package pdftex.def Info: img/Greifarm.png  used on input line 390.
 (pdftex.def)             Requested size: 230.46576pt x 138.95917pt.
 
 
 [13 <./img/CAD_komplett.png> <./img/Grundplatte.png> <./img/Greifarm.png>]
-<img/Raeder.png, id=397, 1111.15125pt x 610.53094pt>
+<img/Raeder.png, id=393, 1111.15125pt x 610.53094pt>
 File: img/Raeder.png Graphic file (type png)
 <use img/Raeder.png>
-Package pdftex.def Info: img/Raeder.png  used on input line 402.
+Package pdftex.def Info: img/Raeder.png  used on input line 407.
 (pdftex.def)             Requested size: 230.46576pt x 126.63156pt.
-<img/LinearfuehrungMitSchalter.png, id=398, 1062.21844pt x 623.32875pt>
+<img/LinearfuehrungMitSchalter.png, id=394, 1062.21844pt x 623.32875pt>
 File: img/LinearfuehrungMitSchalter.png Graphic file (type png)
 <use img/LinearfuehrungMitSchalter.png>
 Package pdftex.def Info: img/LinearfuehrungMitSchalter.png  used on input line 
-409.
+414.
 (pdftex.def)             Requested size: 230.46576pt x 135.24pt.
-<img/PES_Akku.png, id=401, 997.47656pt x 702.37407pt>
+<img/PES_Akku.png, id=397, 997.47656pt x 702.37407pt>
 File: img/PES_Akku.png Graphic file (type png)
 <use img/PES_Akku.png>
-Package pdftex.def Info: img/PES_Akku.png  used on input line 426.
+Package pdftex.def Info: img/PES_Akku.png  used on input line 431.
 (pdftex.def)             Requested size: 230.46576pt x 162.28214pt.
-<img/Sensoren.png, id=402, 1024.57782pt x 543.53062pt>
+<img/Sensoren.png, id=398, 1024.57782pt x 543.53062pt>
 File: img/Sensoren.png Graphic file (type png)
 <use img/Sensoren.png>
-Package pdftex.def Info: img/Sensoren.png  used on input line 433.
+Package pdftex.def Info: img/Sensoren.png  used on input line 438.
 (pdftex.def)             Requested size: 230.46576pt x 122.25594pt.
 
 
 [14{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./img/Raeder.p
 ng> <./img/LinearfuehrungMitSchalter.png> <./img/PES_Akku.png> <./img/Sensoren.
 png>]
-Overfull \hbox (5.46628pt too wide) in paragraph at lines 446--449
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
+
+ []
+
+
+Overfull \hbox (5.46628pt too wide) in paragraph at lines 453--455
 \T1/cmr/m/n/10.95 Das Ge-samt-sys-tem be-steht aus zwei Haupt-kom-po-nen-ten: e
 i-nem Mikrocontroller-Board (Nucleo-Board F446RE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--449
+Underfull \hbox (badness 10000) in paragraph at lines 453--455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--621
-[]|\T1/cmr/bx/n/8 STM32-
+Underfull \hbox (badness 10000) in paragraph at lines 456--458
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--621
-[]|\T1/cmr/m/n/8 PB_ENABLE_ DC-
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--621
-[]|\T1/cmr/m/n/8 SensorBar (Li-ni-en-ar-
+Underfull \hbox (badness 10000) in paragraph at lines 462--464
+
  []
 
-
-Underfull \hbox (badness 1496) in paragraph at lines 621--621
-[]|\T1/cmr/m/n/8 Im Kon-struk-tor fest-ge-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 621--621
-[]|\T1/cmr/m/n/8 SensorBar (Li-ni-en-ar-
- []
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 621--621
-[]|\T1/cmr/m/n/8 Im Kon-struk-tor fest-ge-
- []
-
-
-Overfull \hbox (0.59833pt too wide) in paragraph at lines 621--621
-[]|\T1/cmr/m/n/8 Frequenzausgang| 
- []
-
-
-Underfull \hbox (badness 4981) in paragraph at lines 621--621
-[]|\T1/cmr/m/n/8 Grüne LED auf dem
- []
+! Too many }'s.
+l.465 	\noindent}
+                 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
 
 
 [15]
-Underfull \hbox (badness 1259) in paragraph at lines 647--647
-[]|\T1/cmr/m/n/10.95 Gezielte Po-si-tio-nie-rung des Ro-bo-ter-arms zur
+Underfull \hbox (badness 10000) in paragraph at lines 594--602
+
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 694--694
-[]|\T1/cmr/m/n/10.95 Das PES-Board er-wei-tert das Nucleo
+Underfull \hbox (badness 10000) in paragraph at lines 594--602
+
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 694--694
-\T1/cmr/m/n/10.95 F446RE um zu-sätz-li-che Schnitt-stel-len,
+Underfull \hbox (badness 10000) in paragraph at lines 605--622
+
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--622
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--622
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--622
+
+ []
+
+<img/flowchart.png, id=428, 6034.545pt x 2168.1pt>
+File: img/flowchart.png Graphic file (type png)
+<use img/flowchart.png>
+Package pdftex.def Info: img/flowchart.png  used on input line 625.
+(pdftex.def)             Requested size: 512.14963pt x 184.00485pt.
 
 
 [16]
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 728--736
-
- []
+LaTeX Warning: Reference `app:handle-parcel' on page 17 undefined on input line
+ 658.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--736
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 739--756
-
- []
+LaTeX Warning: Reference `app:detect-cross' on page 17 undefined on input line 
+668.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 739--756
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 739--756
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 739--756
-
- []
-
-<img/flowchart.png, id=493, 6034.545pt x 2168.1pt>
-File: img/flowchart.png Graphic file (type png)
-<use img/flowchart.png>
-Package pdftex.def Info: img/flowchart.png  used on input line 759.
-(pdftex.def)             Requested size: 512.14963pt x 184.00485pt.
-
+[17 <./img/flowchart.png>]
 
 [18]
 
-LaTeX Warning: Reference `app:handle-parcel' on page 19 undefined on input line
- 792.
-
-
-LaTeX Warning: Reference `app:detect-cross' on page 19 undefined on input line 
-802.
-
-
-
-[19 <./img/flowchart.png>]
-
-[20]
-
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 828.
+(hyperref)                than one, level fixed on input line 694.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 834--835
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 836--838
+Underfull \hbox (badness 10000) in paragraph at lines 700--701
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 844--846
+Underfull \hbox (badness 10000) in paragraph at lines 702--704
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 847--849
+Underfull \hbox (badness 10000) in paragraph at lines 710--712
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--852
+Underfull \hbox (badness 10000) in paragraph at lines 713--715
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 853--855
+Underfull \hbox (badness 10000) in paragraph at lines 716--718
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--721
 
  []
 
 
 
-[21]
+[19]
 
-[22] (./Projektbericht.lof)
+[20] (./Projektbericht.lof)
 \tf@lof=\write7
 \openout7 = `Projektbericht.lof'.
 
 
 
-[23] (./Projektbericht.lot)
+[21] (./Projektbericht.lot)
 \tf@lot=\write8
 \openout8 = `Projektbericht.lot'.
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 925--925
+Underfull \hbox (badness 2521) in paragraph at lines 792--792
 []|\T1/cmr/m/n/10.95 Die Mo-to-ren be-we-gen
  []
 
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=577, 597.432pt x 845.07718p
+
+Underfull \hbox (badness 10000) in paragraph at lines 845--845
+[]|\T1/cmr/bx/n/8 STM32-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 845--845
+[]|\T1/cmr/m/n/8 PB_ENABLE_ DC-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 845--845
+[]|\T1/cmr/m/n/8 SensorBar (Li-ni-en-ar-
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 845--845
+[]|\T1/cmr/m/n/8 Im Kon-struk-tor fest-ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 845--845
+[]|\T1/cmr/m/n/8 SensorBar (Li-ni-en-ar-
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 845--845
+[]|\T1/cmr/m/n/8 Im Kon-struk-tor fest-ge-
+ []
+
+
+Overfull \hbox (0.59833pt too wide) in paragraph at lines 845--845
+[]|\T1/cmr/m/n/8 Frequenzausgang| 
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 845--845
+[]|\T1/cmr/m/n/8 Grüne LED auf dem
+ []
+
+
+
+[22]
+Underfull \hbox (badness 1259) in paragraph at lines 871--871
+[]|\T1/cmr/m/n/10.95 Gezielte Po-si-tio-nie-rung des Ro-bo-ter-arms zur
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 918--918
+[]|\T1/cmr/m/n/10.95 Das PES-Board er-wei-tert das Nucleo
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 918--918
+\T1/cmr/m/n/10.95 F446RE um zu-sätz-li-che Schnitt-stel-len,
+ []
+
+
+
+[23]
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=573, 597.432pt x 845.07718p
 t>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf  used o
-n input line 934.
+n input line 946.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=579, page=1, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=575, page=1, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 1>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page1
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 1>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page1
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 
 
@@ -1580,320 +1672,320 @@ Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page1
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 1>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page1
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 1>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page1
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 
 
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 1>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page1
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 [25
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=614, page=2, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=609, page=2, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 2>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page2
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 2>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page2
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 
 
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 2>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page2
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 [26
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=623, page=3, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=618, page=3, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 3>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page3
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 3>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page3
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 
 
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 3>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page3
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 [27
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=634, page=4, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=629, page=4, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 4>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page4
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 4>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page4
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 
 
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 4>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page4
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 [28
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=639, page=5, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=634, page=5, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 5>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page5
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 5>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page5
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 
 
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 5>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page5
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 [29
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=644, page=6, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=639, page=6, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 6>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page6
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 6>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page6
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 
 
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 6>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page6
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 [30
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=652, page=7, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=647, page=7, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 7>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page7
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 7>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page7
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 
 
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 7>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page7
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 [31
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=657, page=8, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=652, page=8, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 8>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page8
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 8>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page8
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 
 
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 8>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page8
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 [32
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=662, page=9, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=657, page=9, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 9>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page9
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 9>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page9
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 
 
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 9>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page9
- used on input line 934.
+ used on input line 946.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 [33
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/Zeitplan.pdf, id=671, 1808.7575pt x 1205.50375pt>
+<PDFS/Zeitplan.pdf, id=666, 1808.7575pt x 1205.50375pt>
 File: PDFS/Zeitplan.pdf Graphic file (type pdf)
 <use PDFS/Zeitplan.pdf>
-Package pdftex.def Info: PDFS/Zeitplan.pdf  used on input line 943.
+Package pdftex.def Info: PDFS/Zeitplan.pdf  used on input line 955.
 (pdftex.def)             Requested size: 1808.75311pt x 1205.50082pt.
-<PDFS/Zeitplan.pdf, id=673, page=1, 1808.7575pt x 1205.50375pt>
+<PDFS/Zeitplan.pdf, id=668, page=1, 1808.7575pt x 1205.50375pt>
 File: PDFS/Zeitplan.pdf Graphic file (type pdf)
 <use PDFS/Zeitplan.pdf, page 1>
-Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 943.
+Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 955.
 (pdftex.def)             Requested size: 1808.75311pt x 1205.50082pt.
 File: PDFS/Zeitplan.pdf Graphic file (type pdf)
 <use PDFS/Zeitplan.pdf, page 1>
-Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 943.
+Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 955.
 (pdftex.def)             Requested size: 597.7474pt x 398.3877pt.
 File: PDFS/Zeitplan.pdf Graphic file (type pdf)
 <use PDFS/Zeitplan.pdf, page 1>
-Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 943.
+Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 955.
 (pdftex.def)             Requested size: 597.7474pt x 398.3877pt.
 File: PDFS/Zeitplan.pdf Graphic file (type pdf)
 <use PDFS/Zeitplan.pdf, page 1>
-Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 943.
+Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 955.
 (pdftex.def)             Requested size: 597.7474pt x 398.3877pt.
 
 
 File: PDFS/Zeitplan.pdf Graphic file (type pdf)
 <use PDFS/Zeitplan.pdf, page 1>
-Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 943.
+Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 955.
 (pdftex.def)             Requested size: 597.7474pt x 398.3877pt.
 [34
 
 
  <./PDFS/Zeitplan.pdf>]
-<PDFS/Anforderungsliste.pdf, id=681, 597.55246pt x 845.07718pt>
+<PDFS/Anforderungsliste.pdf, id=676, 597.55246pt x 845.07718pt>
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf>
-Package pdftex.def Info: PDFS/Anforderungsliste.pdf  used on input line 952.
+Package pdftex.def Info: PDFS/Anforderungsliste.pdf  used on input line 964.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<PDFS/Anforderungsliste.pdf, id=683, page=1, 597.55246pt x 845.07718pt>
+<PDFS/Anforderungsliste.pdf, id=678, page=1, 597.55246pt x 845.07718pt>
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
-952.
+964.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
-952.
+964.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
-952.
+964.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
-952.
+964.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
-952.
+964.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [35
 
 
  <./PDFS/Anforderungsliste.pdf>]
-<PDFS/Anforderungsliste.pdf, id=704, page=2, 597.55246pt x 845.07718pt>
+<PDFS/Anforderungsliste.pdf, id=699, page=2, 597.55246pt x 845.07718pt>
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 2>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page2 used on input line 
-952.
+964.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 2>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page2 used on input line 
-952.
+964.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 2>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page2 used on input line 
-952.
+964.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [36
 
  <./PDFS/Anforderungsliste.pdf>]
-<PDFS/Funktionsstruktur.pdf, id=718, 845.0471pt x 597.51233pt>
+<PDFS/Funktionsstruktur.pdf, id=713, 845.0471pt x 597.51233pt>
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf>
-Package pdftex.def Info: PDFS/Funktionsstruktur.pdf  used on input line 961.
+Package pdftex.def Info: PDFS/Funktionsstruktur.pdf  used on input line 973.
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf, page 1>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
-961.
+973.
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf, page 1>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
-961.
+973.
 (pdftex.def)             Requested size: 597.53772pt x 422.50443pt.
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf, page 1>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
-961.
+973.
 (pdftex.def)             Requested size: 597.53772pt x 422.50443pt.
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf, page 1>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
-961.
+973.
 (pdftex.def)             Requested size: 597.53772pt x 422.50443pt.
 
 
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf, page 1>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
-961.
+973.
 (pdftex.def)             Requested size: 597.53772pt x 422.50443pt.
 [37
 
@@ -1907,37 +1999,44 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Projektbericht.out' has not changed.
-(rerunfilecheck)             Checksum: C9BBEF3C607E811F5A62CD39D023A966;7279.
+(rerunfilecheck)             Checksum: 820B13270006D8D057288ABD5FAF0EE7;7281.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Projektbericht
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Projektbericht.run.xml'.
 \openout1 = `Projektbericht.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36474 strings out of 473197
- 739605 string characters out of 5718605
- 1539664 words of memory out of 5000000
- 59097 multiletter control sequences out of 15000+600000
- 574552 words of font info for 72 fonts, out of 8000000 for 9000
+ 36475 strings out of 473197
+ 739785 string characters out of 5718605
+ 1539600 words of memory out of 5000000
+ 59101 multiletter control sequences out of 15000+600000
+ 573090 words of font info for 70 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 84i,17n,87p,1207b,3045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,87p,1207b,2733s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
 /fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sftt1095.pfb>
-Output written on Projektbericht.pdf (38 pages, 9387489 bytes).
+cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
+
+Output written on Projektbericht.pdf (38 pages, 9009504 bytes).
 PDF statistics:
- 828 PDF objects out of 1000 (max. 8388607)
- 645 compressed objects within 7 object streams
- 131 named destinations out of 1000 (max. 500000)
+ 815 PDF objects out of 1000 (max. 8388607)
+ 637 compressed objects within 7 object streams
+ 130 named destinations out of 1000 (max. 500000)
  595 words of extra memory for PDF output out of 10000 (max. 10000000)
 

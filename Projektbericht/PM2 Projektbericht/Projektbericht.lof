@@ -1,18 +1,17 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Projektlogo \textit {MoonCarrier}. Quelle: übernommen aus \blx@tocontentsinit {0}\cite {pm2-challenge-2026}.}}{3}{figure.caption.2}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Funktionsstruktur}}{7}{figure.caption.3}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Skizze Variante 1}}{8}{figure.caption.5}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Skizze Variante 2}}{8}{figure.caption.7}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Skizze Variante 3}}{9}{figure.caption.9}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Erster Prototyp}}{10}{figure.caption.10}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Zweiter Prototyp}}{11}{figure.caption.11}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Finales Konzept}}{12}{figure.caption.13}%
-\contentsline {figure}{\numberline {9}{\ignorespaces CAD-Modell des Roboters}}{13}{figure.caption.14}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Grundplatte}}{13}{figure.caption.15}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Greifarm (ohne Seil)}}{13}{figure.caption.15}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Unterseite mit Rädern und Antrieb für Linearführung}}{14}{figure.caption.16}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Linearführung (ohne Greifarm)}}{14}{figure.caption.16}%
-\contentsline {figure}{\numberline {14}{\ignorespaces PES-Board und Akku}}{14}{figure.caption.17}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Linefollow- und Farbsensor}}{14}{figure.caption.17}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Vereinfachtes Elektrodiagramm des Roboters}}{15}{figure.caption.18}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Ablaufdiagram mit (1) Main-Thread, (2) Line-Follow-Thread und User-Button }}{19}{figure.caption.24}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Funktionsstruktur}}{7}{figure.caption.2}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Skizze Variante 1}}{8}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Skizze Variante 2}}{9}{figure.caption.6}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Skizze Variante 3}}{9}{figure.caption.8}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Erster Prototyp}}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Zweiter Prototyp}}{11}{figure.caption.10}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Finales Konzept}}{12}{figure.caption.12}%
+\contentsline {figure}{\numberline {8}{\ignorespaces CAD-Modell des Roboters}}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Grundplatte}}{13}{figure.caption.14}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Greifarm (ohne Seil)}}{13}{figure.caption.14}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Unterseite mit Rädern und Antrieb für Linearführung}}{14}{figure.caption.15}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Linearführung (ohne Greifarm)}}{14}{figure.caption.15}%
+\contentsline {figure}{\numberline {13}{\ignorespaces PES-Board und Akku}}{14}{figure.caption.16}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Linefollow- und Farbsensor}}{14}{figure.caption.16}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Vereinfachtes Elektrodiagramm des Roboters}}{15}{figure.caption.17}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Ablaufdiagram mit (1) Main-Thread, (2) Line-Follow-Thread und User-Button }}{17}{figure.caption.18}%

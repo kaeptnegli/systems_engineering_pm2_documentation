@@ -85,30 +85,20 @@
 	\section{Produktentwicklung}
 	
 	\subsection{Einführung und Übersicht}
-	Im Rahmen des Moduls Produktentwicklung Systemtechnik~2 (PM2) wird gemäss den VDI-Richtlinien 2221/2222 \cite{vdi2221} ein autonomer Lieferroboter entwickelt und aufgebaut. Der Roboter trägt den Namen \textit{MoonCarrier} (Abbildung~\ref{fig:Logo1}).
+	Im Rahmen des Moduls Produktentwicklung Systemtechnik~2 (PM2) wird gemäss den VDI-Richtlinien 2221/2222 \cite{vdi2221} ein autonomer Lieferroboter entwickelt und aufgebaut. Der Roboter trägt den Namen \textit{MoonCarrier}.\\
 
-	Die Aufgabe besteht darin, farbcodierte Pakete auf einem definierten Spielfeld autonom aufzunehmen und den entsprechend markierten Ablieferhäusern zuzuordnen. Der Roboter navigiert dabei entlang einer schwarzen Fahrlinie und muss die Pakete bei den Abholhäusern aufnehmen sowie vollständig im zugehörigen Hausfeld der Ablieferhäuser absetzen.
+    \noindent
+	Die Aufgabe besteht darin, farbcodierte Pakete auf einem definierten Spielfeld autonom aufzunehmen und den entsprechend markierten Ablieferhäusern zuzuordnen. Der Roboter navigiert dabei entlang einer schwarzen Fahrlinie und muss die Pakete bei den Abholhäusern aufnehmen sowie vollständig im zugehörigen Hausfeld der Ablieferhäuser absetzen.\\
 
-	An die Lösung werden sowohl funktionale als auch konstruktive Anforderungen gestellt. Die maximale Startgrösse des Roboters beträgt 200\,mm~$\times$~200\,mm~$\times$~200\,mm. Zentrale technische Herausforderungen sind die zuverlässige Linienverfolgung, die Farberkennung zur Paketidentifikation, die präzise Positionierung bei den Häusern sowie eine robuste Greifmechanik für das Aufnehmen und Ablegen der Pakete.
+    \noindent
+	An die Lösung werden sowohl funktionale als auch konstruktive Anforderungen gestellt. Die maximale Startgrösse des Roboters beträgt 200\,mm~$\times$~200\,mm~$\times$~200\,mm. Zentrale technische Herausforderungen sind die zuverlässige Linienverfolgung, die Farberkennung zur Paketidentifikation, die präzise Positionierung bei den Häusern sowie eine robuste Greifmechanik für das Aufnehmen und Ablegen der Pakete.\\
 
+    \noindent
 	Die Entwicklung gliedert sich in die drei mechatronischen Bereiche Mechanik, Elektronik und Software, die eng miteinander verzahnt sind. Der vorliegende Bericht dokumentiert den vollständigen Entwicklungsprozess vom Konzept bis zum Prototyp. Genauere Informationen zur Aufgabenstellung sind im Anhang unter \hyperref[anhang:Aufgabenstellung]{Aufgabenstellung Challenge PM2 FS26} zu finden.
 	
-	
-	%-----------------------Bild------------------------
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.75\textwidth]{LineXpress}
-		\caption{Projektlogo \textit{MoonCarrier}. Quelle: übernommen aus \cite{pm2-challenge-2026}.}
-		\label{fig:Logo1}
-	\end{figure}
-	%---------------------------------------------------
 \newpage
 	\subsection{Zeitplan}
-	Der Zeitplan wurde als Gantt-Diagramm erstellt, mit Aufgabengruppen (Planung, Entwicklung, Dokumentation) und den dazugehörigen Meilensteinen (Coaching, Roboter Version 1 etc.). Der Plan ist auf die 14 Semesterwochen mit sechs Personen ausgelegt.  
-	
-	Aufgrund weiterer Leistungsnachweise während des Semesters sowie personeller Ausfälle im Team konnten die Vorgaben des Zeitplans nicht vollständig eingehalten werden.
-	
-	Der gesamte Zeitplan ist im Anhang vermerkt. 
+	Der Zeitplan wurde als Gantt-Diagramm erstellt, mit Aufgabengruppen (Planung, Entwicklung, Dokumentation) und den dazugehörigen Meilensteinen (Coaching, Roboter Version 1 etc.). Der Plan ist auf die 14 Semesterwochen mit sechs Personen ausgelegt. Aufgrund weiterer Leistungsnachweise während des Semesters sowie personeller Ausfälle im Team konnten die Vorgaben des Zeitplans nicht vollständig eingehalten werden. Der gesamte Zeitplan ist im Anhang vermerkt. 
 
 \newpage
 	\subsection{Recherchebericht}
@@ -199,7 +189,7 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\textwidth]{platzhalter}
+		\includegraphics[width=0.6\textwidth]{Skizze_Lösung_1}
 		\caption{Skizze Variante 1}
 		\label{fig:variante1}
 	\end{figure}
@@ -260,14 +250,18 @@
 		\begin{minipage}[t]{0.5\textwidth}
 			\vspace{0pt}
 			Abbildung~\ref{fig:ErsterPrototyp} zeigt den ersten Prototyp. 
-			Dieser dient vor allem dazu, die grundlegende Idee des Systems praktisch umzusetzen und auszuprobieren.
+			Dieser dient vor allem dazu, die grundlegende Idee des Systems praktisch umzusetzen und auszuprobieren.\\
 			
-			Dabei liegt der Fokus klar auf der Fahrmechanik. Ziel ist es, zuerst zu prüfen, ob sich das Fahrzeug grundsätzlich bewegen lässt und ob der mechanische Aufbau mit Rädern, Antrieb und Chassis funktioniert.
+			\noindent
+			Dabei liegt der Fokus klar auf der Fahrmechanik. Ziel ist es, zuerst zu prüfen, ob sich das Fahrzeug grundsätzlich bewegen lässt und ob der mechanische Aufbau mit Rädern, Antrieb und Chassis funktioniert.\\
 			
-			Das Chassis besteht Hauptsächlich aus Karton und Klebeband. Die Räder sind aus 3D Material und sind mit O-Ringe ausgestattet.  
+			\noindent
+			Das Chassis besteht Hauptsächlich aus Karton und Klebeband. Die Räder sind aus 3D Material und sind mit O-Ringe ausgestattet.\\
 			
-			Andere Funktionen wie das gezielte Greifen oder Ablegen von Paketen stehen in dieser Phase noch nicht im Mittelpunkt. 
+			\noindent
+			Andere Funktionen wie das gezielte Greifen oder Ablegen von Paketen stehen in dieser Phase noch nicht im Mittelpunkt.\\
 			
+			\noindent
 			Der Prototyp dient also hauptsächlich dazu, die fahrbare Basis zu testen und erste Erfahrungen mit dem mechanischen und elektronischen Aufbau zu sammeln.
 		\end{minipage}\hfill
 		%-----------------------Bild------------------------
@@ -287,14 +281,18 @@
 		
 		\begin{minipage}[t]{0.95\textwidth}
 			\vspace{0pt}
-			Der zweite Prototyp (Abbildung~\ref{fig:ZweiterPrototyp}) baut auf den Erkenntnissen aus der ersten Version auf. Während beim ersten Aufbau vor allem die Fahrmechanik im Vordergrund steht, liegt der Fokus nun stärker auf dem Greifarm, der Optimierung der Fahrgeschwindigkeit und dem Farbsensor. Ziel ist es, das System funktional zu erweitern und gleichzeitig die bisherigen Fahrfunktionen zuverlässiger und präziser zu machen. 
+			Der zweite Prototyp (Abbildung~\ref{fig:ZweiterPrototyp}) baut auf den Erkenntnissen aus der ersten Version auf. Während beim ersten Aufbau vor allem die Fahrmechanik im Vordergrund steht, liegt der Fokus nun stärker auf dem Greifarm, der Optimierung der Fahrgeschwindigkeit und dem Farbsensor. Ziel ist es, das System funktional zu erweitern und gleichzeitig die bisherigen Fahrfunktionen zuverlässiger und präziser zu machen.\\
 			
-			In dieser Version werden die aufgetretenen Schwierigkeiten deutlicher sichtbar. Während der Umsetzung müssen verschiedene Entscheidungen getroffen werden, da gewisse Funktionen mehr Zeit und Aufwand benötigen als ursprünglich erwartet.
+			\noindent
+			In dieser Version werden die aufgetretenen Schwierigkeiten deutlicher sichtbar. Während der Umsetzung müssen verschiedene Entscheidungen getroffen werden, da gewisse Funktionen mehr Zeit und Aufwand benötigen als ursprünglich erwartet.\\
 			
-			Aus zeitlichen Gründen wird der Elektromagnet entfernt und durch einen normalen Magneten ersetzt. Der Grund dafür ist, dass der Zeitaufwand sowie die Zuverlässigkeit des Elektromagneten zu diesem Zeitpunkt nicht ausreichend abgeschätzt werden können. Durch diese Änderung funktioniert das ursprüngliche Prinzip mit dem Aufnehmen und Ablegen der Pakete nicht mehr wie geplant. Ohne Elektromagnet können die Pakete nicht gezielt auf dem Magazin abgesetzt werden.
+			\noindent
+			Aus zeitlichen Gründen wird der Elektromagnet entfernt und durch einen normalen Magneten ersetzt. Der Grund dafür ist, dass der Zeitaufwand sowie die Zuverlässigkeit des Elektromagneten zu diesem Zeitpunkt nicht ausreichend abgeschätzt werden können. Durch diese Änderung funktioniert das ursprüngliche Prinzip mit dem Aufnehmen und Ablegen der Pakete nicht mehr wie geplant. Ohne Elektromagnet können die Pakete nicht gezielt auf dem Magazin abgesetzt werden.\\
 			
-			Diese Anpassung hat auch Auswirkungen auf die Fahrstrategie. Statt mehrere Pakete in einem Durchlauf aufzunehmen, wird nun nur noch ein Paket pro Durchlauf gesammelt. Dadurch wird der Ablauf einfacher und besser kontrollierbar.
+			\noindent
+			Diese Anpassung hat auch Auswirkungen auf die Fahrstrategie. Statt mehrere Pakete in einem Durchlauf aufzunehmen, wird nun nur noch ein Paket pro Durchlauf gesammelt. Dadurch wird der Ablauf einfacher und besser kontrollierbar.\\
 			
+			\noindent
 			Zusätzlich wird auch die Strategie für das Rückwärtsfahren angepasst. Beim Testen zeigt sich, dass das Rückwärtsfahren schwierig umzusetzen ist und nicht zuverlässig genug funktioniert. Deshalb fährt der Roboter in dieser Version nur noch geradeaus und durch den Tunnel. Dadurch wird die Bewegung vereinfacht und die Wahrscheinlichkeit erhöht, dass der Ablauf stabil funktioniert.
 		\end{minipage}\hfill
 		
@@ -313,13 +311,19 @@
 		
 \newpage
 	\subsection{Finales Konzept}
-		Die Nutzwertanalyse hat Variante~1 als Vorzugslösung identifiziert. Das ursprüngliche Konzept sah vor, alle Pakete nacheinander mittels Elektromagnet auf ein Magazin zu laden, anschliessend einmalig durch den Tunnel zu fahren und die Pakete auf der gegenüberliegenden Seite einzeln abzulegen. Der wesentliche Vorteil dieser Strategie bestand darin, den Parcours nur einmal zu durchfahren, was eine erhebliche Zeitersparnis bedeutet hätte.
+		Die Nutzwertanalyse hat Variante~1 als Vorzugslösung identifiziert. Das ursprüngliche Konzept sah vor, alle Pakete nacheinander mittels Elektromagnet auf ein Magazin zu laden, anschliessend einmalig durch den Tunnel zu fahren und die Pakete auf der gegenüberliegenden Seite einzeln abzulegen. Der wesentliche Vorteil dieser Strategie bestand darin, den Parcours nur einmal zu durchfahren, was eine erhebliche Zeitersparnis bedeutet hätte.\\
 
-			Im Verlauf des Projekts traten personelle Ausfälle im Team auf, wodurch die ursprünglich geplante Aufgabenverteilung nicht mehr aufrechterhalten werden konnte. Die Entwicklung des Elektromagneten sowie der dazugehörigen Aufnahme- und Lagerlogik in der Software blieb dadurch unrealisiert.
-
-			Aufgrund des entstehenden Zeitdrucks wurde eine Vereinfachung des Konzepts vorgenommen: Der Greifarm wird direkt auf dem Magazin befestigt und nimmt jeweils nur ein Paket pro Durchlauf auf. Statt einer einmaligen Fahrt wird der Parcours mehrfach durchfahren. Durch diesen Ansatz entfällt der Elektromagnet vollständig, und die komplexe Magazin- und Lagerlogik in der Software wird eliminiert.
-
-			Diese Entscheidung erwies sich jedoch als unzureichende Vereinfachung: Der Greifarm allein stellte bereits eine erhebliche mechanische und softwareseitige Herausforderung dar und war massgeblich daran beteiligt, dass die verfügbare Entwicklungszeit überschritten wurde. Die Abweichungen vom ursprünglichen Konzept sind in Tabelle~\ref{tab:abweichungen} zusammengefasst.
+        \noindent
+			Im Verlauf des Projekts traten personelle Ausfälle im Team auf, wodurch die ursprünglich geplante Aufgabenverteilung nicht mehr aufrechterhalten werden konnte. Die Entwicklung des Elektromagneten sowie der dazugehörigen Aufnahme- und Lagerlogik in der Software blieb dadurch unrealisiert.\\
+		
+		\noindent
+			Aufgrund des entstehenden Zeitdrucks wurde eine Vereinfachung des Konzepts vorgenommen: Der Greifarm wird direkt auf dem Magazin befestigt und nimmt jeweils nur ein Paket pro Durchlauf auf. Statt einer einmaligen Fahrt wird der Parcours mehrfach durchfahren. Durch diesen Ansatz entfällt der Elektromagnet vollständig, und die komplexe Magazin- und Lagerlogik in der Software wird eliminiert.\\
+			
+		\noindent
+			Diese Entscheidung erwies sich jedoch als unzureichende Vereinfachung: Der Greifarm allein stellte bereits eine erhebliche mechanische und softwareseitige Herausforderung dar und war massgeblich daran beteiligt, dass die verfügbare Entwicklungszeit überschritten wurde. Die Abweichungen vom ursprünglichen Konzept sind in Tabelle~\ref{tab:abweichungen} zusammengefasst.\\
+			
+		\noindent
+			Entsprechend wird auch im folgenden Kapitel (Mechanik \ref{sec:Mechanik}) das Finale Konzept und nicht der Lösungsvorschalg 1 behandelt.
 
 			\begin{table}[H]
 				\centering
@@ -349,6 +353,7 @@
 	
 \newpage
 	\section{Mechanik}
+	\label{sec:Mechanik}
 	
 	\subsection{Einführung}
 	Der Aufbau des Roboters ist relativ simpel gehalten, die meisten Komponenten sind verschraubt. So können mechanische Anpassungen schnell durchgeführt und getestet werden. In Abbildung \ref{fig:CAD_komplett} ist das CAD-Modell des zusammengebauten Roboters ersichtlich, die Fahrtrichtung ist nach schräg-links-unten.
@@ -444,14 +449,21 @@
 	\section{Elektronik}
 	
 	Die Elektronik bildet die Schnittstelle zwischen Mechanik und Software und übernimmt sowohl die Verarbeitung der Sensordaten als auch die Ansteuerung der Aktoren.\\
+	
+	\noindent
 	Das Gesamtsystem besteht aus zwei Hauptkomponenten: einem Mikrocontroller-Board (Nucleo-Board F446RE \cite{nucleo-f446re}) sowie einem speziell entwickelten Motherboard der ZHAW \cite{pes-board}.\\
+	
+	\noindent
 	Das Nucleo-Board basiert auf einem ARM-Mikrocontroller und stellt die zentrale Recheneinheit des Systems dar. Es übernimmt die Verarbeitung der Sensordaten, die Regelalgorithmen zur Linienverfolgung sowie die Steuerung der Motoren. Die Programmierung erfolgt in C++ über die Mbed-Plattform.\\
 	
-	
-	
-	
 	\subsection{Elektronikschema}
-	Vereinfachtes Blockdiagramm:
+	In Abbildung~\ref{fig:elektrodiagramm} ist das vereinfachte Elektronikschema dargestellt. Die Kernkomponente der Schaltung bilden das Nucleo-Board und das PES-Board, über welche sämtliche Komponenten angesteuert und ausgelesen werden. Auch die Spannungsversorgung der elektronischen Bauteile erfolgt über diese beiden Boards.\\
+	
+	\noindent
+	Zu den Aktoren gehören drei DC-Motoren sowie zwei Servomotoren. Die Motoren M1 und M2 sind für den Antrieb der Räder zuständig und ermöglichen die Fortbewegung des MoonCarriers. Der Motor M3 bewegt das Lager, auf dem sich der Greifarm befindet. Die beiden Servomotoren werden für die Bewegungen des Greifmechanismus eingesetzt.\\
+	
+	\noindent}
+	Die für den autonomen Betrieb benötigten Informationen erhält das System über drei Sensoren. Der Line-Follower dient zur Erkennung und Verfolgung der schwarzen Linie. Der Farbsensor erkennt die farbigen Markierfelder der Häuser, während der User-Button zum Starten des MoonCarriers verwendet wird.
 	
 	\begin{figure}[H]
 		\centering
@@ -566,152 +578,6 @@
 		\caption{Vereinfachtes Elektrodiagramm des Roboters}
 		\label{fig:elektrodiagramm}
 	\end{figure}
-	
-	\subsection{Pinbelegung}
-	
-	\begin{table}[H]
-		\centering
-		\scriptsize
-		\caption{Pinbelegung}
-		\label{tab:pinbelegung_pes_board}
-		\begin{tabularx}{\textwidth}{|p{2.1cm}|p{3.1cm}|p{2.2cm}|X|p{1.5cm}|X|}
-			\hline
-			\textbf{Kategorie} & \textbf{Komponente} & \textbf{Signal} & \textbf{PES-Symbol} & \textbf{STM32-Pin} & \textbf{Bemerkung} \\
-			\hline
-			
-			DC Motor & Motor M1 (linkes Rad) & PWM & PB\_PWM\_M1 & PB\_13 & linkes Rad\\
-			\hline
-			DC Motor & Motor M1 & Encoder A & PB\_ENC\_A\_M1 & PA\_6 & linkes Rad \\
-			\hline
-			DC Motor & Motor M1 & Encoder B & PB\_ENC\_B\_M1 & PC\_7 & linkes Rad \\
-			\hline
-			DC Motor & Motor M2 (rechtes Rad) & PWM & PB\_PWM\_M2 & PA\_9 & rechtes Rad \\
-			\hline
-			DC Motor & Motor M2 & Encoder A & PB\_ENC\_A\_M2 & PB\_6 & rechtes Rad \\
-			\hline
-			DC Motor & Motor M2 & Encoder B & PB\_ENC\_B\_M2 & PB\_7 & rechtes Rad \\
-			\hline
-			DC Motor & Motor M3 (Hubachse) & PWM & PB\_PWM\_M3 & PA\_10 &  Hubachse\\
-			\hline
-			DC Motor & Motor M3 & Encoder A & PB\_ENC\_A\_M3 & PA\_0 & Hubachse \\
-			\hline
-			DC Motor & Motor M3 & Encoder B & PB\_ENC\_B\_M3 & PA\_1 & Hubachse \\
-			\hline
-			DC Motor & Alle Motoren & Enable & PB\_ENABLE\_ DCMOTORS & PB\_15 & Um die Motoren zu aktivieren \\
-			\hline
-			
-			Servo & Servo D0 & PWM & PB\_D0 & PB\_2 & Arm \\
-			\hline
-			Servo & Servo D1 & PWM & PB\_D1 & PC\_8 & Greifer\\
-			\hline
-			
-			Sensor & SensorBar (Linienarray) & I2C SDA &  & PB\_9 & Im Konstruktor festgelegt \\
-			\hline
-			Sensor & SensorBar (Linienarray) & I2C SCL &  & PB\_8 & Im Konstruktor festgelegt \\
-			\hline
-			Sensor & ColorSensor (TCS3200) & Frequenzausgang &  & PB\_3 & Single-Pin-Konstruktor \\
-			\hline
-			
-			Board & User Button & Digital In & BUTTON1 & PC\_13 & Blauer Taster auf dem Nucleo \\
-			\hline
-			Board & User LED & Digital Out & LED1 & PA\_5 & Grüne LED auf dem Nucleo \\
-			\hline
-			
-			
-		\end{tabularx}
-	\end{table}
-
-	\subsection{Verwendete Bauteile}
-	
-	\begin{table}[H]
-		\centering
-		\renewcommand{\arraystretch}{1.2}
-		\begin{tabularx}{\textwidth}{|c|l|X|p{2.5cm}|}
-			\hline
-			\textbf{Anzahl} & \textbf{Aktoren} & \textbf{Verwendung} & \textbf{Internetlink} 
-			\\
-			\hline
-			%Bauteil
-			3& %Anzahl 
-			DC-Motoren mit Encoder & %Bauteilname
-			Antrieb der Räder sowie Positionierung der Achse des Roboterarms.& %Verwendung
-			\href{https://www.pololu.com/category/167/20d-metal-gearmotors}{pololu} \cite{pololu-20d} \\
-			\hline
-			%Bauteil
-			2& %Anzahl 
-			RC-Servos& %Bauteilname
-			Gezielte Positionierung des Roboterarms zur Aufnahme und Ablage der Pakete& %Verwendung
-			\href{https://www.conrad.ch/de/p/reely-standard-servo-cys-s0090-analog-servo-getriebe-material-metall-stecksystem-jr-2203091.html}{Conrad} \cite{servo-cys-s0090} \\
-			\hline
-			
-		\end{tabularx}
-	\end{table}
-
-	\begin{table}[H]
-		\centering
-		\renewcommand{\arraystretch}{1.2}
-		\begin{tabularx}{\textwidth}{|c|l|X|p{2.5cm}|}
-			\hline
-			\textbf{Anzahl} & \textbf{Sensoren} & \textbf{Verwendung} & \textbf{Internetlink} 
-			\\
-			\hline
-			%Bauteil
-			1& %Anzahl 
-			Line-Follower-Array& %Bauteilname
-			Kontinuierliche Erfassung der Fahrbahnlinie zur Regelung der Fahrtrichtung& %Verwendung
-			\href{https://www.sparkfun.com/sparkfun-line-follower-array.html}{sparkfun} \cite{sparkfun-line-follower} \\
-			\hline
-			%Bauteil
-			1& %Anzahl 
-			Farbsensor& %Bauteilname
-			Erfassung der Farbcodierung auf dem Spielfeld& %Verwendung
-			\href{https://www.berrybase.ch/tcs230-tcs3200-farbsensor-modul}{berrybase} \cite{tcs3200} \\
-			\hline
-		\end{tabularx}
-	\end{table}
-
-	\begin{table}[H]
-		\centering
-		\renewcommand{\arraystretch}{1.2}
-		\begin{tabularx}{\textwidth}{|c|l|X|p{2.5cm}|}
-			\hline
-			\textbf{Anzahl} & \textbf{Mikrocontroller} & \textbf{Verwendung} & \textbf{Internetlink} 
-			\\
-			\hline
-			%Bauteil
-			1& %Anzahl 
-			ZHAW-Motherboard PES-Board& %Bauteilname
-			Das PES-Board erweitert das Nucleo F446RE um zusätzliche Schnittstellen, Sensorik und Leistungselektronik& %Verwendung
-			\href{https://github.com/ZHAW-PM-2-ADHS/ADHS}{github} \cite{pes-board} \\
-			\hline
-			%Bauteil
-			1& %Anzahl 
-			Nucleo-Board F446RE& %Bauteilname
-			Ausführung der Software zur Verarbeitung der Sensorwerte und Ansteuerung der Motoren und Servos& %Verwendung
-			\href{https://www.st.com/en/evaluation-tools/nucleo-f446re.html}{ST} \cite{nucleo-f446re} \\
-			\hline
-			
-		\end{tabularx}
-	\end{table}
-
-	\begin{table}[H]
-		\centering
-		\renewcommand{\arraystretch}{1.2}
-		\begin{tabularx}{\textwidth}{|c|l|X|p{2.5cm}|}
-			\hline
-			\textbf{Anzahl} & \textbf{Spannungsversorgung} & \textbf{Verwendung} & \textbf{Internetlink} 
-			\\
-			\hline
-			%Bauteil
-			1& %Anzahl 
-			Akkupaket: 12 V, 2300 mAh& %Bauteilname
-			Spannungsversorgung& %Verwendung
-			\href{https://www.conrad.ch/de/p/reely-modellbau-akkupack-nimh-6-v-2300-mah-zellen-zahl-5-mignon-aa-side-by-side-jr-buchse-2613252.html}{conrad} \cite{akku-nimh} \\
-			\hline
-			
-		\end{tabularx}
-	\end{table}
-	Als Energiequelle dient ein Akkupaket bestehend aus zwei in Serie geschalteten NiMH-Akkus mit jeweils fünf Zellen. Daraus resultiert eine Nennspannung von 12 V bei einer Kapazität von 2300 mAh. Das Akkupaket stellt die Versorgung für die Elektronik sowie die Antriebskomponenten des Systems sicher.
 
 	
 	%------------------------------------------------
@@ -880,7 +746,8 @@
 		
 		\begin{itemize}
 			\item \textbf{ChatGPT}: zur Verbesserung von Formulierungen, zur sprachlichen Überarbeitung sowie zum Verständnis einzelner Inhalte und Zusammenhänge.
-			\item \textbf{claude.ai}: wurde zur Unterstützung beim Programmieren verwendet.
+			\item \textbf{claude code}: wurde zur Unterstützung beim Programmieren verwendet.
+			\item \textbf{claude.ai}: zur Verbesserung von Formulierungen, zur sprachlichen Überarbeitung sowie zum Verständnis einzelner Inhalte und Zusammenhänge.
 			\item \textbf{[Weiteres Tool]}: für \textbf{[Zweck einfügen]}.
 		\end{itemize}
 		
@@ -924,6 +791,151 @@
 			
 		\end{tabularx}
 	\end{table}
+	
+	\subsection{Pinbelegung}
+	
+	\begin{table}[H]
+		\centering
+		\scriptsize
+		\label{tab:pinbelegung_pes_board}
+		\begin{tabularx}{\textwidth}{|p{2.1cm}|p{3.1cm}|p{2.2cm}|X|p{1.5cm}|X|}
+			\hline
+			\textbf{Kategorie} & \textbf{Komponente} & \textbf{Signal} & \textbf{PES-Symbol} & \textbf{STM32-Pin} & \textbf{Bemerkung} \\
+			\hline
+			
+			DC Motor & Motor M1 (linkes Rad) & PWM & PB\_PWM\_M1 & PB\_13 & linkes Rad\\
+			\hline
+			DC Motor & Motor M1 & Encoder A & PB\_ENC\_A\_M1 & PA\_6 & linkes Rad \\
+			\hline
+			DC Motor & Motor M1 & Encoder B & PB\_ENC\_B\_M1 & PC\_7 & linkes Rad \\
+			\hline
+			DC Motor & Motor M2 (rechtes Rad) & PWM & PB\_PWM\_M2 & PA\_9 & rechtes Rad \\
+			\hline
+			DC Motor & Motor M2 & Encoder A & PB\_ENC\_A\_M2 & PB\_6 & rechtes Rad \\
+			\hline
+			DC Motor & Motor M2 & Encoder B & PB\_ENC\_B\_M2 & PB\_7 & rechtes Rad \\
+			\hline
+			DC Motor & Motor M3 (Hubachse) & PWM & PB\_PWM\_M3 & PA\_10 &  Hubachse\\
+			\hline
+			DC Motor & Motor M3 & Encoder A & PB\_ENC\_A\_M3 & PA\_0 & Hubachse \\
+			\hline
+			DC Motor & Motor M3 & Encoder B & PB\_ENC\_B\_M3 & PA\_1 & Hubachse \\
+			\hline
+			DC Motor & Alle Motoren & Enable & PB\_ENABLE\_ DCMOTORS & PB\_15 & Um die Motoren zu aktivieren \\
+			\hline
+			
+			Servo & Servo D0 & PWM & PB\_D0 & PB\_2 & Arm \\
+			\hline
+			Servo & Servo D1 & PWM & PB\_D1 & PC\_8 & Greifer\\
+			\hline
+			
+			Sensor & SensorBar (Linienarray) & I2C SDA &  & PB\_9 & Im Konstruktor festgelegt \\
+			\hline
+			Sensor & SensorBar (Linienarray) & I2C SCL &  & PB\_8 & Im Konstruktor festgelegt \\
+			\hline
+			Sensor & ColorSensor (TCS3200) & Frequenzausgang &  & PB\_3 & Single-Pin-Konstruktor \\
+			\hline
+			
+			Board & User Button & Digital In & BUTTON1 & PC\_13 & Blauer Taster auf dem Nucleo \\
+			\hline
+			Board & User LED & Digital Out & LED1 & PA\_5 & Grüne LED auf dem Nucleo \\
+			\hline
+			
+			
+		\end{tabularx}
+	\end{table}
+	
+	\subsection{Verwendete Bauteile}
+	
+	\begin{table}[H]
+		\centering
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabularx}{\textwidth}{|c|l|X|p{2.5cm}|}
+			\hline
+			\textbf{Anzahl} & \textbf{Aktoren} & \textbf{Verwendung} & \textbf{Internetlink} 
+			\\
+			\hline
+			%Bauteil
+			3& %Anzahl 
+			DC-Motoren mit Encoder & %Bauteilname
+			Antrieb der Räder sowie Positionierung der Achse des Roboterarms.& %Verwendung
+			\href{https://www.pololu.com/category/167/20d-metal-gearmotors}{pololu} \cite{pololu-20d} \\
+			\hline
+			%Bauteil
+			2& %Anzahl 
+			RC-Servos& %Bauteilname
+			Gezielte Positionierung des Roboterarms zur Aufnahme und Ablage der Pakete& %Verwendung
+			\href{https://www.conrad.ch/de/p/reely-standard-servo-cys-s0090-analog-servo-getriebe-material-metall-stecksystem-jr-2203091.html}{Conrad} \cite{servo-cys-s0090} \\
+			\hline
+			
+		\end{tabularx}
+	\end{table}
+	
+	\begin{table}[H]
+		\centering
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabularx}{\textwidth}{|c|l|X|p{2.5cm}|}
+			\hline
+			\textbf{Anzahl} & \textbf{Sensoren} & \textbf{Verwendung} & \textbf{Internetlink} 
+			\\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			Line-Follower-Array& %Bauteilname
+			Kontinuierliche Erfassung der Fahrbahnlinie zur Regelung der Fahrtrichtung& %Verwendung
+			\href{https://www.sparkfun.com/sparkfun-line-follower-array.html}{sparkfun} \cite{sparkfun-line-follower} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			Farbsensor& %Bauteilname
+			Erfassung der Farbcodierung auf dem Spielfeld& %Verwendung
+			\href{https://www.berrybase.ch/tcs230-tcs3200-farbsensor-modul}{berrybase} \cite{tcs3200} \\
+			\hline
+		\end{tabularx}
+	\end{table}
+	
+	\begin{table}[H]
+		\centering
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabularx}{\textwidth}{|c|l|X|p{2.5cm}|}
+			\hline
+			\textbf{Anzahl} & \textbf{Mikrocontroller} & \textbf{Verwendung} & \textbf{Internetlink} 
+			\\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			ZHAW-Motherboard PES-Board& %Bauteilname
+			Das PES-Board erweitert das Nucleo F446RE um zusätzliche Schnittstellen, Sensorik und Leistungselektronik& %Verwendung
+			\href{https://github.com/ZHAW-PM-2-ADHS/ADHS}{github} \cite{pes-board} \\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			Nucleo-Board F446RE& %Bauteilname
+			Ausführung der Software zur Verarbeitung der Sensorwerte und Ansteuerung der Motoren und Servos& %Verwendung
+			\href{https://www.st.com/en/evaluation-tools/nucleo-f446re.html}{ST} \cite{nucleo-f446re} \\
+			\hline
+			
+		\end{tabularx}
+	\end{table}
+	
+	\begin{table}[H]
+		\centering
+		\renewcommand{\arraystretch}{1.2}
+		\begin{tabularx}{\textwidth}{|c|l|X|p{2.5cm}|}
+			\hline
+			\textbf{Anzahl} & \textbf{Spannungsversorgung} & \textbf{Verwendung} & \textbf{Internetlink} 
+			\\
+			\hline
+			%Bauteil
+			1& %Anzahl 
+			Akkupaket: 12 V, 2300 mAh& %Bauteilname
+			Spannungsversorgung& %Verwendung
+			\href{https://www.conrad.ch/de/p/reely-modellbau-akkupack-nimh-6-v-2300-mah-zellen-zahl-5-mignon-aa-side-by-side-jr-buchse-2613252.html}{conrad} \cite{akku-nimh} \\
+			\hline
+			
+		\end{tabularx}
+	\end{table}
+	Als Energiequelle dient ein Akkupaket bestehend aus zwei in Serie geschalteten NiMH-Akkus mit jeweils fünf Zellen. Daraus resultiert eine Nennspannung von 12 V bei einer Kapazität von 2300 mAh. Das Akkupaket stellt die Versorgung für die Elektronik sowie die Antriebskomponenten des Systems sicher.
 	%----Aufgabenstellung Challenge_PM2_FS26_V1
 	% Hyperlink:
 	%\hyperref[anhang:Aufgabenstellung]{Aufgabenstellung Challenge PM2 FS26}
