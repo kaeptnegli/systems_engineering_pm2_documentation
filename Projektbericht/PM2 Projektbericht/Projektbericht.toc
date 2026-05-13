@@ -50,4 +50,6 @@
 \contentsline {subsection}{\numberline {A.4}\ignorespaces (!!!ALT)Aufgabenstellung PDF}{25}{subsection.A.4}%
 \contentsline {subsection}{\numberline {A.5}\ignorespaces Zeitplan PDF}{34}{subsection.A.5}%
 \contentsline {subsection}{\numberline {A.6}\ignorespaces Anforderungsliste PDF}{35}{subsection.A.6}%
-\contentsline {subsection}{\numberline {A.7}\ignorespaces Funktionsstrucktur PDF}{37}{subsection.A.7}%
+\contentsline {subsection}{\numberline {A.7}\ignorespaces Funktionsstrucktur PDF}{38}{subsection.A.7}%
+\contentsline {subsection}{\numberline {A.8}\ignorespaces Recherche PDF}{39}{subsection.A.8}%
+\contentsline {subsection}{\numberline {A.9}\ignorespaces main.cpp}{53}{subsection.A.9}%

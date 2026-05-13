@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.3.15)  13 MAY 2026 09:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.3.15)  13 MAY 2026 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1263,13 +1263,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-<PDFS/Funktionsstruktur.pdf, id=309, page=1, 845.0471pt x 597.51233pt>
+<PDFS/Funktionsstruktur.pdf, id=319, page=1, 845.0471pt x 597.51233pt>
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf, page 1>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
 166.
 (pdftex.def)             Requested size: 512.14963pt x 178.45728pt.
-<img/Skizze_Lösung_1.jpeg, id=311, 1082.0425pt x 1606.0pt>
+<img/Skizze_Lösung_1.jpeg, id=321, 1082.0425pt x 1606.0pt>
 File: img/Skizze_Lösung_1.jpeg Graphic file (type jpg)
 <use img/Skizze_Lösung_1.jpeg>
 Package pdftex.def Info: img/Skizze_Lösung_1.jpeg  used on input line 192.
@@ -1277,7 +1277,7 @@ Package pdftex.def Info: img/Skizze_Lösung_1.jpeg  used on input line 192.
 
 
 [7 <./PDFS/Funktionsstruktur.pdf>]
-<img/platzhalter.jpg, id=337, 1606.0pt x 1069.9975pt>
+<img/platzhalter.jpg, id=347, 1606.0pt x 1069.9975pt>
 File: img/platzhalter.jpg Graphic file (type jpg)
 <use img/platzhalter.jpg>
 Package pdftex.def Info: img/platzhalter.jpg  used on input line 206.
@@ -1316,7 +1316,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--263
 
  []
 
-<img/prototype_1.jpeg, id=352, 1069.9975pt x 1606.0pt>
+<img/prototype_1.jpeg, id=362, 1069.9975pt x 1606.0pt>
 File: img/prototype_1.jpeg Graphic file (type jpg)
 <use img/prototype_1.jpeg>
 Package pdftex.def Info: img/prototype_1.jpeg  used on input line 272.
@@ -1401,17 +1401,17 @@ Package pdftex.def Info: img/platzhalter.jpg  used on input line 349.
 
 
 [12]
-<img/CAD_komplett.png, id=374, 895.09406pt x 780.66656pt>
+<img/CAD_komplett.png, id=384, 895.09406pt x 780.66656pt>
 File: img/CAD_komplett.png Graphic file (type png)
 <use img/CAD_komplett.png>
 Package pdftex.def Info: img/CAD_komplett.png  used on input line 365.
 (pdftex.def)             Requested size: 230.46576pt x 201.00304pt.
-<img/Grundplatte.png, id=378, 1145.78062pt x 699.36281pt>
+<img/Grundplatte.png, id=388, 1145.78062pt x 699.36281pt>
 File: img/Grundplatte.png Graphic file (type png)
 <use img/Grundplatte.png>
 Package pdftex.def Info: img/Grundplatte.png  used on input line 383.
 (pdftex.def)             Requested size: 230.46576pt x 140.67044pt.
-<img/Greifarm.png, id=379, 858.95906pt x 517.935pt>
+<img/Greifarm.png, id=389, 858.95906pt x 517.935pt>
 File: img/Greifarm.png Graphic file (type png)
 <use img/Greifarm.png>
 Package pdftex.def Info: img/Greifarm.png  used on input line 390.
@@ -1419,23 +1419,23 @@ Package pdftex.def Info: img/Greifarm.png  used on input line 390.
 
 
 [13 <./img/CAD_komplett.png> <./img/Grundplatte.png> <./img/Greifarm.png>]
-<img/Raeder.png, id=393, 1111.15125pt x 610.53094pt>
+<img/Raeder.png, id=403, 1111.15125pt x 610.53094pt>
 File: img/Raeder.png Graphic file (type png)
 <use img/Raeder.png>
 Package pdftex.def Info: img/Raeder.png  used on input line 407.
 (pdftex.def)             Requested size: 230.46576pt x 126.63156pt.
-<img/LinearfuehrungMitSchalter.png, id=394, 1062.21844pt x 623.32875pt>
+<img/LinearfuehrungMitSchalter.png, id=404, 1062.21844pt x 623.32875pt>
 File: img/LinearfuehrungMitSchalter.png Graphic file (type png)
 <use img/LinearfuehrungMitSchalter.png>
 Package pdftex.def Info: img/LinearfuehrungMitSchalter.png  used on input line 
 414.
 (pdftex.def)             Requested size: 230.46576pt x 135.24pt.
-<img/PES_Akku.png, id=397, 997.47656pt x 702.37407pt>
+<img/PES_Akku.png, id=407, 997.47656pt x 702.37407pt>
 File: img/PES_Akku.png Graphic file (type png)
 <use img/PES_Akku.png>
 Package pdftex.def Info: img/PES_Akku.png  used on input line 431.
 (pdftex.def)             Requested size: 230.46576pt x 162.28214pt.
-<img/Sensoren.png, id=398, 1024.57782pt x 543.53062pt>
+<img/Sensoren.png, id=408, 1024.57782pt x 543.53062pt>
 File: img/Sensoren.png Graphic file (type png)
 <use img/Sensoren.png>
 Package pdftex.def Info: img/Sensoren.png  used on input line 438.
@@ -1475,12 +1475,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 462--464
 
  []
 
-! Too many }'s.
-l.465 	\noindent}
-                 
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
 
 
 [15]
@@ -1513,7 +1507,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 605--622
 
  []
 
-<img/flowchart.png, id=428, 6034.545pt x 2168.1pt>
+<img/flowchart.png, id=438, 6034.545pt x 2168.1pt>
 File: img/flowchart.png Graphic file (type png)
 <use img/flowchart.png>
 Package pdftex.def Info: img/flowchart.png  used on input line 625.
@@ -1647,14 +1641,14 @@ Underfull \hbox (badness 1400) in paragraph at lines 918--918
 
 
 [23]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=573, 597.432pt x 845.07718p
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=583, 597.432pt x 845.07718p
 t>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>
 Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf  used o
 n input line 946.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=575, page=1, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=585, page=1, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 1>
@@ -1689,7 +1683,7 @@ Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page1
 [25
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=609, page=2, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=619, page=2, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 2>
@@ -1711,7 +1705,7 @@ Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page2
 [26
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=618, page=3, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=628, page=3, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 3>
@@ -1733,7 +1727,7 @@ Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page3
 [27
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=629, page=4, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=639, page=4, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 4>
@@ -1755,7 +1749,7 @@ Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page4
 [28
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=634, page=5, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=644, page=5, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 5>
@@ -1777,7 +1771,7 @@ Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page5
 [29
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=639, page=6, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=649, page=6, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 6>
@@ -1799,7 +1793,7 @@ Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page6
 [30
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=647, page=7, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=657, page=7, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 7>
@@ -1821,7 +1815,7 @@ Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page7
 [31
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=652, page=8, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=662, page=8, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 8>
@@ -1843,7 +1837,7 @@ Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page8
 [32
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=657, page=9, 597.432pt x 84
+<PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, id=667, page=9, 597.432pt x 84
 5.07718pt>
 File: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf Graphic file (type pdf)
 <use PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf, page 9>
@@ -1865,12 +1859,12 @@ Package pdftex.def Info: PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf , page9
 [33
 
  <./PDFS/AufgabenstellungChallenge_PM2_FS26_V0.pdf>]
-<PDFS/Zeitplan.pdf, id=666, 1808.7575pt x 1205.50375pt>
+<PDFS/Zeitplan.pdf, id=676, 1808.7575pt x 1205.50375pt>
 File: PDFS/Zeitplan.pdf Graphic file (type pdf)
 <use PDFS/Zeitplan.pdf>
 Package pdftex.def Info: PDFS/Zeitplan.pdf  used on input line 955.
 (pdftex.def)             Requested size: 1808.75311pt x 1205.50082pt.
-<PDFS/Zeitplan.pdf, id=668, page=1, 1808.7575pt x 1205.50375pt>
+<PDFS/Zeitplan.pdf, id=678, page=1, 1808.7575pt x 1205.50375pt>
 File: PDFS/Zeitplan.pdf Graphic file (type pdf)
 <use PDFS/Zeitplan.pdf, page 1>
 Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 955.
@@ -1897,65 +1891,86 @@ Package pdftex.def Info: PDFS/Zeitplan.pdf , page1 used on input line 955.
 
 
  <./PDFS/Zeitplan.pdf>]
-<PDFS/Anforderungsliste.pdf, id=676, 597.55246pt x 845.07718pt>
+<PDFS/Anforderungsliste.pdf, id=686, 597.6786pt x 844.84769pt>
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf  used on input line 964.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<PDFS/Anforderungsliste.pdf, id=678, page=1, 597.55246pt x 845.07718pt>
+(pdftex.def)             Requested size: 597.67714pt x 844.84563pt.
+<PDFS/Anforderungsliste.pdf, id=688, page=1, 597.6786pt x 844.84769pt>
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
 964.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+(pdftex.def)             Requested size: 597.67714pt x 844.84563pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+(pdftex.def)             Requested size: 598.17873pt x 845.55464pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+(pdftex.def)             Requested size: 598.17873pt x 845.55464pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+(pdftex.def)             Requested size: 598.17873pt x 845.55464pt.
 
 
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 1>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page1 used on input line 
 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+(pdftex.def)             Requested size: 598.17873pt x 845.55464pt.
 [35
 
 
  <./PDFS/Anforderungsliste.pdf>]
-<PDFS/Anforderungsliste.pdf, id=699, page=2, 597.55246pt x 845.07718pt>
+<PDFS/Anforderungsliste.pdf, id=709, page=2, 597.6786pt x 844.84769pt>
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 2>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page2 used on input line 
 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+(pdftex.def)             Requested size: 598.17873pt x 845.55464pt.
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 2>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page2 used on input line 
 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+(pdftex.def)             Requested size: 598.17873pt x 845.55464pt.
 
 
 File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
 <use PDFS/Anforderungsliste.pdf, page 2>
 Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page2 used on input line 
 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+(pdftex.def)             Requested size: 598.17873pt x 845.55464pt.
 [36
 
  <./PDFS/Anforderungsliste.pdf>]
-<PDFS/Funktionsstruktur.pdf, id=713, 845.0471pt x 597.51233pt>
+<PDFS/Anforderungsliste.pdf, id=715, page=3, 597.6786pt x 844.84769pt>
+File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
+<use PDFS/Anforderungsliste.pdf, page 3>
+Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page3 used on input line 
+964.
+(pdftex.def)             Requested size: 598.17873pt x 845.55464pt.
+File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
+<use PDFS/Anforderungsliste.pdf, page 3>
+Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page3 used on input line 
+964.
+(pdftex.def)             Requested size: 598.17873pt x 845.55464pt.
+
+
+File: PDFS/Anforderungsliste.pdf Graphic file (type pdf)
+<use PDFS/Anforderungsliste.pdf, page 3>
+Package pdftex.def Info: PDFS/Anforderungsliste.pdf , page3 used on input line 
+964.
+(pdftex.def)             Requested size: 598.17873pt x 845.55464pt.
+[37
+
+ <./PDFS/Anforderungsliste.pdf>]
+<PDFS/Funktionsstruktur.pdf, id=720, 845.0471pt x 597.51233pt>
 File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 <use PDFS/Funktionsstruktur.pdf>
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf  used on input line 973.
@@ -1987,10 +2002,434 @@ File: PDFS/Funktionsstruktur.pdf Graphic file (type pdf)
 Package pdftex.def Info: PDFS/Funktionsstruktur.pdf , page1 used on input line 
 973.
 (pdftex.def)             Requested size: 597.53772pt x 422.50443pt.
-[37
+[38
 
 
-] (./Projektbericht.aux)
+]
+<PDFS/recherche.pdf, id=726, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf>
+Package pdftex.def Info: PDFS/recherche.pdf  used on input line 982.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<PDFS/recherche.pdf, id=728, page=1, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 1>
+Package pdftex.def Info: PDFS/recherche.pdf , page1 used on input line 982.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 1>
+Package pdftex.def Info: PDFS/recherche.pdf , page1 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 1>
+Package pdftex.def Info: PDFS/recherche.pdf , page1 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 1>
+Package pdftex.def Info: PDFS/recherche.pdf , page1 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 1>
+Package pdftex.def Info: PDFS/recherche.pdf , page1 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[39
+
+
+ <./PDFS/recherche.pdf>]
+<PDFS/recherche.pdf, id=747, page=2, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 2>
+Package pdftex.def Info: PDFS/recherche.pdf , page2 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 2>
+Package pdftex.def Info: PDFS/recherche.pdf , page2 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 2>
+Package pdftex.def Info: PDFS/recherche.pdf , page2 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[40
+
+ <./PDFS/recherche.pdf>]
+<PDFS/recherche.pdf, id=752, page=3, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 3>
+Package pdftex.def Info: PDFS/recherche.pdf , page3 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 3>
+Package pdftex.def Info: PDFS/recherche.pdf , page3 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 3>
+Package pdftex.def Info: PDFS/recherche.pdf , page3 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[41
+
+ <./PDFS/recherche.pdf>]
+<PDFS/recherche.pdf, id=773, page=4, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 4>
+Package pdftex.def Info: PDFS/recherche.pdf , page4 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 4>
+Package pdftex.def Info: PDFS/recherche.pdf , page4 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 4>
+Package pdftex.def Info: PDFS/recherche.pdf , page4 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[42
+
+ <./PDFS/recherche.pdf>]
+<PDFS/recherche.pdf, id=782, page=5, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 5>
+Package pdftex.def Info: PDFS/recherche.pdf , page5 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 5>
+Package pdftex.def Info: PDFS/recherche.pdf , page5 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 5>
+Package pdftex.def Info: PDFS/recherche.pdf , page5 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[43
+
+ <./PDFS/recherche.pdf>]
+<PDFS/recherche.pdf, id=792, page=6, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 6>
+Package pdftex.def Info: PDFS/recherche.pdf , page6 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 6>
+Package pdftex.def Info: PDFS/recherche.pdf , page6 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 6>
+Package pdftex.def Info: PDFS/recherche.pdf , page6 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[44
+
+ <./PDFS/recherche.pdf>]
+<PDFS/recherche.pdf, id=800, page=7, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 7>
+Package pdftex.def Info: PDFS/recherche.pdf , page7 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 7>
+Package pdftex.def Info: PDFS/recherche.pdf , page7 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 7>
+Package pdftex.def Info: PDFS/recherche.pdf , page7 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[45
+
+ <./PDFS/recherche.pdf>]
+<PDFS/recherche.pdf, id=808, page=8, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 8>
+Package pdftex.def Info: PDFS/recherche.pdf , page8 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 8>
+Package pdftex.def Info: PDFS/recherche.pdf , page8 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 8>
+Package pdftex.def Info: PDFS/recherche.pdf , page8 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[46
+
+ <./PDFS/recherche.pdf>]
+<PDFS/recherche.pdf, id=819, page=9, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 9>
+Package pdftex.def Info: PDFS/recherche.pdf , page9 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 9>
+Package pdftex.def Info: PDFS/recherche.pdf , page9 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 9>
+Package pdftex.def Info: PDFS/recherche.pdf , page9 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[47
+
+ <./PDFS/recherche.pdf>]
+<PDFS/recherche.pdf, id=824, page=10, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 10>
+Package pdftex.def Info: PDFS/recherche.pdf , page10 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 10>
+Package pdftex.def Info: PDFS/recherche.pdf , page10 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 10>
+Package pdftex.def Info: PDFS/recherche.pdf , page10 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[48
+
+ <./PDFS/recherche.pdf>]
+<PDFS/recherche.pdf, id=830, page=11, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 11>
+Package pdftex.def Info: PDFS/recherche.pdf , page11 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 11>
+Package pdftex.def Info: PDFS/recherche.pdf , page11 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 11>
+Package pdftex.def Info: PDFS/recherche.pdf , page11 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[49
+
+ <./PDFS/recherche.pdf>]
+<PDFS/recherche.pdf, id=851, page=12, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 12>
+Package pdftex.def Info: PDFS/recherche.pdf , page12 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 12>
+Package pdftex.def Info: PDFS/recherche.pdf , page12 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 12>
+Package pdftex.def Info: PDFS/recherche.pdf , page12 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[50
+
+ <./PDFS/recherche.pdf>]
+<PDFS/recherche.pdf, id=856, page=13, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 13>
+Package pdftex.def Info: PDFS/recherche.pdf , page13 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 13>
+Package pdftex.def Info: PDFS/recherche.pdf , page13 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 13>
+Package pdftex.def Info: PDFS/recherche.pdf , page13 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[51
+
+ <./PDFS/recherche.pdf>]
+<PDFS/recherche.pdf, id=873, page=14, 597.50829pt x 845.0471pt>
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 14>
+Package pdftex.def Info: PDFS/recherche.pdf , page14 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 14>
+Package pdftex.def Info: PDFS/recherche.pdf , page14 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/recherche.pdf Graphic file (type pdf)
+<use PDFS/recherche.pdf, page 14>
+Package pdftex.def Info: PDFS/recherche.pdf , page14 used on input line 982.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[52
+
+ <./PDFS/recherche.pdf>]
+<PDFS/main_cpp.pdf, id=878, 597.50829pt x 845.0471pt>
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf>
+Package pdftex.def Info: PDFS/main_cpp.pdf  used on input line 991.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<PDFS/main_cpp.pdf, id=880, page=1, 597.50829pt x 845.0471pt>
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 1>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page1 used on input line 991.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 1>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page1 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 1>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page1 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 1>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page1 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 1>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page1 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[53
+
+
+ <./PDFS/main_cpp.pdf>]
+<PDFS/main_cpp.pdf, id=927, page=2, 597.50829pt x 845.0471pt>
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 2>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page2 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 2>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page2 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 2>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page2 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[54
+
+ <./PDFS/main_cpp.pdf>]
+<PDFS/main_cpp.pdf, id=945, page=3, 597.50829pt x 845.0471pt>
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 3>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page3 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 3>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page3 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 3>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page3 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[55
+
+ <./PDFS/main_cpp.pdf>]
+<PDFS/main_cpp.pdf, id=950, page=4, 597.50829pt x 845.0471pt>
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 4>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page4 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 4>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page4 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 4>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page4 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[56
+
+ <./PDFS/main_cpp.pdf>]
+<PDFS/main_cpp.pdf, id=955, page=5, 597.50829pt x 845.0471pt>
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 5>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page5 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 5>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page5 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 5>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page5 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[57
+
+ <./PDFS/main_cpp.pdf>]
+<PDFS/main_cpp.pdf, id=960, page=6, 597.50829pt x 845.0471pt>
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 6>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page6 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 6>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page6 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 6>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page6 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[58
+
+ <./PDFS/main_cpp.pdf>]
+<PDFS/main_cpp.pdf, id=965, page=7, 597.50829pt x 845.0471pt>
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 7>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page7 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 7>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page7 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 7>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page7 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[59
+
+ <./PDFS/main_cpp.pdf>]
+<PDFS/main_cpp.pdf, id=970, page=8, 597.50829pt x 845.0471pt>
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 8>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page8 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 8>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page8 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: PDFS/main_cpp.pdf Graphic file (type pdf)
+<use PDFS/main_cpp.pdf, page 8>
+Package pdftex.def Info: PDFS/main_cpp.pdf , page8 used on input line 991.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[60
+
+ <./PDFS/main_cpp.pdf>] (./Projektbericht.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1999,11 +2438,8 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Projektbericht.out' has not changed.
-(rerunfilecheck)             Checksum: 820B13270006D8D057288ABD5FAF0EE7;7281.
+(rerunfilecheck)             Checksum: EB78FE7E6BEBB1FF8FE03F17257C96C7;7507.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                Projektbericht
@@ -2014,29 +2450,40 @@ Package logreq Info: Writing requests to 'Projektbericht.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36475 strings out of 473197
- 739785 string characters out of 5718605
- 1539600 words of memory out of 5000000
- 59101 multiletter control sequences out of 15000+600000
+ 36591 strings out of 473197
+ 742993 string characters out of 5718605
+ 1539685 words of memory out of 5000000
+ 59192 multiletter control sequences out of 15000+600000
  573090 words of font info for 70 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  84i,17n,87p,1207b,2733s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-
-Output written on Projektbericht.pdf (38 pages, 9009504 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4
+b.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata
+-zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfbx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sftt1095.pfb>
+Output written on Projektbericht.pdf (61 pages, 9346018 bytes).
 PDF statistics:
- 815 PDF objects out of 1000 (max. 8388607)
- 637 compressed objects within 7 object streams
- 130 named destinations out of 1000 (max. 500000)
- 595 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1090 PDF objects out of 1200 (max. 8388607)
+ 813 compressed objects within 9 object streams
+ 155 named destinations out of 1000 (max. 500000)
+ 746 words of extra memory for PDF output out of 10000 (max. 10000000)
 
