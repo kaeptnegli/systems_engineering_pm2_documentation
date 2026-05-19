@@ -44,14 +44,14 @@
 \contentsline {section}{Abbildungsverzeichnis}{23}{section*.20}%
 \contentsline {section}{Tabellenverzeichnis}{24}{section*.21}%
 \contentsline {section}{\numberline {A}Anhang}{24}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Aufgabenstellung}{24}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.1}Aufgabenstellung}{25}{subsection.A.1}%
 \contentsline {subsection}{\numberline {A.2}Zeitplan}{36}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Recherche}{38}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}Anforderungsliste}{53}{subsection.A.4}%
-\contentsline {subsection}{\numberline {A.5}Funktionsstrucktur}{57}{subsection.A.5}%
-\contentsline {subsection}{\numberline {A.6}Morphologischer Kasten}{59}{subsection.A.6}%
-\contentsline {subsection}{\numberline {A.7}Nutzwertanalyse}{61}{subsection.A.7}%
-\contentsline {subsection}{\numberline {A.8}Programmcode}{67}{subsection.A.8}%
-\contentsline {subsection}{\numberline {A.9}Budget}{76}{subsection.A.9}%
-\contentsline {subsection}{\numberline {A.10}Pinbelegung}{76}{subsection.A.10}%
-\contentsline {subsection}{\numberline {A.11}Verwendete Bauteile}{77}{subsection.A.11}%
+\contentsline {subsection}{\numberline {A.3}Recherche}{37}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Anforderungsliste}{51}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}Funktionsstruktur}{54}{subsection.A.5}%
+\contentsline {subsection}{\numberline {A.6}Morphologischer Kasten}{55}{subsection.A.6}%
+\contentsline {subsection}{\numberline {A.7}Nutzwertanalyse}{56}{subsection.A.7}%
+\contentsline {subsection}{\numberline {A.8}Programmcode}{61}{subsection.A.8}%
+\contentsline {subsection}{\numberline {A.9}Budget}{69}{subsection.A.9}%
+\contentsline {subsection}{\numberline {A.10}Pinbelegung}{69}{subsection.A.10}%
+\contentsline {subsection}{\numberline {A.11}Verwendete Bauteile}{70}{subsection.A.11}%
