@@ -35,11 +35,11 @@
 \contentsline {subsubsection}{\numberline {4.3.3}Line-Follower Thread}{19}{subsubsection.4.3.3}%
 \contentsline {subsubsection}{\numberline {4.3.4}Line-Follower Regelung}{19}{subsubsection.4.3.4}%
 \contentsline {subsubsection}{\numberline {4.3.5}Greifarm}{20}{subsubsection.4.3.5}%
-\contentsline {section}{\numberline {5}Diskussion}{21}{section.5}%
-\contentsline {subsubsection}{\numberline {5.0.1}Bewertung der Ergebnisse}{21}{subsubsection.5.0.1}%
-\contentsline {subsubsection}{\numberline {5.0.2}Vergleich mit der Anforderungsliste}{21}{subsubsection.5.0.2}%
-\contentsline {subsubsection}{\numberline {5.0.3}Erkenntnisse aus den Tests}{21}{subsubsection.5.0.3}%
-\contentsline {subsubsection}{\numberline {5.0.4}Ausblick}{21}{subsubsection.5.0.4}%
+\contentsline {section}{\numberline {5}Diskussion und Ausblick}{21}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Diskussion}{21}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Vergleich mit der Anforderungsliste}{21}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Erkenntnisse aus den Tests}{21}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Ausblick}{21}{subsection.5.2}%
 \contentsline {section}{\numberline {6}Literaturverzeichnis}{22}{section.6}%
 \contentsline {section}{Abbildungsverzeichnis}{23}{section*.20}%
 \contentsline {section}{Tabellenverzeichnis}{24}{section*.21}%
