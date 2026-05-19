@@ -66,23 +66,30 @@
 	% 8. Fertigungszeichnungen (2 Stück) erstellen und in Mechanik einfügen
 	% 9. Ausblick-Text ausformulieren
 	% ============================================================
-	\begin{titlepage}
-		\centering
-		\vspace*{2cm}
-		
-		{\Large \textbf{Projektbericht -- Moon Carrier}}\\[1.5cm]
-		
-		\textbf{Studiengang:} Systemtechnik\\[0.3cm]
-		\textbf{Klasse:} st25a\\[0.3cm]
-		\textbf{Modul:} PM2\\[0.3cm]
-		\textbf{Dozent/in:} Michael Wüthrich / Maren Runte \\ [0.3cm]
-		\textbf{Datum:} 20.05.2026\\[0.3cm]
-		\textbf{Team:} 3\\[0.3cm]
-		\textbf{Mitglieder:} Sven Pfister, Mathias Menchini, Timo Kradolfer,\\
-		Patrick Iten, Joel Rechsteiner, Nils Kreienbühl\\[0.3cm]
-		
-		\vfill
+		\begin{titlepage}
+		\begin{tikzpicture}[remember picture, overlay]
+			% Hintergrundbild
+			\node[inner sep=0] at (current page.center) {
+				\includegraphics[width=\paperwidth, height=\paperheight]{Titelbild3}
+			};
+			% Titeltext in weiss
+			\node[anchor=center, text=white] at ([yshift=10cm]current page.center) {
+				\begin{minipage}{0.8\textwidth}
+					\centering
+					{\Large \textbf{Projektbericht -- Moon Carrier}}\\[1.5cm]
+					\textcolor{white}{\textbf{Studiengang:}} Systemtechnik\\[0.3cm]
+					\textcolor{white}{\textbf{Klasse:}} st25a\\[0.3cm]
+					\textcolor{white}{\textbf{Modul:}} PM2\\[0.3cm]
+					\textcolor{white}{\textbf{Dozent/in:}} Michael Wüthrich / Maren Runte\\[0.3cm]
+					\textcolor{white}{\textbf{Datum:}} 20.05.2026\\[0.3cm]
+					\textcolor{white}{\textbf{Team:}} 3\\[0.3cm]
+					\textcolor{white}{\textbf{Mitglieder:}} Sven Pfister, Mathias Menchini, Timo Kradolfer,\\
+					Patrick Iten, Joel Rechsteiner, Nils Kreienbühl\\[0.3cm]
+				\end{minipage}
+			};
+		\end{tikzpicture}
 	\end{titlepage}
+	
 	
 	%\maketitle
 	\tableofcontents
@@ -729,37 +736,56 @@
 	
 	\subsection{Diskussion}
 	
-	In diesem Kapitel werden die erzielten Ergebnisse des Projekts hinsichtlich ihrer Erwartbarkeit, Aussagekraft und Relevanz beurteilt. Dabei wird betrachtet, inwiefern die umgesetzte Lösung die Anforderungen erfüllt und welche Erkenntnisse aus Entwicklung und Tests gewonnen werden.
+	In diesem Kapitel werden die erzielten Ergebnisse des Projekts hinsichtlich ihrer Erwartbarkeit, Aussagekraft und Relevanz beurteilt. Dabei wird betrachtet, inwiefern die umgesetzte Lösung die Anforderungen erfüllt und welche Erkenntnisse aus Entwicklung, Tests und Wettbewerb gewonnen werden. Zusätzlich werden die aufgetretenen Herausforderungen der finalen Version analysiert sowie konkrete Ansätze für eine Weiterentwicklung des Roboters aufgezeigt.
 	
 	\subsubsection{Vergleich mit der Anforderungsliste}
 	
-	Die wichtigsten Muss-Anforderungen werden grösstenteils erfüllt. Der Roboter bewegt sich autonom, folgt der Linie und kann Pakete aufnehmen sowie wieder ablegen. Alle vorgegebenen Bauteile -- Nucleo-Board, PES-Board, Motoren, Servos, Line-Follower und Farbsensor -- werden eingesetzt. Die maximale Startgrösse wird bei der Konstruktion ebenfalls eingehalten.\\
+	Die wichtigsten Festanforderungen werden grösstenteils erfüllt. Der Roboter bewegt sich autonom, folgt der vorgegebenen Linie und ist grundsätzlich in der Lage, Pakete aufzunehmen und wieder abzulegen. Die Integration der vorgegebenen Hardware-Komponenten -- Nucleo-Board, PES-Board, Motoren, Servos, Line-Follower und Farbsensor -- wird erfolgreich umgesetzt. Die maximale Startgrösse wird bei der Konstruktion ebenfalls eingehalten.\\
 	
 	\noindent
-	Nicht alle Wunsch-Anforderungen können vollständig erreicht werden. Die Zwischenlagerung mehrerer Pakete auf dem Roboter wird nicht umgesetzt, da der Elektromagnet aufgrund personeller Ausfälle nicht realisiert werden kann. Auch eine intelligente Routenstrategie kann nur eingeschränkt realisiert werden, da der Entwicklungsfokus auf den Grundfunktionen liegt. Bei der Wiederholbarkeit und der genauen Positionierung der Pakete besteht noch Verbesserungspotenzial.\\
+	Allerdings funktioniert das Aufnehmen und Ablegen der Pakete nicht zuverlässig genug. Da diese Funktion das entscheidende Kernmerkmal des Roboters darstellt, schliesst dies eine erfolgreiche Teilnahme am Wettbewerb letztlich aus.\\
 	
 	\noindent
-	Insgesamt erfüllt der MoonCarrier die wichtigsten Grundanforderungen zuverlässig. Die Abweichungen vom ursprünglichen Konzept sind auf den Zeitdruck und personelle Ausfälle zurückzuführen und sind entsprechend nachvollziehbar.
+	Nicht alle Wunsch-Anforderungen können vollständig erreicht werden. Die Zwischenlagerung mehrerer Pakete auf dem Roboter wird nicht umgesetzt. Auch eine intelligente Routenstrategie lässt sich nur eingeschränkt realisieren, da der Entwicklungsfokus auf der Absicherung der Grundfunktionen liegt. Insgesamt erfüllt der Roboter die essenziellen Grundanforderungen, während die Wunsch-Anforderungen nur teilweise erreicht werden und Raum für Optimierungen bieten.\\
+	
+	\noindent
+	Die Abweichungen vom ursprünglichen Konzept sind nicht nur auf technische Herausforderungen zurückzuführen, sondern auch auf personelle Ausfälle im Team, welche die Aufgabenverteilung und den Entwicklungsfortschritt erheblich beeinflussen.
+	
+	\subsubsection{Herausforderungen und Probleme der finalen Version}
+	
+	Obwohl softwaretechnisch und mechanisch eine solide Grundlage besteht, erweist sich die finale Fertigstellung und Feinabstimmung des Roboters als äusserst anspruchsvoll. Die kritischen Abweichungen und Probleme lassen sich in drei Kernbereiche unterteilen:\\
+	
+	\noindent
+	\textbf{Fahrmechanik}\\
+	Durch die strategische Umstellung -- weg vom Sammeln aller Pakete, hin zur direkten Einzelzustellung -- tritt ein unerwartetes Verhalten auf: Der Roboter vollführt bei der Einfahrt in das Depot reproduzierbar eine 180-Grad-Drehung. Da der Anfahrtswinkel variiert, ist es nicht möglich, ein bestimmtes Linienmuster softwareseitig zu ignorieren, ohne die restliche Linienverfolgung negativ zu beeinflussen. Da die Navigation ausschliesslich über den Line-Follower-Sensor realisiert wird, verlässt der Roboter die Kurve zudem extrem schräg, was die anschliessende präzise Aufnahme des ersten Pakets erheblich erschwert.\\
+	
+	\noindent
+	\textbf{Greifarm}\\
+	Die neue Strategie macht auch mechanische Anpassungen notwendig; unter anderem ist der Greifarm zu lang und muss verkürzt werden. Da sich der Arm in zwei Dimensionen bewegt, gestaltet sich die Parameterfindung für die Bewegungsabläufe als sehr komplex. Zudem tritt ein mechanischer Defekt auf, der anfangs unbemerkt bleibt: Aufgrund einer unzureichenden Seilspannung ist die Haftung am Servomotor zu gering, weshalb der Arm die definierte Grundposition nicht mehr exakt anfährt und Folgefehler in der Kinematik verursacht.\\
+	
+	\noindent
+	\textbf{Sporadische Fehler und Elektronik}\\
+	Einige Fehlverhalten treten sporadisch auf und lassen sich nicht zuverlässig reproduzieren. Besonders kritisch ist ein Phänomen bei der Ausfahrt aus dem Depot: Beim Erreichen der ersten Querlinie rollt der Roboter wiederholt nur noch langsam aus. In diesem Zustand reagiert die Steuerung weder auf Sensoren, noch lässt sich das System über den Reset-Button neu starten. Ein Einbruch der Stromversorgung wird vermutet -- beispielsweise eine Überlastung des Mikrocontrollers durch kurzzeitige Stromspitzen der Motoren. Da der Fehler jedoch auch bei softwareseitig reduzierter Beschleunigung auftritt, bleibt eine finale Ursachenklärung offen.
 	
 	\subsubsection{Erkenntnisse aus den Tests}
 	
-	Bei der Feinjustierung zeigt sich, dass immer nur eine Änderung auf einmal vorgenommen werden sollte. So bleibt nachvollziehbar, welche Anpassung welchen Einfluss auf das Verhalten des Roboters hat. Dies erleichtert die Fehlersuche erheblich. Sinnvoll ist es, zuerst den Parameter mit dem grössten Einfluss anzupassen und danach schrittweise die weniger kritischen Parameter zu bearbeiten.\\
+	Bei der Feinjustierung zeigt sich, dass immer nur eine Änderung auf einmal vorgenommen werden sollte. So bleibt nachvollziehbar, welche Anpassung welchen Einfluss auf das Verhalten des Roboters hat, was die Fehlersuche erleichtert und verhindert, dass mehrere Änderungen gleichzeitig neue Probleme verursachen. Sinnvoll ist es, zuerst den Parameter mit dem grössten Einfluss anzupassen und danach schrittweise die weniger kritischen Parameter zu bearbeiten.\\
 	
 	\noindent
-	Nach mechanischen Änderungen am Roboter sollten die bisherigen Softwareparameter nicht unverändert übernommen werden. Stattdessen ist es sinnvoll, die relevanten Parameter neu abzustimmen, da alte Einstellungen zur veränderten Mechanik nicht mehr passen.\\
+	Rückblickend erweist es sich als vorteilhaft, alle Teilfunktionen isoliert zu testen -- das Folgen der Linie, das Aufnehmen und Ablegen der Pakete sowie, besonders nach der Strategieänderung, das Fahren im Kreis. Da der Roboter fortan mehrere Runden absolviert, wäre ein isolierter Test dieser Funktion essenziell gewesen.\\
 	
 	\noindent
-	Funktionierende Einstellungen sollten möglichst beibehalten werden. Änderungen sind nur dann sinnvoll, wenn sie ein klar identifiziertes Problem beheben.
+	Nach mechanischen Änderungen am Roboter sollten die bisherigen Softwareparameter nicht unverändert übernommen werden. Stattdessen ist es sinnvoll, die relevanten Parameter neu abzustimmen, da alte Einstellungen zur veränderten Mechanik nicht mehr passen. Funktionierende Einstellungen sollten möglichst beibehalten und nur dann geändert werden, wenn ein klar identifiziertes Problem dies erfordert.\\
+	
+	\noindent
+	Für zukünftige Tests ist das Speichern von Mess- und Fahrdaten auf einer SD-Karte hilfreich, um nach einem Testlauf genauer analysieren zu können, wie sich der Roboter verhält und an welchen Stellen Abweichungen entstehen.
 	
 	\subsection{Ausblick}
 	
-	In einer weiteren Entwicklungsphase bieten sich mehrere Ansätze zur Verbesserung des MoonCarriers an. Die naheliegendste Erweiterung ist die Umsetzung des ursprünglich geplanten Elektromagneten. Damit liessen sich mehrere Pakete in einem einzigen Durchlauf aufnehmen und ablegen, was die Gesamtfahrzeit erheblich reduzieren würde.\\
+	Der Roboter ist mechanisch und softwaretechnisch gut erweiterbar, weshalb die Machbarkeit weiterer Anpassungen als hoch einzustufen ist. Der Greifmechanismus lässt sich durch eine direktere Kraftübertragung -- beispielsweise mittels Keilriemen -- optimieren, um ein Durchrutschen zu vermeiden. Zudem lässt sich die Navigation mit zusätzlichen Sensoren unterstützen, um das schräge Verlassen der Kurven und die ungenaue Anfahrt auszugleichen. Zur Lösung der Elektronikprobleme ist eine gezielte Analyse der Stromversorgung erforderlich.\\
 	
 	\noindent
-	Darüber hinaus wäre eine intelligente Routenstrategie sinnvoll, welche die Reihenfolge der Abholungen und Ablieferungen optimiert. Dies würde unnötige Fahrwege vermeiden und die Effizienz des Systems steigern.\\
-	
-	\noindent
-	Auf der Softwareseite wäre das Logging von Mess- und Fahrdaten auf einer SD-Karte hilfreich. Dies würde eine detailliertere Analyse des Fahrverhaltens nach einem Testlauf ermöglichen und die Optimierung der Regelparameter vereinfachen. Zusätzlich könnte eine LED-basierte Fehleranzeige die Fehlersuche im laufenden Betrieb erleichtern.
+	Sobald diese Grundfunktionen zuverlässig laufen, können in einer weiteren Entwicklungsphase auch die noch offenen Wunsch-Anforderungen -- die Zwischenlagerung mehrerer Pakete sowie die intelligente Routenstrategie -- in Angriff genommen werden.
 	
 	
 	%------------------------------------------------
@@ -786,7 +812,6 @@
 			\item \textbf{ChatGPT}: zur Verbesserung von Formulierungen, zur sprachlichen Überarbeitung sowie zum Verständnis einzelner Inhalte und Zusammenhänge.
 			\item \textbf{Claude Code}: wurde zur Unterstützung beim Programmieren verwendet.
 			\item \textbf{claude.ai}: zur Verbesserung von Formulierungen, zur sprachlichen Überarbeitung sowie zum Verständnis einzelner Inhalte und Zusammenhänge.
-			\item \textbf{[Weiteres Tool]}: für \textbf{[Zweck einfügen]}.
 		\end{itemize}
 		
 		Die inhaltliche Verantwortung für diese Arbeit liegt vollständig bei den Autor:innen. Alle durch KI erzeugten oder unterstützten Inhalte wurden kritisch geprüft, hinsichtlich Relevanz und Wahrheitsgehalt überprüft und bei Bedarf überarbeitet. Verwendete Quellen wurden eigenständig kontrolliert und, wo erforderlich, korrekt referenziert.
