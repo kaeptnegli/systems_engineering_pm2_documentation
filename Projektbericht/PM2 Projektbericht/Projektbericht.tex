@@ -41,7 +41,7 @@
 \addbibresource{Quellen.bib}
 
 
-\usepackage[colorlinks=true, linkcolor=black]{hyperref}
+\usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black, filecolor=black]{hyperref}
 \usetikzlibrary{matrix,positioning,fit,arrows.meta}
 \captionsetup{
 	font=footnotesize
@@ -725,40 +725,41 @@
 	
 	%------------------------------------------------
 	\newpage
-	\section{Diskussion}
-	In diesem Kapitel werden die erzielten Ergebnisse des Projekts diskutiert und hinsichtlich ihrer Erwartbarkeit, Aussagekraft und Relevanz beurteilt. Dabei wird betrachtet, inwiefern die umgesetzte Lösung die Anforderungen erfüllt und welche Erkenntnisse aus Entwicklung, Tests und Wettbewerb gewonnen werden können. Zusätzlich werden mögliche Verbesserungen sowie Ansätze für eine Weiterentwicklung des Roboters aufgezeigt.
+	\section{Diskussion und Ausblick}
 	
-	\subsubsection{Bewertung der Ergebnisse}
+	\subsection{Diskussion}
 	
-	In diesem Abschnitt werden die erreichten Ergebnisse beurteilt. Dabei wird beschrieben, welche Funktionen des Roboters zuverlässig umgesetzt werden können und bei welchen Funktionen Abweichungen oder Probleme auftreten.
+	In diesem Kapitel werden die erzielten Ergebnisse des Projekts hinsichtlich ihrer Erwartbarkeit, Aussagekraft und Relevanz beurteilt. Dabei wird betrachtet, inwiefern die umgesetzte Lösung die Anforderungen erfüllt und welche Erkenntnisse aus Entwicklung und Tests gewonnen werden.
 	
 	\subsubsection{Vergleich mit der Anforderungsliste}
 	
-	Die wichtigsten Muss-Anforderungen werden grösstenteils erfüllt. Der Roboter kann sich autonom bewegen, der Linie folgen und die Pakete aufnehmen sowie wieder ablegen. Auch die vorgegebenen Bauteile wie Nucleo-Board, PES-Board, Motoren, Servos, Line-Follower und Farbsensor werden eingesetzt. Die maximale Startgrösse wird bei der Konstruktion ebenfalls berücksichtigt.\\
+	Die wichtigsten Muss-Anforderungen werden grösstenteils erfüllt. Der Roboter bewegt sich autonom, folgt der Linie und kann Pakete aufnehmen sowie wieder ablegen. Alle vorgegebenen Bauteile -- Nucleo-Board, PES-Board, Motoren, Servos, Line-Follower und Farbsensor -- werden eingesetzt. Die maximale Startgrösse wird bei der Konstruktion ebenfalls eingehalten.\\
 	
 	\noindent
-	Nicht alle Wunsch-Anforderungen können vollständig erreicht werden. Besonders die Zwischenlagerung mehrerer Pakete auf dem Roboter wird nicht umgesetzt. Auch die intelligente Routenstrategie kann nur eingeschränkt realisiert werden, da der Fokus stärker auf der Grundfunktion liegt. Zusätzlich besteht bei der Wiederholbarkeit und bei der genauen Positionierung der Pakete noch Verbesserungspotenzial.\\
+	Nicht alle Wunsch-Anforderungen können vollständig erreicht werden. Die Zwischenlagerung mehrerer Pakete auf dem Roboter wird nicht umgesetzt, da der Elektromagnet aufgrund personeller Ausfälle nicht realisiert werden kann. Auch eine intelligente Routenstrategie kann nur eingeschränkt realisiert werden, da der Entwicklungsfokus auf den Grundfunktionen liegt. Bei der Wiederholbarkeit und der genauen Positionierung der Pakete besteht noch Verbesserungspotenzial.\\
 	
 	\noindent
-	Zusammenfassend erfüllt der Roboter die wichtigsten Grundanforderungen. Die Wunsch-Anforderungen werden jedoch nur teilweise erreicht und bieten Raum für weitere Verbesserungen.
+	Insgesamt erfüllt der MoonCarrier die wichtigsten Grundanforderungen zuverlässig. Die Abweichungen vom ursprünglichen Konzept sind auf den Zeitdruck und personelle Ausfälle zurückzuführen und sind entsprechend nachvollziehbar.
 	
 	\subsubsection{Erkenntnisse aus den Tests}
 	
-	\noindent
-	Bei der Feinjustierung sollte immer nur eine Änderung auf einmal vorgenommen werden. Dadurch bleibt besser nachvollziehbar, welche Anpassung welchen Einfluss auf das Verhalten des Roboters hat. Dies erleichtert die Fehlersuche und verhindert, dass mehrere Änderungen gleichzeitig neue Probleme verursachen. Beim Feinjustieren ist es sinnvoll, zuerst den Parameter mit dem grössten Einfluss anzupassen und danach schrittweise die weniger wichtigen Parameter zu bearbeiten.\\
+	Bei der Feinjustierung zeigt sich, dass immer nur eine Änderung auf einmal vorgenommen werden sollte. So bleibt nachvollziehbar, welche Anpassung welchen Einfluss auf das Verhalten des Roboters hat. Dies erleichtert die Fehlersuche erheblich. Sinnvoll ist es, zuerst den Parameter mit dem grössten Einfluss anzupassen und danach schrittweise die weniger kritischen Parameter zu bearbeiten.\\
 	
 	\noindent
-	Wenn mechanische Änderungen am Roboter vorgenommen werden, sollten die bisherigen Parameter nicht einfach übernommen werden. Stattdessen ist es sinnvoll, die relevanten Parameter neu abzustimmen und bei Bedarf wieder von einem Ausgangswert aus zu beginnen. So kann verhindert werden, dass alte Einstellungen nicht mehr zur veränderten Mechanik passen.\\
+	Nach mechanischen Änderungen am Roboter sollten die bisherigen Softwareparameter nicht unverändert übernommen werden. Stattdessen ist es sinnvoll, die relevanten Parameter neu abzustimmen, da alte Einstellungen zur veränderten Mechanik nicht mehr passen.\\
 	
 	\noindent
-	Für zukünftige Tests wäre es hilfreich, Mess- und Fahrdaten auf einer SD-Karte zu speichern. Dadurch könnte nach einem Testlauf genauer analysiert werden, wie sich der Roboter verhalten hat und an welchen Stellen Abweichungen entstanden sind.\\
+	Funktionierende Einstellungen sollten möglichst beibehalten werden. Änderungen sind nur dann sinnvoll, wenn sie ein klar identifiziertes Problem beheben.
+	
+	\subsection{Ausblick}
+	
+	In einer weiteren Entwicklungsphase bieten sich mehrere Ansätze zur Verbesserung des MoonCarriers an. Die naheliegendste Erweiterung ist die Umsetzung des ursprünglich geplanten Elektromagneten. Damit liessen sich mehrere Pakete in einem einzigen Durchlauf aufnehmen und ablegen, was die Gesamtfahrzeit erheblich reduzieren würde.\\
 	
 	\noindent
-	Funktionierende Einstellungen sollten möglichst beibehalten werden. Änderungen sollten nur dann vorgenommen werden, wenn sie wirklich notwendig sind oder ein klares Problem beheben. \\
+	Darüber hinaus wäre eine intelligente Routenstrategie sinnvoll, welche die Reihenfolge der Abholungen und Ablieferungen optimiert. Dies würde unnötige Fahrwege vermeiden und die Effizienz des Systems steigern.\\
 	
-	\subsubsection{Ausblick}
-	
-	Im Ausblick wird beschrieben, wie der Roboter in einer weiteren Entwicklungsphase verbessert oder erweitert werden könnte. Dabei kann auch kurz auf die Machbarkeit dieser Weiterentwicklungen eingegangen werden.
+	\noindent
+	Auf der Softwareseite wäre das Logging von Mess- und Fahrdaten auf einer SD-Karte hilfreich. Dies würde eine detailliertere Analyse des Fahrverhaltens nach einem Testlauf ermöglichen und die Optimierung der Regelparameter vereinfachen. Zusätzlich könnte eine LED-basierte Fehleranzeige die Fehlersuche im laufenden Betrieb erleichtern.
 	
 	
 	%------------------------------------------------
