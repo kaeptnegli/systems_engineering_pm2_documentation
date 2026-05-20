@@ -97,14 +97,14 @@
 	
 	\section{Produktentwicklung}
 	
-	\subsection{Einführung und Übersicht}
+	\subsection{Einleitung}
 	Im Rahmen des Moduls Produktentwicklung Systemtechnik~2 (PM2) wird gemäss den VDI-Richtlinien 2221/2222 \cite{vdi2221} ein autonomer Lieferroboter entwickelt und aufgebaut. Der Roboter trägt den Namen \textit{MoonCarrier}.\\
 	
 	\noindent
 	Die Aufgabe besteht darin, farbcodierte Pakete auf einem definierten Spielfeld autonom aufzunehmen und den entsprechend markierten Ablieferhäusern zuzuordnen. Der Roboter navigiert dabei entlang einer schwarzen Fahrlinie und muss die Pakete bei den Abholhäusern aufnehmen und anschliessend beim zugehörigen Feld der Ablieferhäuser absetzen.\\
 	
 	\noindent
-	An die Lösung werden sowohl funktionale als auch konstruktive Anforderungen gestellt. Die maximale Startgrösse des Roboters beträgt 200\,mm~$\times$~200\,mm~$\times$~200\,mm. Zentrale technische Herausforderungen sind die zuverlässige Linienverfolgung, die Farberkennung zur Paketidentifikation, die präzise Positionierung bei den Häusern sowie eine robuste Greifmechanik für das Aufnehmen und Ablegen der Pakete.\\
+	An die Lösung werden sowohl funktionale als auch konstruktive Anforderungen gestellt. Zentrale technische Herausforderungen sind die zuverlässige Linienverfolgung, die Farberkennung zur Paketidentifikation, die präzise Positionierung bei den Häusern sowie eine robuste Greifmechanik für das Aufnehmen und Ablegen der Pakete.\\
 	
 	\noindent
 	Die Entwicklung gliedert sich in die drei mechatronischen Bereiche Mechanik, Elektronik und Software, die eng miteinander verknüpft sind. Der vorliegende Bericht dokumentiert den vollständigen Entwicklungsprozess vom Konzept bis zum Prototyp. Genauere Informationen zur Aufgabenstellung sind im Anhang unter (\nameref{att:aufgabenstellung})~\ref{att:aufgabenstellung} zu finden.
@@ -157,7 +157,7 @@
 	
 	\begin{minipage}[t]{\textwidth}
 		
-		Die Funktionsstruktur (Abbildung~\ref{fig:funktionsstruktur}) zeigt die Gesamtfunktion des Systems und deren Zerlegung in Teilfunktionen. Die Hauptaufgabe besteht darin, Pakete autonom aufzunehmen, zu transportieren, kurz zwischenzulagern und am richtigen Ort wieder abzusetzen. Dabei verarbeitet das System die Eingaben Energie, Information/Signal und Pakete und erzeugt als Ausgaben Bewegung sowie zugestellte Pakete.\\
+		Die Funktionsstruktur (Abb.~\ref{fig:funktionsstruktur}) zeigt die Gesamtfunktion des Systems und deren Zerlegung in Teilfunktionen. Die Hauptaufgabe besteht darin, Pakete autonom aufzunehmen, zu transportieren, kurz zwischenzulagern und am richtigen Ort wieder abzusetzen. Dabei verarbeitet das System die Eingaben Energie, Information/Signal und Pakete und erzeugt als Ausgaben Bewegung sowie zugestellte Pakete.\\
 		
 		Die zugeführte Energie wird zuerst gespeichert und danach zur Versorgung von Motoren, Sensoren und Elektronik genutzt. Dadurch werden alle weiteren Funktionen des Systems überhaupt erst möglich.\\
 		
@@ -190,7 +190,7 @@
 	Routenwahl -- werden mehrere Lösungsvarianten gegenübergestellt. Aus dem 
 	Gesamtraum werden drei konsistente Lösungspfade abgeleitet, die als Grundlage 
 	für die anschliessende Nutzwertanalyse dienen. Der vollständige morphologische 
-	Kasten befindet sich im Anhang.
+	Kasten befindet sich im Anhang (\nameref{att:morphologischer_kasten})~\ref{att:morphologischer_kasten}.
 	
 	\subsubsection*{Variante 1}
 	
@@ -262,7 +262,7 @@
 	Die gewichteten Einzelbewertungen ergeben für jede Lösung einen Gesamtnutzwert. 
 	Lösung~1 erzielt den höchsten Nutzwert und wird als Vorzugslösung für die 
 	weitere Entwicklung ausgewählt. Die vollständige Nutzwertanalyse befindet 
-	sich im Anhang.
+	sich im Anhang (\nameref{att:nutzwertanalyse})~\ref{att:nutzwertanalyse}.
 	
 	\subsection{Erster Prototyp}
 	\begin{minipage}[t]{0.5\textwidth}
@@ -299,7 +299,7 @@
 	
 	\begin{minipage}[t]{0.95\textwidth}
 		\vspace{0pt}
-		Der zweite Prototyp (Abbildung~\ref{fig:ZweiterPrototyp}) baut auf den 
+		Der zweite Prototyp (Abb.~\ref{fig:ZweiterPrototyp}) baut auf den 
 		Erkenntnissen aus der ersten Version auf. Die grösste Änderung besteht darin, 
 		dass das bisherige Fahrgestell aus Karton durch eine 3D-gedruckte Konstruktion 
 		ersetzt wird. Dadurch entsteht eine stabilere und formgenauere Basis, die für 
@@ -345,9 +345,7 @@
 	was eine erhebliche Zeitersparnis bedeutet.\\
 	
 	\noindent
-	Im Verlauf des Projekts treten jedoch verschiedene Schwierigkeiten auf. Zum 
-	einen kommt es zu personellen Ausfällen im Team, wodurch die ursprünglich 
-	geplante Aufgabenverteilung nicht mehr aufrechterhalten werden kann. Zum anderen 
+	Im Verlauf des Projekts treten jedoch verschiedene Schwierigkeiten auf. Zum anderen 
 	zeigt sich, dass der Zeitaufwand sowie die Zuverlässigkeit des Elektromagneten 
 	nicht ausreichend abgeschätzt werden können. Aus diesen Gründen wird der 
 	Elektromagnet entfernt und das Konzept vereinfacht.\\
@@ -400,7 +398,7 @@
 	\label{sec:Mechanik}
 	
 	\subsection{Einführung}
-	Der Aufbau des Roboters ist relativ simpel gehalten, die meisten Komponenten sind verschraubt. So können mechanische Anpassungen schnell durchgeführt und getestet werden. In Abbildung \ref{fig:CAD_komplett} ist das CAD-Modell des zusammengebauten Roboters ersichtlich, die Fahrtrichtung ist nach schräg-links-unten.
+	Der Aufbau des Roboters ist teilweise modular, die meisten Komponenten sind verschraubt. So können mechanische Anpassungen schnell durchgeführt und getestet werden. In Abbildung \ref{fig:CAD_komplett} ist das CAD-Modell des zusammengebauten Roboters ersichtlich, die Fahrtrichtung ist nach schräg-links-unten.
 	
 	\begin{figure}[htbp]
 		\centering
@@ -561,7 +559,7 @@
 				
 				\node[block] (m3) at (-7,-2) {
 					DC-Motor M3\\
-					Hubachse\\
+					Lager\\
 					\scriptsize PWM: PA\_10\\
 					\scriptsize Enc.: PA\_0 / PA\_1
 				};
@@ -772,7 +770,7 @@
 	Bei der Feinjustierung zeigt sich, dass immer nur eine Änderung auf einmal vorgenommen werden sollte. So bleibt nachvollziehbar, welche Anpassung welchen Einfluss auf das Verhalten des Roboters hat, was die Fehlersuche erleichtert und verhindert, dass mehrere Änderungen gleichzeitig neue Probleme verursachen. Sinnvoll ist es, zuerst den Parameter mit dem grössten Einfluss anzupassen und danach schrittweise die weniger kritischen Parameter zu bearbeiten.\\
 	
 	\noindent
-	Rückblickend erweist es sich als vorteilhaft, alle Teilfunktionen isoliert zu testen -- das Folgen der Linie, das Aufnehmen und Ablegen der Pakete sowie, besonders nach der Strategieänderung, das Fahren im Kreis. Da der Roboter fortan mehrere Runden absolviert, wäre ein isolierter Test dieser Funktion essenziell gewesen.\\
+	Rückblickend erweist es sich als vorteilhaft, alle Teilfunktionen isoliert zu testen -- das Folgen der Linie, das Aufnehmen und Ablegen der Pakete sowie, besonders nach der Strategieänderung, das Fahren im Kreis.\\
 	
 	\noindent
 	Nach mechanischen Änderungen am Roboter sollten die bisherigen Softwareparameter nicht unverändert übernommen werden. Stattdessen ist es sinnvoll, die relevanten Parameter neu abzustimmen, da alte Einstellungen zur veränderten Mechanik nicht mehr passen. Funktionierende Einstellungen sollten möglichst beibehalten und nur dann geändert werden, wenn ein klar identifiziertes Problem dies erfordert.\\
@@ -782,7 +780,7 @@
 	
 	\subsection{Ausblick}
 	
-	Der Roboter ist mechanisch und softwaretechnisch gut erweiterbar, weshalb die Machbarkeit weiterer Anpassungen als hoch einzustufen ist. Der Greifmechanismus lässt sich durch eine direktere Kraftübertragung -- beispielsweise mittels Keilriemen -- optimieren, um ein Durchrutschen zu vermeiden. Zudem lässt sich die Navigation mit zusätzlichen Sensoren unterstützen, um das schräge Verlassen der Kurven und die ungenaue Anfahrt auszugleichen. Zur Lösung der Elektronikprobleme ist eine gezielte Analyse der Stromversorgung erforderlich.\\
+	Der Roboter ist mechanisch und softwaretechnisch gut erweiterbar, weshalb die Machbarkeit weiterer Anpassungen gegeben ist. Der Greifmechanismus lässt sich durch eine direktere Kraftübertragung -- beispielsweise mittels Keilriemen -- optimieren, um ein Durchrutschen zu vermeiden. Zudem lässt sich die Navigation mit zusätzlichen Sensoren unterstützen, um das schräge Verlassen der Kurven und die ungenaue Anfahrt auszugleichen. Zur Lösung der Elektronikprobleme ist eine gezielte Analyse der Stromversorgung erforderlich.\\
 	
 	\noindent
 	Sobald diese Grundfunktionen zuverlässig laufen, können in einer weiteren Entwicklungsphase auch die noch offenen Wunsch-Anforderungen -- die Zwischenlagerung mehrerer Pakete sowie die intelligente Routenstrategie -- in Angriff genommen werden.
